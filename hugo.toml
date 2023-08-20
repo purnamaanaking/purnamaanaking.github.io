@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://purnamaanaking.github.io/purnamaanaking-hugo/"
+baseURL = "/"
 # Title of your website (required).
 title = "Purnama Anaking Full-Stack Developer"
 # Your theme name
