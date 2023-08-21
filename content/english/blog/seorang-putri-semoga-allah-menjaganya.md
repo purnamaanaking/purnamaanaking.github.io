@@ -10,7 +10,7 @@ tags: ["lahiran", "anak", "perempuan"]
 draft: false
 ---
 
-Alhamdulillah segala puji bagi Alloh ‘azza wa jalla atas setiap nikmat yang Ia berikan. Di awal tahun 2022 ini Alloh anugerahkan kepada kami seorang anak putri, anak ke-3 kami. Jawaban dari doa-doa yang panjatkan walhamdulillah.
+Alhamdulillah segala puji bagi Alloh ‘azza wa jalla atas setiap nikmat yang Ia berikan. Di awal tahun 2022 ini Alloh anugerahkan kepada kami seorang anak putri, anak ke-3 kami. Jawaban dari doa-doa yang dipanjatkan walhamdulillah.
 
 Maa syaa Allah..
 

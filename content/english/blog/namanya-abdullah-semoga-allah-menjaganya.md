@@ -10,7 +10,7 @@ tags: ["lahiran", "anak", "laki-laki"]
 draft: false
 ---
 
-Alhamdulillah segala puji bagi Alloh ‘azza wa jalla atas setiap nikmat yang Ia berikan. Di penghujung tahun 2017 (November 2017) ini Alloh anugerahkan kepada kami seorang anak lelaki. Bismillah, namanya **Abdullah**.
+Alhamdulillah segala puji bagi Alloh ‘azza wa jalla atas setiap nikmat yang Ia berikan. Di penghujung tahun 2017 ini Alloh anugerahkan kepada kami seorang anak lelaki. Bismillah, namanya **Abdullah**.
 
 Abdullah siapa ? Abdullah aja. Panggilannya siapa ? Abdullah ^^
 
