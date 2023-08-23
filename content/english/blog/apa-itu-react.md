@@ -6,7 +6,7 @@ date: 2022-01-10T05:00:00Z
 image: "/images/blog/what-is-react.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags: ["menikah", "sunnah", "nazhor", "ta'aruf"]
+tags: ["javascript", "react", "declarative", "imperative"]
 draft: false
 ---
 
