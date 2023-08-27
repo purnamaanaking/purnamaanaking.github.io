@@ -18,7 +18,7 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Kita akan mulai mempelajari tentang salah satu framework CSS yaitu Bootstrap. Penerapan fitur bootstrap diberikan dan dikemas dalam bentuk studi kasus tertentu. Kegiatan ini dilakukan agar mahasiswa mampu membangun website sederhana dengan mendayagunakan fitur-fitur bootstrap yang ada. Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap.
 
-  {{< button label="Lihat Modul 01 Selengkapnya" link="/blog/cloning-bootstrap-dengan-bootstrap" style="solid" class="btn-sm btn-outline-primary" >}}
+  {{< button label="Lihat Modul 01 Selengkapnya" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm" >}}
 
 - **Modul 02: Pengenalan Laravel dan Konfigurasi Awal**
 
