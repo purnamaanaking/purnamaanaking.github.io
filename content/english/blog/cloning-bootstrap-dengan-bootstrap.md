@@ -12,7 +12,7 @@ draft: false
 
 Kali ini kita akan mulai mempelajari tentang salah satu framework CSS yaitu Bootstrap. Penerapan fitur bootstrap diberikan dan dikemas dalam bentuk studi kasus tertentu. Kegiatan ini dilakukan agar kita mampu membangun website sederhana dengan mendayagunakan fitur-fitur bootstrap yang ada.
 
-Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap. Hasil akhir yang diinginkan adalah sebuah tampilan website seperti di bawah ini.
+Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap. Hasil akhir yang diinginkan adalah sebuah tampilan website seperti di bawah ini atau anda dapat melihatnya pada url berikut https://bootstrap-clone.vercel.app/.
 
 {{< image src="images/blog/bs-clone.png" caption="" alt="Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
 
