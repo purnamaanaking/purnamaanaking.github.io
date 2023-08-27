@@ -372,7 +372,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
 
   <hr>
 
-  > Artikel ini merupakan bagian dari [Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)](/blog/modul-praktikum-pemrograman-framework/)
+  > Artikel ini merupakan bagian dari [Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)](/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/)
 
 
 
