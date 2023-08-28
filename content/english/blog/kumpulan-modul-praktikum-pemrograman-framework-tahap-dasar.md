@@ -24,6 +24,8 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Kita akan fokus melakukan instalasi dan setup seluruh kebutuhan untuk memulai belajar pemrograman PHP dengan framework Laravel. Mulai dari install XAMPP, Composer, sampai install sebuah project Laravel. Kegiatan ini dilakukan agar kita siap untuk belajar Laravel dengan komputer/laptop masing-masing.
 
+  {{< button label="Lihat Modul 02 Selengkapnya" link="/blog/pengenalan-laravel-dan-konfigurasi-awal" style="outline" class="btn-sm" >}}
+
 - **Modul 03: Routing dan Bundling Asset di Laravel**
 
   Kita akan mulai memasuki materi awal pada pembelajaran framework Laravel. Kita akan mulai belajar tentang Routing di Laravel dengan berbagai macam jenisnya. Kemudian kita akan belajar tentang bundling asset pada Laravel. Kegiatan ini dilakukan agar kita dapat menerapkan konsep routing dan manajemen asset pada framework Laravel.

@@ -6,7 +6,7 @@ date: 2023-08-23T05:00:00Z
 image: "/images/blog/cloning-bootstrap-dengan-bootstrap.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags: ["css", "bootstrap"]
+tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
 ---
 
@@ -16,14 +16,14 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
 
 {{< image src="images/blog/bs-clone.png" caption="" alt="Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
 
-##### 1. Install dan Jalankan Visual Studio Code
+#### 1. Install dan Jalankan Visual Studio Code
 
 - Download Visual Studio Code pada link berikut: https://code.visualstudio.com/download
 - Jalankan Visual Studio Code.
 
   {{< image src="images/blog/vscode.png" caption="" alt="VsCode" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
 
-##### 2. Struktur Direktori
+#### 2. Struktur Direktori
 
 - Buat struktur direktori project sesuai dengan gambar di bawah ini.
 
@@ -31,7 +31,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
 
 - Aset gambar-gambar yang dibutuhkan dapat di-download di [sini](https://drive.google.com/file/d/13qPcp_Yi9VGEFmY3tNx8FZ5J2sX_yW1D/view?usp=drive_link).
 
-##### 3. Struktur Dasar HTML dengan Bootstrap via CDN
+#### 3. Struktur Dasar HTML dengan Bootstrap via CDN
 
 - Buka file **index.html**, kemudian terapkan kode struktur dasar HTML di bawah ini.
 
@@ -54,7 +54,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
   </html>
   ```
 
-##### 4. Navbar Section
+#### 4. Navbar Section
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
@@ -169,7 +169,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
   </nav>
   ```
 
-##### 5. Main Section
+#### 5. Main Section
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
@@ -202,7 +202,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
   </div>
   ```
 
-##### 6. Bootstrap Icons Section
+#### 6. Bootstrap Icons Section
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
@@ -233,7 +233,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
   </div>
   ```
 
-##### 7. Bootstrap Themes Section
+#### 7. Bootstrap Themes Section
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
@@ -264,7 +264,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
   </div>
   ```
 
-##### 8. Footer Section
+#### 8. Footer Section
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
@@ -340,7 +340,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
   </div>
   ```
 
-##### 9. File CSS
+#### 9. File CSS
 
 - Praktekkan kode CSS di bawah ini pada file **style.css** yang telah dibuat.
 
@@ -372,8 +372,21 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
 
   <hr>
 
-  > Artikel ini merupakan bagian dari [Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)](/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/)
+{{< notice "note" >}}
+  ### Artikel ini Merupakan Bagian Dari Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)
+  <hr>
 
+    Modul 01: Pengenalan Framework CSS (Bootstrap)
+  {{< button label="Modul 02: Pengenalan Laravel dan Konfigurasi Awal" link="/blog/pengenalan-laravel-dan-konfigurasi-awal" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 03: Routing dan Bundling Asset di Laravel" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 04: Pengenalan Controller dan View" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 05: Laravel Database Tahap Dasar" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 06: Laravel Database Tahap Lanjut (Eloquent ORM & Blade Templates)" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 07: Version Control System (GIT dan Github)" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 08: Laravel Authentication" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 09: Eloquent Factories & File Storage" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 10: Laravel Third Party Package" link="" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
 
 
 
