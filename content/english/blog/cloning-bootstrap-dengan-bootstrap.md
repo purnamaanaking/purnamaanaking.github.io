@@ -378,7 +378,7 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
 
     Modul 01: Pengenalan Framework CSS (Bootstrap)
   {{< button label="Modul 02: Pengenalan Laravel dan Konfigurasi Awal" link="/blog/pengenalan-laravel-dan-konfigurasi-awal" style="outline" class="btn-sm w-full mb-3" >}}
-  {{< button label="Modul 03: Routing dan Bundling Asset di Laravel" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 03: Routing dan Bundling Asset di Laravel" link="/blog/routing-dan-bundling-asset-di-laravel" style="outline" class="btn-sm w-full mb-3" >}}
   {{< button label="Modul 04: Pengenalan Controller dan View" link="" style="outline" class="btn-sm w-full mb-3" >}}
   {{< button label="Modul 05: Laravel Database Tahap Dasar" link="" style="outline" class="btn-sm w-full mb-3" >}}
   {{< button label="Modul 06: Laravel Database Tahap Lanjut (Eloquent ORM & Blade Templates)" link="" style="outline" class="btn-sm w-full mb-3" >}}

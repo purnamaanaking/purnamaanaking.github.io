@@ -10,7 +10,7 @@ tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
 ---
 
-Ada banyak cara untuk melakukan instalasi project laravel, namun pada modul ini kita akan fokus melakukan instalasi dan setup seluruh kebutuhan untuk memulai belajar pemrograman php dengan framework Laravel dengan pendekatan yang paling dasar dan mudah. Mulai dari install XAMPP, Composer, sampai install sebuah project Laravel. Kegiatan ini dilakukan agar kita siap untuk belajar Laravel dengan komputer atau laptop masing-masing.
+Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel. Namun pada modul ini kita akan fokus melakukan instalasi dan setup seluruh kebutuhan untuk memulai belajar pemrograman php dengan framework Laravel dengan pendekatan yang paling dasar dan mudah. Mulai dari install XAMPP, Composer, sampai install sebuah project Laravel. Kegiatan ini dilakukan agar kita siap untuk belajar Laravel dengan komputer atau laptop masing-masing.
 
 #### 1. Install dan Jalankan XAMPP
 
@@ -95,7 +95,7 @@ Ada banyak cara untuk melakukan instalasi project laravel, namun pada modul ini 
   <hr>
   {{< button label="Modul 01: Pengenalan Framework CSS (Bootstrap)" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm w-full" >}}
     Modul 02: Pengenalan Laravel dan Konfigurasi Awal
-  {{< button label="Modul 03: Routing dan Bundling Asset di Laravel" link="" style="outline" class="btn-sm w-full mb-3" >}}
+  {{< button label="Modul 03: Routing dan Bundling Asset di Laravel" link="/blog/routing-dan-bundling-asset-di-laravel" style="outline" class="btn-sm w-full mb-3" >}}
   {{< button label="Modul 04: Pengenalan Controller dan View" link="" style="outline" class="btn-sm w-full mb-3" >}}
   {{< button label="Modul 05: Laravel Database Tahap Dasar" link="" style="outline" class="btn-sm w-full mb-3" >}}
   {{< button label="Modul 06: Laravel Database Tahap Lanjut (Eloquent ORM & Blade Templates)" link="" style="outline" class="btn-sm w-full mb-3" >}}
