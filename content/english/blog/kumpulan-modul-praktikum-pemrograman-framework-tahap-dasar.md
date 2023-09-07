@@ -30,7 +30,7 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Kita akan mulai memasuki materi awal pada pembelajaran framework Laravel. Kita akan mulai belajar tentang Routing di Laravel dengan berbagai macam jenisnya. Kemudian kita akan belajar tentang bundling asset pada Laravel. Kegiatan ini dilakukan agar kita dapat menerapkan konsep routing dan manajemen asset pada framework Laravel.
 
-  {{< button label="Lihat Modul 03 Selengkapnya" link="/blog/routing-dan-bundling-asset-di-laravel/" style="solid" class="btn-sm btn-outline-primary" >}}
+  {{< button label="Lihat Modul 03 Selengkapnya" link="/blog/routing-dan-bundling-asset-di-laravel/" style="outline" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 04: Pengenalan Controller dan View**
 
