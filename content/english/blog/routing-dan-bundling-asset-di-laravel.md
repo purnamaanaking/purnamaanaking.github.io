@@ -162,7 +162,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.1. Praktik Basic Routing
 
-- Buka file **routes/web.php**, praktekkan **Basic Routing (No View, No Controller)** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Basic Routing (No View, No Controller)** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::get('/basic_routing', function() {
       return 'Hello World';
@@ -177,7 +177,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.2. Praktik View Route
 
-- Buka file **routes/web.php**, praktekkan View Route dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan View Route dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::view('/view_route', 'view_route');
   Route::view('/view_route', 'view_route', ['name' => 'Purnama']);
@@ -221,7 +221,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
       return "This is from Controller";
   }
   ```
-- Buka file **routes/web.php**, praktekkan **Controller Route** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Controller Route** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::get('/controller_route', [RouteController::class, 'index']);
   ```
@@ -241,7 +241,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.4. Praktik Redirect Route
 
-- Buka file **routes/web.php**, praktekkan Redirect Route dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan Redirect Route dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::redirect('/', '/routing');
   ```
@@ -254,7 +254,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.5. Praktik Route Parameter (Required Parameter)
 
-- Buka file **routes/web.php**, praktekkan **Route Parameter (Required Parameter)** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Route Parameter (Required Parameter)** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::get('/user/{id}', function($id) {
       return "User Id: ".$id;
@@ -276,7 +276,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.6. Praktik Route Parameter (Optional Parameter)
 
-- Buka file **routes/web.php**, praktekkan **Route Parameter (Optional Parameter)** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Route Parameter (Optional Parameter)** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::get('username/{name?}', function($name = null) {
       return 'Username: '.$name;
@@ -292,7 +292,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.7. Praktik Route With Regular Expression Constraints
 
-- Buka file **routes/web.php**, praktekkan **Route With Regular Expression Constraints** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Route With Regular Expression Constraints** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::get('/title/{title}', function($title) {
       return "Title: ".$title;
@@ -309,7 +309,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.8. Praktik Named Route
 
-- Buka file **routes/web.php**, praktekkan **Named Route** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Named Route** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::get('/profile/{profileId}', [RouteController::class, 'profile'])->name('profileRouteName');
   ```
@@ -329,7 +329,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.9. Praktik Route Priority
 
-- Buka file **routes/web.php**, praktekkan **Route Priority** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Route Priority** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::get('/route_priority/{rpId}', function($rpId) {
       return "This is Route One";
@@ -363,7 +363,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.10. Praktik Fallback Routes
 
-- Buka file **routes/web.php**, praktekkan **Fallback Routes** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Fallback Routes** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::fallback(function() {
       return 'This is Fallback Route';
@@ -379,7 +379,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### 4.11. Praktik Route Groups (Route Prefixes & Route Name Prefixes)
 
-- Buka file **routes/web.php**, praktekkan **Route Groups (Route Prefixes & Route Name Prefixes)** dengan menuliskan kode program seperti di bawah ini.
+- Buka file **routes/web.php**, praktikkan **Route Groups (Route Prefixes & Route Name Prefixes)** dengan menuliskan kode program seperti di bawah ini.
   ```php
   Route::prefix('admin')->name('admin.')->group(function() {
       Route::get('/dashboard', function() {
