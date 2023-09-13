@@ -14,14 +14,22 @@ Kali ini kita akan mulai mempelajari tentang salah satu framework CSS yaitu Boot
 
 Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap. Hasil akhir yang diinginkan adalah sebuah tampilan website seperti di bawah ini atau anda dapat melihatnya pada url berikut https://bootstrap-clone.vercel.app/.
 
-{{< image src="images/blog/bs-clone.png" caption="" alt="Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+{{< image src="images/blog/bs-clone.png" caption="" alt="Bootstrap Clone" height="" width="800" position="center" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+
+<hr>
+
+#### Slide Presentasi
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQLhKDwzU0cz6QAEsCJjs5QjxWtQXz90GMiIMtXu0wweH9Ydu4ibCNz_vfeEdQEQg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1068" height="637" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<hr>
 
 #### 1. Install dan Jalankan Visual Studio Code
 
 - Download Visual Studio Code pada link berikut: https://code.visualstudio.com/download
 - Jalankan Visual Studio Code.
 
-  {{< image src="images/blog/vscode.png" caption="" alt="VsCode" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/vscode.png" caption="" alt="VsCode" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" align="center" >}}
 
 #### 2. Struktur Direktori
 
