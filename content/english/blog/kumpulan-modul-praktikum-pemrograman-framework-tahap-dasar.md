@@ -36,7 +36,7 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Pada modul ini kita akan melanjutkan belajar tentang Controller dan View pada laravel. Materi tentang Controller dan View akan diilustrasikan dalam bentuk studi kasus sederhana secara bertahap. Kegiatan ini agar kita dapat memahami dan menerapkan penggunaan Controller dan View pada framework Laravel.
 
-  <!-- {{< button label="Lihat Modul 04 Selengkapnya" link="/" style="solid" class="btn-sm btn-outline-primary" >}} -->
+  {{< button label="Lihat Modul 04 Selengkapnya" link="/blog/pengenalan-controller-dan-view-pada-laravel/" style="outline" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 05: Laravel Database Tahap Dasar**
 
