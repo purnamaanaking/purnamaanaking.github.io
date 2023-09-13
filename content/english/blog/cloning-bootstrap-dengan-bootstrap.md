@@ -20,7 +20,9 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
 
 #### Slide Presentasi
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQLhKDwzU0cz6QAEsCJjs5QjxWtQXz90GMiIMtXu0wweH9Ydu4ibCNz_vfeEdQEQg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1068" height="637" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="container-frame">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQLhKDwzU0cz6QAEsCJjs5QjxWtQXz90GMiIMtXu0wweH9Ydu4ibCNz_vfeEdQEQg/embed?start=false&loop=false&delayms=3000" class="responsive-iframe" frameborder="0" width="" height="" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 <hr>
 
