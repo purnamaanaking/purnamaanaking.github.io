@@ -12,6 +12,16 @@ draft: false
 
 Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel. Namun pada modul ini kita akan fokus melakukan instalasi dan setup seluruh kebutuhan untuk memulai belajar pemrograman php dengan framework Laravel dengan pendekatan yang paling dasar dan mudah. Mulai dari install XAMPP, Composer, sampai install sebuah project Laravel. Kegiatan ini dilakukan agar kita siap untuk belajar Laravel dengan komputer atau laptop masing-masing.
 
+<hr>
+
+#### Slide Presentasi
+
+<div class="container-frame">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTRGNtbjcqM4UYmhhTaqIvl0QUz4cGOwnxG_682Mymq-D2TNDraEieSKEU3u4kqbg/embed?start=false&loop=false&delayms=3000" class="responsive-iframe" frameborder="0" width="" height="" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<hr>
+
 #### 1. Install dan Jalankan XAMPP
 
 - Download **XAMPP** pada link berikut: https://www.apachefriends.org/download.html
