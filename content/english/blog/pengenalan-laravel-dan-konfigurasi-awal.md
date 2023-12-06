@@ -12,7 +12,7 @@ draft: false
 
 Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel. Namun pada modul ini kita akan fokus melakukan instalasi dan setup seluruh kebutuhan untuk memulai belajar pemrograman php dengan framework Laravel dengan pendekatan yang paling dasar dan mudah. Mulai dari install XAMPP, Composer, sampai install sebuah project Laravel. Kegiatan ini dilakukan agar kita siap untuk belajar Laravel dengan komputer atau laptop masing-masing.
 
-<hr>
+<!-- <hr>
 
 #### Slide Presentasi
 
@@ -20,7 +20,7 @@ Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTRGNtbjcqM4UYmhhTaqIvl0QUz4cGOwnxG_682Mymq-D2TNDraEieSKEU3u4kqbg/embed?start=false&loop=false&delayms=3000" class="responsive-iframe" frameborder="0" width="" height="" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
-<hr>
+<hr> -->
 
 #### 1. Install dan Jalankan XAMPP
 
@@ -101,7 +101,9 @@ Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel.
 <hr>
 
 {{< notice "note" >}}
-  ### Artikel ini Merupakan Bagian Dari Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)
+
+### Artikel ini Merupakan Bagian Dari Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)
+
   <hr>
   {{< button label="Modul 01: Pengenalan Framework CSS (Bootstrap)" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm w-full" >}}
     Modul 02: Pengenalan Laravel dan Konfigurasi Awal
@@ -114,4 +116,3 @@ Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel.
   {{< button label="Modul 09: Eloquent Factories & File Storage" link="" style="outline" class="btn-sm w-full mb-3" >}}
   {{< button label="Modul 10: Laravel Third Party Package" link="" style="outline" class="btn-sm w-full mb-3" >}}
 {{< /notice >}}
-
