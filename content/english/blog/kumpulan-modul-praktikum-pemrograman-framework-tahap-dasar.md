@@ -44,7 +44,7 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   {{< button label="Lihat Modul 05 Selengkapnya" link="/blog/laravel-database-tahap-dasar/" style="solid" class="btn-sm btn-outline-primary" >}}
 
-- **Modul 06: Laravel Database Tahap Lanjut ((Eloquent ORM & Blade Templates))**
+- **Modul 06: Laravel Database Tahap Lanjut (Eloquent ORM & Blade Templates)**
 
   Pada modul ini kita akan melanjutkan belajar tentang laravel database. Materi tentang laravel database akan diilustrasikan dalam bentuk studi kasus sederhana secara bertahap. Pada modul ini kita akan fokus menerapkan Eloquent ORM pada project laravel kita dan juga melengkapi pembahasan dan penerapan blade templates pada project kita. Kegiatan ini agar kita dapat memahami dan menerapkan manajemen database pada laravel framework dan mengoptimalkan fitur yang dimiiki oleh blade templates.
 
