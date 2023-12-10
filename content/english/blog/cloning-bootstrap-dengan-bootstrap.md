@@ -4,7 +4,7 @@ meta_title: "Modul 01 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengena
 description: "Modul 01 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Framework CSS (Bootstrap)"
 date: 2023-08-23T05:00:00Z
 image: "/images/blog/cloning-bootstrap-dengan-bootstrap.png"
-categories: ["Technology"]
+categories: ["Laravel"]
 author: "Purnama Anaking"
 tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false

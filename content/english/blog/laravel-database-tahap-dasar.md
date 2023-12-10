@@ -4,7 +4,7 @@ meta_title: "Modul 05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel
 description: "Modul 05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar"
 date: 2023-12-05T05:00:00Z
 image: "/images/blog/laravel-database-tahap-dasar.png"
-categories: ["Technology"]
+categories: ["Laravel"]
 author: "Purnama Anaking"
 tags:
   [

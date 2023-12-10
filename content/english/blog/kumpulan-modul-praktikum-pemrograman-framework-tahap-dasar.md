@@ -4,7 +4,7 @@ meta_title: "Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)"
 description: "Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)"
 date: 2023-08-22T05:00:00Z
 image: "/images/blog/pemrograman-framework.png"
-categories: ["Technology"]
+categories: ["Laravel"]
 author: "Purnama Anaking"
 tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false

@@ -4,7 +4,7 @@ meta_title: "Modul 04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengena
 description: "Modul 04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Controller dan View pada Laravel"
 date: 2023-09-10T05:00:00Z
 image: "/images/blog/controller-view-laravel.png"
-categories: ["Technology"]
+categories: ["Laravel"]
 author: "Purnama Anaking"
 tags:
   [

@@ -4,7 +4,7 @@ meta_title: "Modul 02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengena
 description: "Modul 02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal"
 date: 2023-08-27T05:00:00Z
 image: "/images/blog/konfigurasi-laravel.png"
-categories: ["Technology"]
+categories: ["Laravel"]
 author: "Purnama Anaking"
 tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false

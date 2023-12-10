@@ -4,7 +4,7 @@ meta_title: "Apa Itu React ?"
 description: "Apa Itu React ?"
 date: 2022-01-10T05:00:00Z
 image: "/images/blog/what-is-react.png"
-categories: ["Technology"]
+categories: ["React"]
 author: "Purnama Anaking"
 tags: ["javascript", "react", "declarative", "imperative"]
 draft: false
