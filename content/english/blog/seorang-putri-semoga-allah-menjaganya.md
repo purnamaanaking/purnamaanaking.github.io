@@ -15,5 +15,3 @@ Alhamdulillah segala puji bagi Alloh ‘azza wa jalla atas setiap nikmat yang Ia
 Maa syaa Allah..
 
 > Semoga menjadi anak yang sholihah, mentauhidkan Alloh dan menjauhi syirik, menjadi anak yang bertaqwa dan senantiasa berjalan di atas sunnah nabi shollallohu ‘alaihi wa sallam. Aamiin.
-
-

@@ -18,7 +18,7 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Kita akan mulai mempelajari tentang salah satu framework CSS yaitu Bootstrap. Penerapan fitur bootstrap diberikan dan dikemas dalam bentuk studi kasus tertentu. Kegiatan ini dilakukan agar mahasiswa mampu membangun website sederhana dengan mendayagunakan fitur-fitur bootstrap yang ada. Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap.
 
-  {{< button label="Lihat Modul 01 Selengkapnya" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm" >}}
+  {{< button label="Lihat Modul 01 Selengkapnya" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm" target="_blank" >}}
 
 - **Modul 02: Pengenalan Laravel dan Konfigurasi Awal**
 
@@ -42,7 +42,7 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Pada modul ini kita akan melanjutkan belajar tentang Laravel Database. Materi tentang Laravel Database akan diilustrasikan dalam bentuk studi kasus sederhana secara bertahap. Kegiatan ini agar kita dapat memahami dan menerapkan manajemen database pada framework Laravel.
 
-  <!-- {{< button label="Lihat Modul 05 Selengkapnya" link="/" style="solid" class="btn-sm btn-outline-primary" >}} -->
+  {{< button label="Lihat Modul 05 Selengkapnya" link="/blog/laravel-database-tahap-dasar/" style="solid" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 06: Laravel Database Tahap Lanjut ((Eloquent ORM & Blade Templates))**
 
@@ -70,10 +70,6 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
 - **Modul 10: Laravel Third Party Package**
 
-  Pada modul ini kita akan melanjutkan belajar tentang bagaimana menerapkan package-package tambahan pada project laravel kita. Package tambahan yang diberikan pada praktikum ini adalah Laravel DataTables, Laravel Sweet Alert, Laravel Exce dan Laravel DomPdf. 
+  Pada modul ini kita akan melanjutkan belajar tentang bagaimana menerapkan package-package tambahan pada project laravel kita. Package tambahan yang diberikan pada praktikum ini adalah Laravel DataTables, Laravel Sweet Alert, Laravel Exce dan Laravel DomPdf.
 
   <!-- {{< button label="Lihat Modul 10 Selengkapnya" link="/" style="solid"class="btn-sm btn-outline-primary" >}} -->
-
-
-
-

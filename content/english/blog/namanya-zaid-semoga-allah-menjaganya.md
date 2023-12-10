@@ -17,5 +17,3 @@ Zaid siapa ? Zaid aja. Panggilannya siapa ? Zaid ^^
 Maa syaa Allah..
 
 > Semoga menjadi anak yang sholih, mentauhidkan Alloh dan menjauhi syirik, menjadi anak yang bertaqwa dan senantiasa berjalan di atas sunnah nabi shollallohu ‘alaihi wa sallam. Aamiin.
-
-

@@ -14,8 +14,6 @@ Bismillah, perkenalkan ini **Hanif Mobile App: Temukan Kajian Islam di Sekitarmu
 
 Ini adalah sebuah project bersama dengan teman-teman. Semoga bermanfaat untuk kaum muslimin di manapun berada.
 
-Silakan download Hanif di https://hanifofficial.com. Temukan & hadiri kajian islam di sekitar Anda. 
+Silakan download Hanif di https://hanifofficial.com. Temukan & hadiri kajian islam di sekitar Anda.
 
 Baarokallohu fiikum..
-
-

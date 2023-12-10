@@ -60,7 +60,7 @@ Setelah Khitbah, kedua keluarga saling berkomunikasi untuk menentukan tanggal pe
 
 #### Menikah
 
-Februari 2017 kami menikah. _Alhamdulillahilladzi bini’matihi tatimmush sholihat_. 
+Februari 2017 kami menikah. _Alhamdulillahilladzi bini’matihi tatimmush sholihat_.
 
 > Semoga pernikahan kami membawa keberkahan di dunia dan di akhirat. Semoga Alloh karuniakan anak-anak yang sholih dan sholihah. Semoga kita bisa sama-sama berjalan di atas sunnah.
 

@@ -6,7 +6,17 @@ date: 2023-08-28T05:00:00Z
 image: "/images/blog/laravel-routing.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap", "routing", "vite"]
+tags:
+  [
+    "modul",
+    "praktikum",
+    "pemrograman",
+    "framework",
+    "laravel",
+    "bootstrap",
+    "routing",
+    "vite",
+  ]
 draft: false
 ---
 
@@ -52,22 +62,21 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
   npm install
   ```
 - Terapkan fitur **“Refreshing on Save”** dengan memeriksa file konfigurasi file vite pada **vite.config.js** dan sesuaikan seperti gambar di bawah ini.
+
   ```javascript
-  import { defineConfig } from 'vite';
-  import laravel from 'laravel-vite-plugin';
+  import { defineConfig } from "vite";
+  import laravel from "laravel-vite-plugin";
 
   export default defineConfig({
-      plugins: [
-          laravel({
-              input: [
-                  'resources/sass/app.scss',
-                  'resources/js/app.js',
-              ],
-              refresh: true,
-          }),
-      ],
+    plugins: [
+      laravel({
+        input: ["resources/sass/app.scss", "resources/js/app.js"],
+        refresh: true,
+      }),
+    ],
   });
   ```
+
 - Terapkan fitur **“Processing Static Assets With Vite”** dengan buka file **/resources/js/app.js** lalu sesuaikan kode program seperti di bawah ini. Vite akan merujuk pada path direktori yang kita definiskan untuk mengambil aset gambar/image yang kita butuhkan nantinya.
   ```javascript
   import "./bootstrap";
@@ -76,22 +85,27 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 - Buat folder pada **/resources** dengan nama **images**. Letakkan aset gambar/image yang akan kita gunakan pada website kita pada folder tersebut.
 - Buka file View bernama **welcome.blade.php**. Hapus seluruh kode program yang ada. Kemudian, letakkan dan arahkan file **css** dan **javascript** yang telah didefinisikan di atas, pada file view (blade) menggunakan Blade Directive **@vite()**. Panggil asset gambar atau image dengan pendekatan Vite seperti di bawah ini.
   ```html
-  <!DOCTYPE html>
+  <!doctype html>
   <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Welcome</title>
       @vite('resources/sass/app.scss')
-  </head>
-  <body>
+    </head>
+    <body>
       <div class="container m-5">
-          {{-- Contoh cara mereferensikan gambar di dalam file blade dengan menggunakan pendekatan Vite --}}
-          <img class="img-thumbnail" src="{{ Vite::asset('resources/images/main.svg') }}" alt="image">
+        {{-- Contoh cara mereferensikan gambar di dalam file blade dengan
+        menggunakan pendekatan Vite --}}
+        <img
+          class="img-thumbnail"
+          src="{{ Vite::asset('resources/images/main.svg') }}"
+          alt="image"
+        />
       </div>
       @vite('resources/js/app.js')
-  </body>
+    </body>
   </html>
   ```
 - Jalankan Vite.
@@ -134,30 +148,32 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
   });
   ```
 - Buat file View baru pada direktori **/resources/views/** dengan nama **routing.blade.php**.
+
   ```html
-  <!DOCTYPE html>
+  <!doctype html>
   <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <title>Belajar Laravel Routing</title>
       @vite('resources/sass/app.scss')
-  </head>
-  <body>
+    </head>
+    <body>
       <div class="container m-5">
-          <h1>Belajar Laravel Routing</h1>
+        <h1>Belajar Laravel Routing</h1>
 
-          <div class="list-group list-group-numbered mt-4">
-              {{-- Kode anda selanjutnya letakkan di sini --}}
-          </div>
+        <div class="list-group list-group-numbered mt-4">
+          {{-- Kode anda selanjutnya letakkan di sini --}}
+        </div>
 
-          {{-- Khusus kode program untuk Route Groups di sini --}}
+        {{-- Khusus kode program untuk Route Groups di sini --}}
       </div>
       @vite('resources/js/app.js')
-  </body>
+    </body>
   </html>
   ```
+
 - Akses halaman ini dengan mengetikkan **localhost:8000/routing** pada browser.
 
 ##### 4.1. Praktik Basic Routing
@@ -226,12 +242,14 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
   Route::get('/controller_route', [RouteController::class, 'index']);
   ```
 - Pada file **routes/web.php**, lihat bagian atas file tersebut, pastikan **RouteController** ter-import seperti kode program di bawah ini.
+
   ```php
   <?php
 
   use App\Http\Controllers\RouteController;
   use Illuminate\Support\Facades\Route;
   ```
+
 - Buka file view **routing.blade.php** lalu tambahkan kode program sebagai berikut:
   ```php
   <a href="{{ url('/controller_route') }}" class="list-group-item list-group-item-action">
@@ -255,6 +273,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 ##### 4.5. Praktik Route Parameter (Required Parameter)
 
 - Buka file **routes/web.php**, praktikkan **Route Parameter (Required Parameter)** dengan menuliskan kode program seperti di bawah ini.
+
   ```php
   Route::get('/user/{id}', function($id) {
       return "User Id: ".$id;
@@ -277,6 +296,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 ##### 4.6. Praktik Route Parameter (Optional Parameter)
 
 - Buka file **routes/web.php**, praktikkan **Route Parameter (Optional Parameter)** dengan menuliskan kode program seperti di bawah ini.
+
   ```php
   Route::get('username/{name?}', function($name = null) {
       return 'Username: '.$name;
@@ -293,6 +313,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 ##### 4.7. Praktik Route With Regular Expression Constraints
 
 - Buka file **routes/web.php**, praktikkan **Route With Regular Expression Constraints** dengan menuliskan kode program seperti di bawah ini.
+
   ```php
   Route::get('/title/{title}', function($title) {
       return "Title: ".$title;
@@ -314,6 +335,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
   Route::get('/profile/{profileId}', [RouteController::class, 'profile'])->name('profileRouteName');
   ```
 - Tambahkan function bernama **“profile”** pada class **RouteController**.
+
   ```php
   public function profile($profileId) {
       return "This is Profile from Controller, profile id: ".$profileId;
@@ -364,6 +386,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 ##### 4.10. Praktik Fallback Routes
 
 - Buka file **routes/web.php**, praktikkan **Fallback Routes** dengan menuliskan kode program seperti di bawah ini.
+
   ```php
   Route::fallback(function() {
       return 'This is Fallback Route';
@@ -380,6 +403,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 ##### 4.11. Praktik Route Groups (Route Prefixes & Route Name Prefixes)
 
 - Buka file **routes/web.php**, praktikkan **Route Groups (Route Prefixes & Route Name Prefixes)** dengan menuliskan kode program seperti di bawah ini.
+
   ```php
   Route::prefix('admin')->name('admin.')->group(function() {
       Route::get('/dashboard', function() {
@@ -398,32 +422,41 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
   ```html
   <h6 class="mt-4">Route Groups (Route Prefixes & Route Name Prefixes)</h6>
   <div class="list-group list-group-numbered mt-4">
-      <a href="{{ route('admin.dashboard') }}" class="list-group-item list-group-item-action">
-          Admin Dashboard
-      </a>
-      <a href="{{ route('admin.users') }}" class="list-group-item list-group-item-action">
-          Admin Users
-      </a>
-      <a href="{{ route('admin.items') }}" class="list-group-item list-group-item-action">
-          Admin Items
-      </a>
+    <a
+      href="{{ route('admin.dashboard') }}"
+      class="list-group-item list-group-item-action"
+    >
+      Admin Dashboard
+    </a>
+    <a
+      href="{{ route('admin.users') }}"
+      class="list-group-item list-group-item-action"
+    >
+      Admin Users
+    </a>
+    <a
+      href="{{ route('admin.items') }}"
+      class="list-group-item list-group-item-action"
+    >
+      Admin Items
+    </a>
   </div>
   ```
 
 ##### 4.12. Praktik View Route List
 
-- Ketikkan pada cmd / terminal script artisan berikut ini: 
+- Ketikkan pada cmd / terminal script artisan berikut ini:
   ```
   php artisan route:list
   ```
 
 ##### 4.13. Praktik Route Caching
 
-- Ketikkan pada cmd / terminal script artisan berikut ini untuk menerapkan **Route Caching**: 
+- Ketikkan pada cmd / terminal script artisan berikut ini untuk menerapkan **Route Caching**:
   ```
   php artisan route:cache
   ```
-- Ketikkan pada cmd / terminal script artisan berikut ini untuk menghapus **Route Cache**: 
+- Ketikkan pada cmd / terminal script artisan berikut ini untuk menghapus **Route Cache**:
   ```
   php artisan route:clear
   ```
@@ -431,16 +464,8 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 <hr>
 
 {{< notice "note" >}}
-  ### Artikel ini Merupakan Bagian Dari Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)
-  <hr>
-  {{< button label="Modul 01: Pengenalan Framework CSS (Bootstrap)" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm w-full mb-3" >}}
-  {{< button label="Modul 02: Pengenalan Laravel dan Konfigurasi Awal" link="/blog/pengenalan-laravel-dan-konfigurasi-awal" style="outline" class="btn-sm w-full" >}}
-    Modul 03: Routing dan Bundling Asset di Laravel
-  {{< button label="Modul 04: Pengenalan Controller dan View" link="/blog/pengenalan-controller-dan-view-pada-laravel/" style="outline" class="btn-sm w-full mb-3" >}}
-  {{< button label="Modul 05: Laravel Database Tahap Dasar" link="" style="outline" class="btn-sm w-full mb-3" >}}
-  {{< button label="Modul 06: Laravel Database Tahap Lanjut (Eloquent ORM & Blade Templates)" link="" style="outline" class="btn-sm w-full mb-3" >}}
-  {{< button label="Modul 07: Version Control System (GIT dan Github)" link="" style="outline" class="btn-sm w-full mb-3" >}}
-  {{< button label="Modul 08: Laravel Authentication" link="" style="outline" class="btn-sm w-full mb-3" >}}
-  {{< button label="Modul 09: Eloquent Factories & File Storage" link="" style="outline" class="btn-sm w-full mb-3" >}}
-  {{< button label="Modul 10: Laravel Third Party Package" link="" style="outline" class="btn-sm w-full mb-3" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)" link="/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
 {{< /notice >}}

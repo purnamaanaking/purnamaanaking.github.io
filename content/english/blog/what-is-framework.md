@@ -44,11 +44,11 @@ There are various frameworks for different purposes:
 
 {{< image src="images/blog/php-framework.png" caption="" alt="CSS Framework" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
 
-- **PHP Frameworks:** Codeigniter, Laravel, Symphony, Yii, etc. 
+- **PHP Frameworks:** Codeigniter, Laravel, Symphony, Yii, etc.
 
 #### Framework vs Native Language ? Always Debatable
 
-- **Reasons not to use a framework:** the application is quite simple, don't have enough web programming basics, want to pursue performance. 
+- **Reasons not to use a framework:** the application is quite simple, don't have enough web programming basics, want to pursue performance.
 - **Reasons to use a framework:** ready-to-use features available, follows best practices, easy for collaboration, easy to read program code, application security.
 
 #### MVC Architecture (Model, View, Controller)
@@ -71,13 +71,3 @@ MVC architecture only emphasizes the separation between Model, View and Controll
 2. **Controller** communicate with **Model** to get data from database.
 3. **Controller** forward data from model into view.
 4. **View** display the data with the UI into web browser
-
-
-
-
-
-
-
-
-
-

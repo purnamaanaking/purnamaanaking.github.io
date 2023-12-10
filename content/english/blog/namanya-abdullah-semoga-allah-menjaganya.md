@@ -17,5 +17,3 @@ Abdullah siapa ? Abdullah aja. Panggilannya siapa ? Abdullah ^^
 Maa syaa Allah..
 
 > Semoga menjadi anak yang sholih, mentauhidkan Alloh dan menjauhi syirik, menjadi anak yang bertaqwa dan senantiasa berjalan diatas sunnah nabi shollallohu ‘alaihi wa sallam. Aamiin.
-
-
