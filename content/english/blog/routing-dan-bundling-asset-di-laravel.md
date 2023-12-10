@@ -1,7 +1,7 @@
 ---
-title: "Modul 03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel"
-meta_title: "Modul 03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel"
-description: "Modul 03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel"
+title: "Modul #03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel"
+meta_title: "Modul #03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel"
+description: "Modul #03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel"
 date: 2023-08-28T05:00:00Z
 image: "/images/blog/laravel-routing.png"
 categories: ["Laravel"]

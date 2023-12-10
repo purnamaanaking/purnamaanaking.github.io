@@ -1,7 +1,7 @@
 ---
-title: "Modul 02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal"
-meta_title: "Modul 02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal"
-description: "Modul 02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal"
+title: "Modul #02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal"
+meta_title: "Modul #02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal"
+description: "Modul #02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal"
 date: 2023-08-27T05:00:00Z
 image: "/images/blog/konfigurasi-laravel.png"
 categories: ["Laravel"]

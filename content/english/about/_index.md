@@ -6,9 +6,10 @@ image: "/images/avatar.png"
 draft: false
 ---
 
-I am a Muslim, Husband, Father and Full-Stack Developer currently living in Indonesia.
+I am a Muslim, Husband, Daddy and Full-Stack Developer currently living in Indonesia.
 
 ##### Experience:
+
 - **Institut Teknologi Telkom Surabaya**, Surabaya — _Lecturer_
 - **Fajar Mulia Trasindo**, Surabaya — _Full-Stack Developer_
 - **You Express International**, Jakarta — _Full-Stack Developer (Remote)_
@@ -20,10 +21,12 @@ I am a Muslim, Husband, Father and Full-Stack Developer currently living in Indo
 - **Bumi Solusi Intermedia**, Surabaya — _IT Staff_
 
 ##### Education:
+
 - **Institut Teknologi Sepuluh Nopember**, Sistem Informasi — _S2_
 - **Institut Teknologi Sepuluh Nopember**, Sistem Informasi — _S1_
 
 ##### My Recent Project:
+
 - **Hanif Mobile App** — _Front-End Developer_
 - **Sribulancer Revamp Project** — _Front-End Developer_
 - **Sistem Informasi Alur Produk PTPN XII Surabaya** — _Front-End Developer_

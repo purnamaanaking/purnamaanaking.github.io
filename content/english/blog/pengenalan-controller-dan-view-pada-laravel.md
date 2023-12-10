@@ -1,7 +1,7 @@
 ---
-title: "Modul 04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Controller dan View pada Laravel"
-meta_title: "Modul 04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Controller dan View pada Laravel"
-description: "Modul 04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Controller dan View pada Laravel"
+title: "Modul #04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Controller dan View pada Laravel"
+meta_title: "Modul #04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Controller dan View pada Laravel"
+description: "Modul #04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Controller dan View pada Laravel"
 date: 2023-09-10T05:00:00Z
 image: "/images/blog/controller-view-laravel.png"
 categories: ["Laravel"]

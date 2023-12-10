@@ -1,7 +1,7 @@
 ---
-title: "Modul 05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar"
-meta_title: "Modul 05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar"
-description: "Modul 05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar"
+title: "Modul #05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar"
+meta_title: "Modul #05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar"
+description: "Modul #05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar"
 date: 2023-12-05T05:00:00Z
 image: "/images/blog/laravel-database-tahap-dasar.png"
 categories: ["Laravel"]
@@ -570,3 +570,12 @@ Pada praktikum kali ini kita akan melanjutkan belajar tentang laravel database. 
 - **Praktekkan** seluruh langkah-langkah yang ada di atas secara **INDIVIDU**.
 - Buat **Fitur Edit** untuk melengkapi hasil akhir dari tutorial ini.
 - Ubah semua query yang ditulis dengan **RAW SQL QUERY** menjadi dengan pendekatan **QUERY BUILDER**.
+
+<hr>
+
+{{< notice "note" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)" link="/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
