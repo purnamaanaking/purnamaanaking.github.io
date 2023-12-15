@@ -21,7 +21,7 @@ tags:
 draft: false
 ---
 
-Pada praktikum kali ini kita akan melanjutkan belajar tentang laravel database. Materi tentang laravel database akan diilustrasikan dalam bentuk studi kasus sederhana secara bertahap. Kegiatan ini agar kita dapat memahami dan menerapkan manajemen database pada laravel framework.
+Pada modul kali ini kita akan melanjutkan belajar tentang laravel database. Materi tentang laravel database akan diilustrasikan dalam bentuk studi kasus sederhana secara bertahap. Kegiatan ini agar kita dapat memahami dan menerapkan manajemen database pada laravel framework.
 
 #### 1. Aktifkan Service MySQL dan PhpMyAdmin
 
