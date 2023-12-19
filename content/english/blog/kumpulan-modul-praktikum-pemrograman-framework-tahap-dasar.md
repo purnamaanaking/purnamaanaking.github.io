@@ -42,34 +42,34 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Pada modul ini kita akan melanjutkan belajar tentang Laravel Database. Materi tentang Laravel Database akan diilustrasikan dalam bentuk studi kasus sederhana secara bertahap. Kegiatan ini agar kita dapat memahami dan menerapkan manajemen database pada framework Laravel.
 
-  {{< button label="Lihat Modul 05 Selengkapnya" link="/blog/laravel-database-tahap-dasar/" style="solid" class="btn-sm btn-outline-primary" >}}
+  {{< button label="Lihat Modul 05 Selengkapnya" link="/blog/laravel-database-tahap-dasar/" style="outline" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 06: Laravel Database Tahap Lanjut (Eloquent ORM & Blade Templates)**
 
   Pada modul ini kita akan melanjutkan belajar tentang laravel database. Materi tentang laravel database akan diilustrasikan dalam bentuk studi kasus sederhana secara bertahap. Pada modul ini kita akan fokus menerapkan Eloquent ORM pada project laravel kita dan juga melengkapi pembahasan dan penerapan blade templates pada project kita. Kegiatan ini agar kita dapat memahami dan menerapkan manajemen database pada laravel framework dan mengoptimalkan fitur yang dimiiki oleh blade templates.
 
-  <!-- {{< button label="Lihat Modul 06 Selengkapnya" link="/" style="solid" class="btn-sm btn-outline-primary" >}} -->
+  {{< button label="Lihat Modul 06 Selengkapnya" link="/blog/laravel-database-tahap-lanjut/" style="outline" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 07: Version Control System (GIT dan Github)**
 
   Pada modul ini kita akan melanjutkan belajar tentang penggunaan GIT dan Github di dalam mengelola sebuah project pemrograman. Materi akan diilustrasikan dalam bentuk studi kasus. Kegiatan ini dilakukan agar kita dapat menerapkan dan mengelola kode program yang dibangun bersama tim menggunakan version control system GIT.
 
-  <!-- {{< button label="Lihat Modul 07 Selengkapnya" link="/" style="solid" class="btn-sm btn-outline-primary" >}} -->
+  {{< button label="Lihat Modul 07 Selengkapnya" link="/blog/version-control-system-git-github/" style="outline" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 08: Laravel Authentication**
 
   Pada modul ini kita akan melanjutkan belajar tentang Laravel Authentication. Kita akan mencoba menerapkan fitur login dan lain-lain pada sebuah project laravel. Kegiatan ini dilakukan agar kita dapat menerapkan fitur authentication untuk mendukung sebuah pengembangan aplikasi web berbasis laravel.
 
-  <!-- {{< button label="Lihat Modul 08 Selengkapnya" link="/" style="solid" class="btn-sm btn-outline-primary" >}} -->
+  <!-- {{< button label="Lihat Modul 08 Selengkapnya" link="/" style="outline" class="btn-sm btn-outline-primary" >}} -->
 
 - **Modul 09: Eloquent Factories & File Storage**
 
   Pada modul ini kita akan melanjutkan belajar tentang Laravel Factory dan File Storage. Kita akan mencoba menerapkan fitur Laravel Factory untuk men-generate data dummy ke database dan menerapkan Laravel File Storage untuk mengelola asset file pada project laravel yang dimiliki.
 
-  <!-- {{< button label="Lihat Modul 09 Selengkapnya" link="/" style="solid" class="btn-sm btn-outline-primary" >}} -->
+  <!-- {{< button label="Lihat Modul 09 Selengkapnya" link="/" style="outline" class="btn-sm btn-outline-primary" >}} -->
 
 - **Modul 10: Laravel Third Party Package**
 
   Pada modul ini kita akan melanjutkan belajar tentang bagaimana menerapkan package-package tambahan pada project laravel kita. Package tambahan yang diberikan pada praktikum ini adalah Laravel DataTables, Laravel Sweet Alert, Laravel Exce dan Laravel DomPdf.
 
-  <!-- {{< button label="Lihat Modul 10 Selengkapnya" link="/" style="solid"class="btn-sm btn-outline-primary" >}} -->
+  <!-- {{< button label="Lihat Modul 10 Selengkapnya" link="/" style="outline"class="btn-sm btn-outline-primary" >}} -->
