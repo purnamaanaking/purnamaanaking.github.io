@@ -60,7 +60,7 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Pada modul ini kita akan melanjutkan belajar tentang Laravel Authentication. Kita akan mencoba menerapkan fitur login dan lain-lain pada sebuah project laravel. Kegiatan ini dilakukan agar kita dapat menerapkan fitur authentication untuk mendukung sebuah pengembangan aplikasi web berbasis laravel.
 
-  <!-- {{< button label="Lihat Modul 08 Selengkapnya" link="/" style="outline" class="btn-sm btn-outline-primary" >}} -->
+  {{< button label="Lihat Modul 08 Selengkapnya" link="/blog/laravel-authentication/" style="outline" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 09: Eloquent Factories & File Storage**
 

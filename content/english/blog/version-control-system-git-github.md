@@ -1,7 +1,7 @@
 ---
-title: "Modul #07 Version Control System (Git dan Github)"
-meta_title: "Modul #07 Version Control System (Git dan Github)"
-description: "Modul #07 Version Control System (Git dan Github)"
+title: "Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)"
+meta_title: "Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)"
+description: "Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)"
 date: 2023-12-17T05:00:00Z
 image: "/images/blog/version-control-system-git-github.png"
 categories: ["Laravel"]
