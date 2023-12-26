@@ -1,18 +1,18 @@
 ---
-title: "Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)"
-meta_title: "Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)"
-description: "Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)"
-date: 2023-08-22T05:00:00Z
+title: "Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel"
+meta_title: "Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel"
+description: "Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel"
+date: 2023-12-25T05:00:00Z
 image: "/images/blog/pemrograman-framework.png"
-categories: ["Laravel"]
+categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
 ---
 
-Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framework. Modul-modul ini memberikan materi bagaimana membuat sistem informasi menggunakan bahasa pemrograman PHP dengan framework Laravel. Pengetahuan tersebut selanjutnya dapat diterapkan dan dikembangkan untuk membangun atau menyediakan sebuah aplikasi sederhana berbasis web untuk menyelesaikan suatu permasalahan.
+Berikut ini adalah kumpulan modul belajar dasar pada topik pemrograman berbasis framework. Modul-modul ini memberikan materi bagaimana membuat sistem informasi menggunakan bahasa pemrograman **PHP** dengan framework **Laravel**. Pengetahuan tersebut selanjutnya dapat diterapkan dan dikembangkan untuk membangun atau menyediakan sebuah aplikasi sederhana berbasis web untuk menyelesaikan suatu permasalahan.
 
-#### Topik Bahasan Modul Belajar Pemrograman Berbasis Framework Laravel:
+#### Topik Bahasan Modul Belajar Dasar Pemrograman Berbasis Framework Laravel:
 
 - **Modul 01: Pengenalan Framework CSS (Bootstrap)**
 
@@ -66,10 +66,10 @@ Berikut ini adalah kumpulan modul belajar pada area pemrograman berbasis framewo
 
   Pada modul ini kita akan melanjutkan belajar tentang Laravel Factory dan File Storage. Kita akan mencoba menerapkan fitur Laravel Factory untuk men-generate data dummy ke database dan menerapkan Laravel File Storage untuk mengelola asset file pada project laravel yang dimiliki.
 
-  <!-- {{< button label="Lihat Modul 09 Selengkapnya" link="/" style="outline" class="btn-sm btn-outline-primary" >}} -->
+  {{< button label="Lihat Modul 09 Selengkapnya" link="/blog/laravel-factory-file-storage/" style="outline" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 10: Laravel Third Party Package**
 
   Pada modul ini kita akan melanjutkan belajar tentang bagaimana menerapkan package-package tambahan pada project laravel kita. Package tambahan yang diberikan pada praktikum ini adalah Laravel DataTables, Laravel Sweet Alert, Laravel Exce dan Laravel DomPdf.
 
-  <!-- {{< button label="Lihat Modul 10 Selengkapnya" link="/" style="outline"class="btn-sm btn-outline-primary" >}} -->
+  {{< button label="Lihat Modul 10 Selengkapnya" link="/blog/laravel-packages/" style="outline"class="btn-sm btn-outline-primary" >}}

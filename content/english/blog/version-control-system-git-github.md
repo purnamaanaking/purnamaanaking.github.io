@@ -4,7 +4,7 @@ meta_title: "Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Versio
 description: "Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)"
 date: 2023-12-17T05:00:00Z
 image: "/images/blog/version-control-system-git-github.png"
-categories: ["Laravel"]
+categories: ["Technology"]
 author: "Purnama Anaking"
 tags:
   ["modul", "praktikum", "pemrograman", "framework", "laravel", "git", "github"]
@@ -771,5 +771,5 @@ Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Git
 
 ##### Artikel ini merupakan bagian dari:
 
-{{< button label="Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)" link="/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
 {{< /notice >}}

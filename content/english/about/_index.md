@@ -10,7 +10,7 @@ I am a Muslim, Husband, Daddy and Full-Stack Developer currently living in Indon
 
 ##### Experience:
 
-- **Institut Teknologi Telkom Surabaya**, Surabaya — _Lecturer_
+- **Telkom University Surabaya**, Surabaya — _Lecturer_
 - **Fajar Mulia Trasindo**, Surabaya — _Full-Stack Developer_
 - **You Express International**, Jakarta — _Full-Stack Developer (Remote)_
 - **DokterNet**, Surabaya — _Senior Lead Programmer_

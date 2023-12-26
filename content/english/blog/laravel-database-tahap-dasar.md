@@ -4,7 +4,7 @@ meta_title: "Modul #05 Belajar Pemrograman Framework Laravel Tahap Dasar: Larave
 description: "Modul #05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar"
 date: 2023-12-05T05:00:00Z
 image: "/images/blog/laravel-database-tahap-dasar.png"
-categories: ["Laravel"]
+categories: ["Technology"]
 author: "Purnama Anaking"
 tags:
   [
@@ -577,5 +577,5 @@ Pada modul kali ini kita akan melanjutkan belajar tentang laravel database. Mate
 
 ##### Artikel ini merupakan bagian dari:
 
-{{< button label="Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)" link="/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
 {{< /notice >}}

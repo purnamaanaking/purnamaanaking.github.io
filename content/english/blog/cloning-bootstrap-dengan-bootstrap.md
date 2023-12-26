@@ -4,15 +4,15 @@ meta_title: "Modul #01 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengen
 description: "Modul #01 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Framework CSS (Bootstrap)"
 date: 2023-08-23T05:00:00Z
 image: "/images/blog/cloning-bootstrap-dengan-bootstrap.png"
-categories: ["Laravel"]
+categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
 ---
 
-Kali ini kita akan mulai mempelajari tentang salah satu framework CSS yaitu Bootstrap. Penerapan fitur bootstrap diberikan dan dikemas dalam bentuk studi kasus tertentu. Kegiatan ini dilakukan agar kita mampu membangun website sederhana dengan mendayagunakan fitur-fitur bootstrap yang ada.
+Kali ini kita akan mulai mempelajari tentang salah satu **framework CSS** yaitu **Bootstrap**. Penerapan fitur bootstrap diberikan dan dikemas dalam bentuk studi kasus tertentu. Kegiatan ini dilakukan agar kita mampu membangun website sederhana dengan mendayagunakan fitur-fitur bootstrap yang ada.
 
-Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap. Hasil akhir yang diinginkan adalah sebuah tampilan website seperti di bawah ini atau anda dapat melihatnya pada url berikut https://bootstrap-clone.vercel.app/.
+Studi kasus yang diberikan adalah **membuat atau meng-cloning website bootstrap menggunakan framework bootstrap**. Hasil akhir yang diinginkan adalah sebuah tampilan website seperti di bawah ini atau anda dapat melihatnya pada url berikut https://bootstrap-clone.vercel.app/.
 
 {{< image src="images/blog/bs-clone.png" caption="" alt="Bootstrap Clone" height="" width="800" position="center" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
 
@@ -544,5 +544,5 @@ Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap me
 
 ##### Artikel ini merupakan bagian dari:
 
-{{< button label="Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)" link="/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
 {{< /notice >}}

@@ -4,7 +4,7 @@ meta_title: "Modul #02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengen
 description: "Modul #02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal"
 date: 2023-08-27T05:00:00Z
 image: "/images/blog/konfigurasi-laravel.png"
-categories: ["Laravel"]
+categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
@@ -104,5 +104,5 @@ Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel.
 
 ##### Artikel ini merupakan bagian dari:
 
-{{< button label="Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)" link="/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
 {{< /notice >}}

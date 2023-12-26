@@ -4,7 +4,7 @@ meta_title: "Modul #03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routin
 description: "Modul #03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel"
 date: 2023-08-28T05:00:00Z
 image: "/images/blog/laravel-routing.png"
-categories: ["Laravel"]
+categories: ["Technology"]
 author: "Purnama Anaking"
 tags:
   [
@@ -467,5 +467,5 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
 
 ##### Artikel ini merupakan bagian dari:
 
-{{< button label="Kumpulan Modul Belajar Pemrograman Framework Laravel (Tahap Dasar)" link="/blog/kumpulan-modul-praktikum-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
 {{< /notice >}}
