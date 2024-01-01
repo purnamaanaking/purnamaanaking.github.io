@@ -150,7 +150,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang bagaimana menerapkan p
 
 - Akses halaman **Employee List** via browser, jika berhasil akan muncul tampilan **DataTables** untuk data employee.
 
-  {{< image src="images/blog/employee-datatables.png" caption="" alt="Employee DataTables" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/employee-datatables.png" caption="" alt="Employee DataTables" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 ##### 1.2 Server-side Processing DataTables
 
@@ -244,7 +244,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang bagaimana menerapkan p
 
 - Akses halaman Employee List via browser, jika berhasil akan muncul tampilan **DataTables** untuk data employee dengan teknik **server-side processing**.
 
-  {{< image src="images/blog/employee-datatables.png" caption="" alt="Employee DataTables" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/employee-datatables.png" caption="" alt="Employee DataTables" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 2. Penerapan Laravel Sweet Alert
 
@@ -395,7 +395,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang bagaimana menerapkan p
 
 - Akses Fitur **Create**, **Edit** dan **Delete** Employee via browser, jika berhasil akan muncul tampilan popup window dari **SweetAlert** sebagai feedback sistem untuk proses yang sedang dilakukan oleh user. Contoh tampilannya seperti gambar di bawah ini.
 
-  {{< image src="images/blog/employee-sweet-alert.png" caption="" alt="Employee Sweet Alert" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/employee-sweet-alert.png" caption="" alt="Employee Sweet Alert" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 3. Penerapan Laravel Excel
 
@@ -523,9 +523,9 @@ Pada modul kali ini kita akan melanjutkan belajar tentang bagaimana menerapkan p
 
 - Akses halaman Employee List via browser, kemudian klik button **“to Excel”** untuk meng-export data employee ke dalam bentuk file Excel.
 
-  {{< image src="images/blog/employee-export.png" caption="" alt="Employee Export " height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/employee-export.png" caption="" alt="Employee Export " height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
-  {{< image src="images/blog/employee-export-excel.png" caption="" alt="Employee Export Excel" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/employee-export-excel.png" caption="" alt="Employee Export Excel" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 4. Penerapan Laravel DomPdf
 
@@ -652,9 +652,9 @@ Pada modul kali ini kita akan melanjutkan belajar tentang bagaimana menerapkan p
 
 - Akses halaman Employee List via browser, kemudian klik button **“to PDF”** untuk meng-export data employee ke dalam bentuk file PDF.
 
-  {{< image src="images/blog/employee-export.png" caption="" alt="Employee Export " height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/employee-export.png" caption="" alt="Employee Export " height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
-  {{< image src="images/blog/employee-export-pdf.png" caption="" alt="Employee Export PDF" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/employee-export-pdf.png" caption="" alt="Employee Export PDF" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 5. Memindahkan dan Memisahkan Kode Javascript
 

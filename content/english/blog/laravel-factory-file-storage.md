@@ -248,7 +248,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang **Laravel Factory** da
 
 - Akses URL **/upload-example** via browser, pilih salah satu file, lalu klik button **Upload**.
 
-  {{< image src="images/blog/file-upload.png" caption="" alt="File Upload" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/file-upload.png" caption="" alt="File Upload" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Jika berhasil maka file yang diupload akan tersimpan pada direktori **/storage/app/public**.
 
@@ -325,7 +325,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang **Laravel Factory** da
   </div>
   ```
 
-  {{< image src="images/blog/create-employee-form.png" caption="" alt="Create Employee Form" height="" width="500" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/create-employee-form.png" caption="" alt="Create Employee Form" height="" width="500" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Buka file **EmployeeController.php** kemudian sesuaikan function **store()** seperti di bawah ini.
 
@@ -462,7 +462,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang **Laravel Factory** da
 
 - Jika berhasil maka ketika anda mengakses halaman employee detail, maka akan tampilkan button **“download”** CV dari employee. Dan CV employee dapat di-download dengan melakukan klik pada button tersebut.
 
-  {{< image src="images/blog/detail-employee.png" caption="" alt="Detail Employee" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/detail-employee.png" caption="" alt="Detail Employee" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 11. Latihan
 
@@ -471,7 +471,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang **Laravel Factory** da
   - Edit data employee di database
   - Ubah file CV nya dengan cara: file CV yang sebelumnya, dihapus dari project laravel anda dan diganti dengan file CV yang baru.
 
-    {{< image src="images/blog/edit-employee-form.png" caption="" alt="Edit Employee Form" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+    {{< image src="images/blog/edit-employee-form.png" caption="" alt="Edit Employee Form" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Lanjutkan **Fitur Hapus Employee**
   - Hapus data employee dari database

@@ -34,14 +34,14 @@ Pada modul kali ini kita akan melanjutkan belajar tentang laravel database. Mate
 
 - Buka **XAMPP Control Panel**
 
-  {{< image src="images/blog/xampp-control-panel.png" caption="" alt="XAMPP Contro Panel" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title="XAMPP Control Panel"  webp="false" >}}
+  {{< image src="images/blog/xampp-control-panel.png" caption="" alt="XAMPP Contro Panel" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title="XAMPP Control Panel"  webp="true" >}}
 
 - Start service **Apache**
 - Start service **MySQL**
 - Buka **PhpMyAdmin** via **browser**
 - Buat database baru dengan nama **“data_master”** melalui **PhpMyAdmin**.
 
-  {{< image src="images/blog/create-database-phpmyadmin.png" caption="" alt="XAMPP Contro Panel" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title="Create Database PhpMyadmin"  webp="false" >}}
+  {{< image src="images/blog/create-database-phpmyadmin.png" caption="" alt="XAMPP Contro Panel" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title="Create Database PhpMyadmin"  webp="true" >}}
 
 #### 2. Setup Database Config
 
@@ -56,7 +56,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang laravel database. Mate
 
 - Kita akan membuat skema database sederhana seperti di bawah ini. Terdapat 2 Tabel yaitu **employees** dan **positions**. Memiliki hubungan **one-to-many**, dimana pada tabel employees terdapat kolom **position_id** yang merujuk pada kolom **id** pada tabel positions.
 
-  {{< image src="images/blog/skema-database.png" caption="" alt="XAMPP Contro Panel" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title="Skema Database"  webp="false" >}}
+  {{< image src="images/blog/skema-database.png" caption="" alt="XAMPP Contro Panel" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title="Skema Database"  webp="true" >}}
 
 #### 4. Membuat Skema Database Menggunakan Migration
 
@@ -396,7 +396,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang laravel database. Mate
 
 - Hasil Akhir **Form Create Employee** adalah seperti di bawah ini.
 
-  {{< image src="images/blog/form-create-employee.png" caption="" alt="Form Create Employee" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title="Form Create Employee"  webp="false" >}}
+  {{< image src="images/blog/form-create-employee.png" caption="" alt="Form Create Employee" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title="Form Create Employee"  webp="true" >}}
 
 - Buat Query Insert pada method **store()** di dalam **EmployeeController**. Kemudian **redirect** Route ke halaman Employee List.
 

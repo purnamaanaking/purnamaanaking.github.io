@@ -25,15 +25,15 @@ Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Git
 - Download installer GIT dari https://git-scm.com/
 - Jalankan installer dan ikuti langkah-langkah nya seperti di bawah ini.
 
-  {{< image src="images/blog/git-setup-1.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
-  {{< image src="images/blog/git-setup-2.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
-  {{< image src="images/blog/git-setup-3.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
-  {{< image src="images/blog/git-setup-4.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
-  {{< image src="images/blog/git-setup-5.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
-  {{< image src="images/blog/git-setup-6.png" caption="" alt="Git Setup" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/git-setup-1.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
+  {{< image src="images/blog/git-setup-2.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
+  {{< image src="images/blog/git-setup-3.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
+  {{< image src="images/blog/git-setup-4.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
+  {{< image src="images/blog/git-setup-5.png" caption="" alt="Git Setup" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
+  {{< image src="images/blog/git-setup-6.png" caption="" alt="Git Setup" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Untuk memastikan GIT telah ter-install dengan baik, buka terminal dan jalankan perintah **git –version**, maka akan muncul seperti di bawah ini.
-  {{< image src="images/blog/git-version.png" caption="" alt="Git Version" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/git-version.png" caption="" alt="Git Version" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true">}}
 
 - Buka GIT Bash / cmd / terminal, konfigurasi name dan email pada GIT dengan command:
 
@@ -57,12 +57,12 @@ Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Git
 - Buka dan login pada platform https://github.com/
 - Pilih menu **“New repository”**
 
-  {{< image src="images/blog/github-new-repo.png" caption="" alt="Github New Repo" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-new-repo.png" caption="" alt="Github New Repo" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Isi **“Repository Name”** dengan **“bootstrap-clone”**
 - Klik **“Create repository”**
 
-  {{< image src="images/blog/github-create-repo.png" caption="" alt="Github Create Repo" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-create-repo.png" caption="" alt="Github Create Repo" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Akan muncul halaman awal repository project **“bootstrap-clone”** yang baru saja di buat pada Github anda.
 
@@ -98,7 +98,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Git
 
 - Buat **GIT bash / cmd / terminal**, arahkan pada direktori project **“bootstrap-clone”** yang telah dibuat sebelumnya. Atau bisa juga buka direktori project **“bootstrap-clone”** pada **vsCode**, kemudian buka terminal baru pada vsCode tersebut.
 
-  {{< image src="images/blog/vscode-terminal-bs.png" caption="" alt="VsCode Terminal Bootstrap" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/vscode-terminal-bs.png" caption="" alt="VsCode Terminal Bootstrap" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Ketikkan perintah di bawah ini untuk melakukan inisialisasi GIT pada project **“bootstrat-clone”** yang baru saja dibuat.
 
@@ -151,7 +151,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Git
 
 - Buka kembali halaman repository project **“bootstrap-clone”** pada Github anda. Maka pada tahapan ini repo Github anda telah berisi satu file **index.html** dan satu file **README.md** sesuai dengan perubahan yang anda lakukan pada direktori project di local computer anda.
 
-  {{< image src="images/blog/github-bootstrap-clone.png" caption="" alt="Github Bootstrap Clone" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-bootstrap-clone.png" caption="" alt="Github Bootstrap Clone" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 5. Menyalin Project yang Sudah Ada pada Repository Github
 
@@ -159,11 +159,11 @@ Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Git
 - Kemudian **“clone”** kembali project tersebut ke local computer anda dari project yang sudah ada di Repository Github.
 - Buka halaman repository **“bootstrap-clone”** pada Github. Masuk ke halaman **Settings**. Atur pada bagian **Default Branch**, arahkan ke branch **master**. Jika **Default Branch** kita arahkan ke branch **master**, maka ketika kita melakukan **“clone”** kode program, yang disalin dari remote repository Github nya adalah kode program yang ada pada branch **master**.
 
-  {{< image src="images/blog/github-bootstrap-clone-setting.png" caption="" alt="Bootstrap Clone Setting" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-bootstrap-clone-setting.png" caption="" alt="Bootstrap Clone Setting" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Buka halaman repository **“bootstrap-clone”** pada Github. Dapatkan URL Remote Repository anda dengan klik tombol **“Code”** lihat pada bagian **“HTTPS”**.
 
-  {{< image src="images/blog/github-bootstrap-clone-code.png" caption="" alt="Bootstrap Clone Code" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-bootstrap-clone-code.png" caption="" alt="Bootstrap Clone Code" height="" width="900" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Buka **Git Bash / cmd / terminal**, arahkan pada folder tertentu yang anda inginkan, kemudian ketikkan perintah di bawah ini untuk melakukan **“clone”** ke local computer kita. **Sesuaikan URL remote repository dengan milik anda sendiri**.
 
@@ -196,7 +196,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Git
 
 - Lakukan kegiatan develop / perubahan kode program sehingga menghasikan struktur direktori project **“bootstrap-clone”** seperti di bawah ini.
 
-  {{< image src="images/blog/bootstrap-clone-dir.png" caption="" alt="Bootstrap Clone Directory" height="" width="200" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/bootstrap-clone-dir.png" caption="" alt="Bootstrap Clone Directory" height="" width="200" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Tuliskan kode program di bawah ini pada file **style.css**.
 
@@ -701,25 +701,25 @@ Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Git
   - Branch **master**: berisi file **index.html** dan **README.md** saja
   - Branch **develop**: berisi direktori dan file-file terbaru yang telah ditambahkan pada branch develop di local computer kita.
 
-    {{< image src="images/blog/github-bootstrap-clone-branch.png" caption="" alt="Bootstrap Clone Branch" height="" width="500" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+    {{< image src="images/blog/github-bootstrap-clone-branch.png" caption="" alt="Bootstrap Clone Branch" height="" width="500" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 8. Buat Pull Request untuk Kegiatan Code Review dan Merge ke Branch Utama
 
 - Pada tahapan ini kita ingin versi kode program yang ada pada percabangan (branch) **develop** digabungkan (merge) ke branch **master**, melalui kegiatan **“code review”** dengan membuat sebuah **“pull request”** pada github.
 - Buka halaman repository **“bootstrap-clone”** pada Github anda. Masuk ke menu **Pull Request > New pull request**. Arahkan bahwa kita ingin melakukan pull request dari branch **develop** ke branch **master** seperti di bawah ini.
 
-  {{< image src="images/blog/github-pull-request.png" caption="" alt="Github Pull Request" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-pull-request.png" caption="" alt="Github Pull Request" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Klik **“Create pull request”**, maka akan muncul form **“Open a pull request”** seperti di bawah ini. Anda bisa memberikan comment yang nanti dapat dibaca oleh code reviewer nantinya.
 
-  {{< image src="images/blog/github-open-pull-request.png" caption="" alt="Github Open Pull Request" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-open-pull-request.png" caption="" alt="Github Open Pull Request" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Klik **“Create pull request”** kembali untuk men-submit sebuah Pull Request.
 - Code Reviewer dapat melakukan review dari Pull Request yang diajukan. Jika dianggap telah sesuai, Klik **“Merge pull request”** lalu **“Merge”** untuk menggabungkan atau mensinkronkan kode program dari branch **develop** ke branch **master**.
 
-  {{< image src="images/blog/github-merge-pull-request.png" caption="" alt="Github Merge Pull Request" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-merge-pull-request.png" caption="" alt="Github Merge Pull Request" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
-  {{< image src="images/blog/github-pull-request-success.png" caption="" alt="Github Pull Request Success" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/github-pull-request-success.png" caption="" alt="Github Pull Request Success" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Pada tahapan ini di remote repository Github, maka branch **master** telah memiliki kode program yang sama dengan branch **develop**.
 

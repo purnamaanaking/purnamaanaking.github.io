@@ -34,15 +34,15 @@ The main principle of frameworks is that we have no control over how the program
 
 There are various frameworks for different purposes:
 
-{{< image src="images/blog/css-framework.png" caption="" alt="CSS Framework" height="" width="500" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+{{< image src="images/blog/css-framework.png" caption="" alt="CSS Framework" height="" width="500" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - **CSS Frameworks:** Bootstrap, Materialize, Bulma, Tailwind, etc.
 
-{{< image src="images/blog/javascript-framework.png" caption="" alt="CSS Framework" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+{{< image src="images/blog/javascript-framework.png" caption="" alt="CSS Framework" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - **Javascript Frameworks:** React, Vue, Angular, etc.
 
-{{< image src="images/blog/php-framework.png" caption="" alt="CSS Framework" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+{{< image src="images/blog/php-framework.png" caption="" alt="CSS Framework" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - **PHP Frameworks:** Codeigniter, Laravel, Symphony, Yii, etc.
 
@@ -65,7 +65,7 @@ MVC architecture only emphasizes the separation between Model, View and Controll
 
 #### MVC Flow Diagram
 
-{{< image src="images/blog/mvc.png" caption="" alt="CSS Framework" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+{{< image src="images/blog/mvc.png" caption="" alt="CSS Framework" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 1. **Controller** catch the request.
 2. **Controller** communicate with **Model** to get data from database.

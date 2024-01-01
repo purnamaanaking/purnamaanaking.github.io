@@ -273,9 +273,9 @@ Pada modul kali ini kita akan melanjutkan untuk belajar tentang Controller dan V
   - Jelaskan dan dokumentasikan setiap kode program yang anda kerjakan di atas!
   - Buka file View **welcome.blade.php**, arahkan button **Home** ke Route dengan nama **“home”** yang telah dibuat pada Bab ini.
 
-  {{< image src="images/blog/belajar-controller-view-laravel.png" caption="" alt="Belajar Controller dan View pada Laravel" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Hasil Akhir Bab 1, 2 dan 3"  webp="false" >}}
+  {{< image src="images/blog/belajar-controller-view-laravel.png" caption="" alt="Belajar Controller dan View pada Laravel" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Hasil Akhir Bab 1, 2 dan 3"  webp="true" >}}
 
-  {{< image src="images/blog/emp-homepage.png" caption="" alt="Employee Homepage" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Employee Homepage"  webp="false" >}}
+  {{< image src="images/blog/emp-homepage.png" caption="" alt="Employee Homepage" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Employee Homepage"  webp="true" >}}
 
 #### 5. Praktik Halaman My Profile
 
@@ -387,7 +387,7 @@ Pada modul kali ini kita akan melanjutkan untuk belajar tentang Controller dan V
 
   - Jelaskan dan dokumentasikan setiap kode program yang anda kerjakan di atas!
 
-  {{< image src="images/blog/emp-profile.png" caption="" alt="Employee Profile" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Employee Profile"  webp="false" >}}
+  {{< image src="images/blog/emp-profile.png" caption="" alt="Employee Profile" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Employee Profile"  webp="true" >}}
 
 #### 6. Praktik Halaman Employee List
 
@@ -615,7 +615,7 @@ Pada modul kali ini kita akan melanjutkan untuk belajar tentang Controller dan V
   - Jelaskan dan dokumentasikan setiap kode program yang anda kerjakan di atas!
   - Tunjukkan dan buktikan ada **Route** apa saja yang dihasilkan pada Bab ini!
 
-  {{< image src="images/blog/emp-list.png" caption="" alt="Employee List" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Employee List"  webp="false" >}}
+  {{< image src="images/blog/emp-list.png" caption="" alt="Employee List" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Employee List"  webp="true" >}}
 
 #### 7. Praktik Halaman Create Employee
 
@@ -810,7 +810,7 @@ Pada modul kali ini kita akan melanjutkan untuk belajar tentang Controller dan V
   - Terapkan **“Displaying The Validation Errors”** pada Bab ini yang hasil akhirnya seperti gambar di bawah ini.
   - Terapkan **“Repopulating Forms”** pada Bab ini sehingga ketika muncul pesan error pada saat submit form, nilai yang sudah diisikan pada form tidak ter-reset tetapi tetap muncul pada form tersebut.
 
-  {{< image src="images/blog/emp-form.png" caption="" alt="Employee Form" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Employee Form"  webp="false" >}}
+  {{< image src="images/blog/emp-form.png" caption="" alt="Employee Form" height="" width="1000" position="center" command="fit" option="q100" class="img-fluid" title="Employee Form"  webp="true" >}}
 
 <hr>
 

@@ -29,7 +29,7 @@ draft: false
 
 Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework Laravel. Kita akan mulai belajar tentang Routing di Laravel dengan berbagai macam jenisnya. Kemudian kita akan belajar tentang bundling asset pada Laravel menggunakan Vite. Kegiatan ini dilakukan agar kita dapat menerapkan konsep routing dan manajemen asset pada framework Laravel.
 
-{{< image src="images/blog/belajar-laravel-routing.png" caption="" alt="Belajar Laravel Routing" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+{{< image src="images/blog/belajar-laravel-routing.png" caption="" alt="Belajar Laravel Routing" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 1. Generate Laravel Project dan Laravel UI
 
@@ -125,7 +125,7 @@ Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework 
     npm run build
     ```
 - Pastikan Vite Connected melalui Tab Console seperti di bawah ini.
-  {{< image src="images/blog/vite-connected.png" caption="" alt="Belajar Laravel Routing" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/vite-connected.png" caption="" alt="Belajar Laravel Routing" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Jika sudah berhasil maka ketika kita mengubah kode program pada file css, blade, ataupun javascript, maka browser akan melakukan **reload secara otomatis**.
 

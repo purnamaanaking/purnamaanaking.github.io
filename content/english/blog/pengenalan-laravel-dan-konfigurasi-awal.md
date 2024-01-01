@@ -35,22 +35,22 @@ Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel.
 - Jalankan installer, ikuti prosesnya hingga selesai.
 - Jalankan **XAMPP Control Panel**:
 
-  {{< image src="images/blog/xampp-control-panel.png" caption="" alt="XAMPP Control Panel" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/xampp-control-panel.png" caption="" alt="XAMPP Control Panel" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Jalankan **PHPMyAdmin (MySQL Client)** dengan mengakses URL pada browser: _**http://localhost/phpmyadmin**_.
 
-  {{< image src="images/blog/phpmyadmin.png" caption="" alt="PHPMyadmin" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/phpmyadmin.png" caption="" alt="PHPMyadmin" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 2. Install dan Jalankan Visual Studio Code
 
 - Download **Visual Studio Code** pada link berikut: https://code.visualstudio.com/download
 - Jalankan Visual Studio Code
 
-  {{< image src="images/blog/vscode.png" caption="" alt="VsCode" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/vscode.png" caption="" alt="VsCode" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Install **Laravel Extension Pack**:
 
-  {{< image src="images/blog/laravel-ext-pack.png" caption="" alt="Laravel Extension Pack" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/laravel-ext-pack.png" caption="" alt="Laravel Extension Pack" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 3. Install dan Jalankan Composer
 
@@ -62,7 +62,7 @@ Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel.
   composer
   ```
 
-  {{< image src="images/blog/composer-terminal.png" caption="" alt="Composer Terminal" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/composer-terminal.png" caption="" alt="Composer Terminal" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 4. Install dan Jalankan Project Laravel (Via Composer)
 
@@ -80,7 +80,7 @@ Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel.
   ```
 - Akses web laravel dengan URL **_http://localhost:8000_** via browser. Hasilnya adalah sebagai berikut:
 
-  {{< image src="images/blog/laravel-home.png" caption="" alt="Laravel Home" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/laravel-home.png" caption="" alt="Laravel Home" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 5. Install dan Jalankan Project Laravel (Via Laravel Installer)
 
@@ -90,7 +90,7 @@ Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel.
   ```
 - Pastikan untuk menempatkan direktori **_/bin_** Composer di seluruh sistem di **$PATH** anda agar eksekusi command **_laravel_** dapat ditemukan oleh sistem Anda. Direktori ini ada di lokasi yang berbeda berdasarkan sistem operasi Anda.
 
-  {{< image src="images/blog/bin-composer.png" caption="" alt="Bin Composer" height="" width="500" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/bin-composer.png" caption="" alt="Bin Composer" height="" width="500" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Buat project laravel baru dengan command **laravel new**.
   ```

@@ -21,7 +21,7 @@ Kali ini kita akan mulai mempelajari tentang salah satu **framework CSS** yaitu 
 
 Studi kasus yang diberikan adalah **membuat atau meng-cloning website bootstrap menggunakan framework bootstrap**. Hasil akhir yang diinginkan adalah sebuah tampilan website seperti di bawah ini atau anda dapat melihatnya pada url berikut https://bootstrap-clone.vercel.app/.
 
-{{< image src="images/blog/bs-clone.png" caption="" alt="Bootstrap Clone" height="" width="800" position="center" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+{{< image src="images/blog/bs-clone.png" caption="" alt="Bootstrap Clone" height="" width="800" position="center" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 <!-- <hr>
 
@@ -38,13 +38,13 @@ Studi kasus yang diberikan adalah **membuat atau meng-cloning website bootstrap 
 - Download Visual Studio Code pada link berikut: https://code.visualstudio.com/download
 - Jalankan Visual Studio Code.
 
-  {{< image src="images/blog/vscode.png" caption="" alt="VsCode" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" align="center" >}}
+  {{< image src="images/blog/vscode.png" caption="" alt="VsCode" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" align="center" >}}
 
 #### 2. Struktur Direktori
 
 - Buat struktur direktori project sesuai dengan gambar di bawah ini.
 
-  {{< image src="images/blog/bootstrap-clone-dir.png" caption="" alt="Bootstrap Clone Directory" height="" width="200" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/bootstrap-clone-dir.png" caption="" alt="Bootstrap Clone Directory" height="" width="200" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Aset gambar-gambar yang dibutuhkan dapat di-download di [sini](https://drive.google.com/file/d/13qPcp_Yi9VGEFmY3tNx8FZ5J2sX_yW1D/view?usp=drive_link).
 
@@ -80,11 +80,11 @@ Studi kasus yang diberikan adalah **membuat atau meng-cloning website bootstrap 
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
-  {{< image src="images/blog/navbar-bs-clone-1.png" caption="" alt="Navbar Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/navbar-bs-clone-1.png" caption="" alt="Navbar Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
-  {{< image src="images/blog/navbar-bs-clone-2.png" caption="" alt="Navbar Bootstrap Clone" height="" width="450" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/navbar-bs-clone-2.png" caption="" alt="Navbar Bootstrap Clone" height="" width="450" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
-  {{< image src="images/blog/navbar-bs-clone-3.png" caption="" alt="Navbar Bootstrap Clone" height="" width="450" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/navbar-bs-clone-3.png" caption="" alt="Navbar Bootstrap Clone" height="" width="450" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
   ```html
   <!-- Navbar -->
@@ -291,7 +291,7 @@ Studi kasus yang diberikan adalah **membuat atau meng-cloning website bootstrap 
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
-  {{< image src="images/blog/main-bs-clone.png" caption="" alt="Main Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/main-bs-clone.png" caption="" alt="Main Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
   ```html
   <!-- Main -->
@@ -342,7 +342,7 @@ Studi kasus yang diberikan adalah **membuat atau meng-cloning website bootstrap 
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
-  {{< image src="images/blog/icons-bs-clone.png" caption="" alt="Icons Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/icons-bs-clone.png" caption="" alt="Icons Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
   ```html
   <!-- Bootstrap Icons -->
@@ -387,7 +387,7 @@ Studi kasus yang diberikan adalah **membuat atau meng-cloning website bootstrap 
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
-  {{< image src="images/blog/themes-bs-clone.png" caption="" alt="Themes Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/themes-bs-clone.png" caption="" alt="Themes Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
   ```html
   <!-- Bootstrap Official Themes -->
@@ -431,7 +431,7 @@ Studi kasus yang diberikan adalah **membuat atau meng-cloning website bootstrap 
 
 - Praktekkan kode HTML di bawah ini pada file **index.html** yang telah dibuat. Letakkan di dalam block tag `<body>`.
 
-  {{< image src="images/blog/footer-bs-clone.png" caption="" alt="Footer Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/footer-bs-clone.png" caption="" alt="Footer Bootstrap Clone" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
   ```html
   <!-- Footer -->

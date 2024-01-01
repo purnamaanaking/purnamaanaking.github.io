@@ -56,7 +56,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang Laravel Authentication
 - Analisis kondisi project laravel antara sebelum dan sesudah menjalankan tahapan di atas!
 - Jalankan project laravel tersebut via browser, akan muncul menu & fitur **login** dan **register** pada halaman welcome.
 
-  {{< image src="images/blog/laravel-login-register.png" caption="" alt="Laravel Login Register" height="" width="200" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/laravel-login-register.png" caption="" alt="Laravel Login Register" height="" width="200" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 #### 2. Setup Database
 
@@ -73,11 +73,11 @@ Pada modul kali ini kita akan melanjutkan belajar tentang Laravel Authentication
 
 - Jalankan project laravel via browser dan coba fitur **Register** untuk membuat akun user baru pada sistem.
 
-  {{< image src="images/blog/laravel-register.png" caption="" alt="Laravel Register" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/laravel-register.png" caption="" alt="Laravel Register" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Coba fitur **Login** menggunakan akun user yang baru saja dibuat.
 
-  {{< image src="images/blog/laravel-login.png" caption="" alt="Laravel Login" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/laravel-login.png" caption="" alt="Laravel Login" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Analisis alur program ketika menjalankan fitur login dan register. Bagaimana hubungan antara file-file **views**, **controllers** dan juga **routes** yang ada!
 
@@ -160,7 +160,7 @@ Pada modul kali ini kita akan melanjutkan belajar tentang Laravel Authentication
 
 - **Lanjutkan (bukan buat dari awal lagi)** Project Laravel yang kita kerjakan pada **Modul 06 (aplikasi sederhana data master employee)** dengan menerapkan Laravel Authentication yang sudah dipelajari pada project laravel tersebut. Manfaatkan command **Laravel UI** yang ada pada php artisan di bawah ini.
 
-  {{< image src="images/blog/laravel-ui-cli.png" caption="" alt="Laravel UI" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+  {{< image src="images/blog/laravel-ui-cli.png" caption="" alt="Laravel UI" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Hasil akhir yang diinginkan adalah sebuah aplikasi sederhana data master employee yang telah memiliki:
 
@@ -183,9 +183,9 @@ Pada modul kali ini kita akan melanjutkan belajar tentang Laravel Authentication
 
   - Sesuaikan tampilan UI dengan tampilan aplikasi data master employee yang dimiliki sebelumnya.
 
-    {{< image src="images/blog/employee-master-login.png" caption="" alt="Employee Master Login" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+    {{< image src="images/blog/employee-master-login.png" caption="" alt="Employee Master Login" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
-    {{< image src="images/blog/employee-master.png" caption="" alt="Employee Master" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}
+    {{< image src="images/blog/employee-master.png" caption="" alt="Employee Master" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
 
 - Simulasikan fitur **Login** dengan **user awal** tersebut dan jelaskan proses apa saja yang dilakukan.
 
