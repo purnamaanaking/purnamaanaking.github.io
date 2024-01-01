@@ -19,6 +19,13 @@ tags:
 draft: false
 ---
 
+{{< notice "note" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
+
 Pada modul kali ini kita akan melanjutkan belajar tentang **laravel database**. Materi tentang laravel database akan diilustrasikan dalam bentuk studi kasus sederhana secara bertahap. Pada modul ini kita akan fokus menerapkan **Eloquent ORM** pada project laravel kita dan juga melengkapi pembahasan dan penerapan blade templates pada project kita. Kegiatan ini agar kita dapat memahami dan menerapkan manajemen database pada laravel framework dan mengoptimalkan fitur yang dimiliki oleh **blade templates**.
 
 #### 1. Membuat File Model

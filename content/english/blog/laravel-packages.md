@@ -22,6 +22,13 @@ tags:
 draft: false
 ---
 
+{{< notice "note" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
+
 Pada modul kali ini kita akan melanjutkan belajar tentang bagaimana menerapkan package-package tambahan pada project laravel kita. Package tambahan yang diberikan pada modul ini adalah **Laravel DataTables**, **Laravel Sweet Alert**, **Laravel Excel** dan **Laravel DomPdf**. Seluruh package akan diterapkan pada project laravel yang telah dibuat pada pembelajaran [**Modul #09**](/blog/laravel-factory-file-storage/).
 
 #### 1. Penerapan Laravel DataTables

@@ -20,6 +20,13 @@ tags:
 draft: false
 ---
 
+{{< notice "note" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
+
 Pada modul ini kita akan mulai memasuki materi awal pada pembelajaran framework Laravel. Kita akan mulai belajar tentang Routing di Laravel dengan berbagai macam jenisnya. Kemudian kita akan belajar tentang bundling asset pada Laravel menggunakan Vite. Kegiatan ini dilakukan agar kita dapat menerapkan konsep routing dan manajemen asset pada framework Laravel.
 
 {{< image src="images/blog/belajar-laravel-routing.png" caption="" alt="Belajar Laravel Routing" height="" width="800" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="false" >}}

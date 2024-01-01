@@ -18,6 +18,13 @@ tags:
 draft: false
 ---
 
+{{< notice "note" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
+
 Pada modul kali ini kita akan melanjutkan belajar tentang Laravel Authentication. Kita akan mencoba menerapkan fitur login dan lain-lain pada sebuah project laravel. Kegiatan ini dilakukan agar kita dapat menerapkan fitur authentication untuk mendukung sebuah pengembangan aplikasi web berbasis laravel.
 
 #### 1. Authentication via Laravel UI

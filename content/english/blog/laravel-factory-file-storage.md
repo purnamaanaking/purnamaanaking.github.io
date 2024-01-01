@@ -20,6 +20,13 @@ tags:
 draft: false
 ---
 
+{{< notice "note" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
+
 Pada modul kali ini kita akan melanjutkan belajar tentang **Laravel Factory** dan **File Storage**. kita akan mencoba menerapkan fitur Laravel Factory untuk men-generate data dummy ke database dan menerapkan Laravel File Storage untuk mengelola asset file pada project laravel yang dimiliki.
 
 #### 1. Membuat dan Mendefinisikan Factory

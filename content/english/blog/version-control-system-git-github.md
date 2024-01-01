@@ -11,6 +11,13 @@ tags:
 draft: false
 ---
 
+{{< notice "note" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
+
 Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Github di dalam mengelola sebuah project pemrograman. Materi akan diilustrasikan dalam bentuk studi kasus. Kegiatan ini dilakukan agar kita dapat menerapkan dan mengelola kode program yang dibangun bersama tim menggunakan version control system GIT.
 
 #### 1. Instalasi dan Konfirgurasi GIT

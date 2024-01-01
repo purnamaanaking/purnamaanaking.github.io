@@ -10,6 +10,13 @@ tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
 ---
 
+{{< notice "note" >}}
+
+##### Artikel ini merupakan bagian dari:
+
+{{< button label="Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel" link="/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" style="outline" class="btn-sm w-full mb-3" >}}
+{{< /notice >}}
+
 Ada banyak cara dan pendekatan untuk melakukan instalasi sebuah project Laravel. Namun pada modul ini kita akan fokus melakukan instalasi dan setup seluruh kebutuhan untuk memulai belajar pemrograman php dengan framework Laravel dengan pendekatan yang paling dasar dan mudah. Mulai dari install XAMPP, Composer, sampai install sebuah project Laravel. Kegiatan ini dilakukan agar kita siap untuk belajar Laravel dengan komputer atau laptop masing-masing.
 
 <!-- <hr>
