@@ -6,7 +6,7 @@ date: 2023-08-27T05:00:00Z
 image: "/images/blog/konfigurasi-laravel.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
+tags: ["modul", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
 ---
 

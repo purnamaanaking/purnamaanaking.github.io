@@ -6,15 +6,7 @@ date: 2023-12-19T05:00:00Z
 image: "/images/blog/laravel-authentication.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags:
-  [
-    "modul",
-    "praktikum",
-    "pemrograman",
-    "framework",
-    "laravel",
-    "authentication",
-  ]
+tags: ["modul", "pemrograman", "framework", "laravel", "authentication"]
 draft: false
 ---
 

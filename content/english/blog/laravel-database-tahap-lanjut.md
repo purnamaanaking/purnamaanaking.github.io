@@ -6,16 +6,7 @@ date: 2023-12-14T05:00:00Z
 image: "/images/blog/laravel-database-tahap-lanjut.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags:
-  [
-    "modul",
-    "praktikum",
-    "pemrograman",
-    "framework",
-    "laravel",
-    "orm",
-    "eloquent",
-  ]
+tags: ["modul", "pemrograman", "framework", "laravel", "orm", "eloquent"]
 draft: false
 ---
 

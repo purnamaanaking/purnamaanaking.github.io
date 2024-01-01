@@ -7,16 +7,7 @@ image: "/images/blog/laravel-factory-file-storage.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags:
-  [
-    "modul",
-    "praktikum",
-    "pemrograman",
-    "framework",
-    "laravel",
-    "factory",
-    "file",
-    "storage",
-  ]
+  ["modul", "pemrograman", "framework", "laravel", "factory", "file", "storage"]
 draft: false
 ---
 

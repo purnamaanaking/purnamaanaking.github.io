@@ -6,16 +6,7 @@ date: 2023-09-10T05:00:00Z
 image: "/images/blog/controller-view-laravel.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags:
-  [
-    "modul",
-    "praktikum",
-    "pemrograman",
-    "framework",
-    "laravel",
-    "controller",
-    "view",
-  ]
+tags: ["modul", "pemrograman", "framework", "laravel", "controller", "view"]
 draft: false
 ---
 

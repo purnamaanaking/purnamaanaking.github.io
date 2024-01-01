@@ -6,8 +6,7 @@ date: 2023-12-17T05:00:00Z
 image: "/images/blog/version-control-system-git-github.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags:
-  ["modul", "praktikum", "pemrograman", "framework", "laravel", "git", "github"]
+tags: ["modul", "pemrograman", "framework", "laravel", "git", "github"]
 draft: false
 ---
 

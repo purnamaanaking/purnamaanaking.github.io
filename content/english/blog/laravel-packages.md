@@ -9,7 +9,6 @@ author: "Purnama Anaking"
 tags:
   [
     "modul",
-    "praktikum",
     "pemrograman",
     "framework",
     "laravel",

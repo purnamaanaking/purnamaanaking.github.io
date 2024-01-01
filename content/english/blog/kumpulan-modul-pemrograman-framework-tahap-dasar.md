@@ -6,7 +6,7 @@ date: 2023-12-25T05:00:00Z
 image: "/images/blog/pemrograman-framework.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
+tags: ["modul", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
 ---
 
@@ -16,9 +16,7 @@ Berikut ini adalah kumpulan modul belajar dasar pada topik pemrograman berbasis 
 
 - **Modul 01: Pengenalan Framework CSS (Bootstrap)**
 
-  {{< image src="/images/blog/cloning-bootstrap-dengan-bootstrap.png" caption="" alt="Cloning Bootstrap dengan Bootstrap" height="" width="300" position="left" command="fit" option="q100" class="img-fluid" title=""  webp="true" >}}
-
-  Kita akan mulai mempelajari tentang salah satu framework CSS yaitu Bootstrap. Penerapan fitur bootstrap diberikan dan dikemas dalam bentuk studi kasus tertentu. Kegiatan ini dilakukan agar mahasiswa mampu membangun website sederhana dengan mendayagunakan fitur-fitur bootstrap yang ada. Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap.
+  Kita akan mulai mempelajari tentang salah satu framework CSS yaitu Bootstrap. Penerapan fitur bootstrap diberikan dan dikemas dalam bentuk studi kasus tertentu. Kegiatan ini dilakukan agar kita mampu membangun website sederhana dengan mendayagunakan fitur-fitur bootstrap yang ada. Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap.
 
   {{< button label="Lihat Modul 01 Selengkapnya" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm" target="_blank" >}}
 
@@ -72,6 +70,6 @@ Berikut ini adalah kumpulan modul belajar dasar pada topik pemrograman berbasis 
 
 - **Modul 10: Laravel Third Party Package**
 
-  Pada modul ini kita akan melanjutkan belajar tentang bagaimana menerapkan package-package tambahan pada project laravel kita. Package tambahan yang diberikan pada praktikum ini adalah Laravel DataTables, Laravel Sweet Alert, Laravel Exce dan Laravel DomPdf.
+  Pada modul ini kita akan melanjutkan belajar tentang bagaimana menerapkan package-package tambahan pada project laravel kita. Package tambahan yang diberikan pada modul ini adalah Laravel DataTables, Laravel Sweet Alert, Laravel Exce dan Laravel DomPdf.
 
   {{< button label="Lihat Modul 10 Selengkapnya" link="/blog/laravel-packages/" style="outline"class="btn-sm btn-outline-primary" >}}

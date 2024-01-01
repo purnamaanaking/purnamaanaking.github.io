@@ -6,7 +6,7 @@ date: 2023-08-23T05:00:00Z
 image: "/images/blog/cloning-bootstrap-dengan-bootstrap.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
-tags: ["modul", "praktikum", "pemrograman", "framework", "laravel", "bootstrap"]
+tags: ["modul", "pemrograman", "framework", "laravel", "bootstrap"]
 draft: false
 ---
 
