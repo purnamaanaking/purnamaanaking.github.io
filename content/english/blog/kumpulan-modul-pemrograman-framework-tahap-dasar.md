@@ -18,13 +18,13 @@ Berikut ini adalah kumpulan modul belajar dasar pada topik pemrograman berbasis 
 
   Kita akan mulai mempelajari tentang salah satu framework CSS yaitu Bootstrap. Penerapan fitur bootstrap diberikan dan dikemas dalam bentuk studi kasus tertentu. Kegiatan ini dilakukan agar kita mampu membangun website sederhana dengan mendayagunakan fitur-fitur bootstrap yang ada. Studi kasus yang diberikan adalah membuat atau meng-cloning website bootstrap menggunakan framework bootstrap.
 
-  {{< button label="Lihat Modul 01 Selengkapnya" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm" target="_blank" >}}
+  {{< button label="Lihat Modul 01 Selengkapnya" link="/blog/cloning-bootstrap-dengan-bootstrap" style="outline" class="btn-sm btn-outline-primary" target="asdhjg" >}}
 
 - **Modul 02: Pengenalan Laravel dan Konfigurasi Awal**
 
   Kita akan fokus melakukan instalasi dan setup seluruh kebutuhan untuk memulai belajar pemrograman PHP dengan framework Laravel. Mulai dari install XAMPP, Composer, sampai install sebuah project Laravel. Kegiatan ini dilakukan agar kita siap untuk belajar Laravel dengan komputer/laptop masing-masing.
 
-  {{< button label="Lihat Modul 02 Selengkapnya" link="/blog/pengenalan-laravel-dan-konfigurasi-awal" style="outline" class="btn-sm" >}}
+  {{< button label="Lihat Modul 02 Selengkapnya" link="/blog/pengenalan-laravel-dan-konfigurasi-awal" style="outline" class="btn-sm btn-outline-primary" >}}
 
 - **Modul 03: Routing dan Bundling Asset di Laravel**
 
