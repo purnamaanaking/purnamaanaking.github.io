@@ -6,7 +6,9 @@
         <div class="container">
           <div class="row justify-center">
             <div class="col-12">
-              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" "Size" "400x") }}
+              <!-- {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" "Size" "300px") }} -->
+              <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+              <dotlottie-player src="https://lottie.host/ecd003d7-e4d6-42a7-abab-2797022c3b50/9IKYphcdt9.json" background="transparent" speed="1" style="width: 400px; height: 400px; margin: auto;" loop autoplay></dotlottie-player>
             </div>
             <div class="lg:col-7 mb-8 text-center px-8 pb-8">
               <h1 class="mb-4">
@@ -30,7 +32,7 @@
               </ul>
               {{ with .button }}
                 {{ if .enable }}
-                  <a class="btn btn-primary" href="{{ .link | absURL }}">
+                  <a class="btn btn-primary mt-8" href="{{ .link | absURL }}">
                     {{ .label }}
                     <i class="fa fa-arrow-right pl-2"></i>
                   </a>

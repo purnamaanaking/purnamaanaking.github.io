@@ -2,7 +2,7 @@
 title: Purnama Anaking
 email: purnama.anaking@gmail.com
 image: "/images/avatar.png"
-description: I am a Muslim, Husband, Father and Full-Stack Developer currently living in Indonesia.
+description: I am a muslim, husband, daddy, and software developer currently living in Indonesia.
 social:
   - name: instagram
     icon: fa-brands fa-instagram
@@ -21,4 +21,4 @@ social:
     link: https://youtube.com/purnamaanaking
 ---
 
-I am a Muslim, Husband, Father and Full-Stack Developer currently living in Indonesia.
+I am a muslim, husband, daddy, and software developer currently living in Indonesia.
