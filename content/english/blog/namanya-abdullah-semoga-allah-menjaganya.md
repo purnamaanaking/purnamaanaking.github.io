@@ -1,7 +1,7 @@
 ---
-title: "Namanya Abdullah, Semoga Allah Menjaganya"
-meta_title: "Namanya Abdullah, Semoga Allah Menjaganya"
-description: "Namanya Abdullah, Semoga Allah Menjaganya"
+title: "Anak ke-1, Namanya Abdullah, Semoga Allah Menjaganya"
+meta_title: "Anak ke-1, Namanya Abdullah, Semoga Allah Menjaganya"
+description: "Anak ke-1, Namanya Abdullah, Semoga Allah Menjaganya"
 date: 2019-11-21T05:00:00Z
 image: "/images/blog/baby-boy-1.png"
 categories: ["Life"]

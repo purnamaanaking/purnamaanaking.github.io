@@ -1,7 +1,7 @@
 ---
-title: "Namanya Zaid, Semoga Allah Menjaganya"
-meta_title: "Namanya Zaid, Semoga Allah Menjaganya"
-description: "Namanya Zaid, Semoga Allah Menjaganya"
+title: "Anak ke-2, Namanya Zaid, Semoga Allah Menjaganya"
+meta_title: "Anak ke-4, Namanya Zaid, Semoga Allah Menjaganya"
+description: "Anak ke-4, Namanya Zaid, Semoga Allah Menjaganya"
 date: 2020-01-08T05:00:00Z
 image: "/images/blog/baby-boy-2.png"
 categories: ["Life"]

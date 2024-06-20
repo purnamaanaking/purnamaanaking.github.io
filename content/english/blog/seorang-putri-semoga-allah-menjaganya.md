@@ -1,7 +1,7 @@
 ---
-title: "Seorang Putri, Semoga Allah Menjaganya"
-meta_title: "Seorang Putri, Semoga Allah Menjaganya"
-description: "Seorang Putri, Semoga Allah Menjaganya"
+title: "Anak ke-3, Seorang Putri, Semoga Allah Menjaganya"
+meta_title: "Anak ke-3, Seorang Putri, Semoga Allah Menjaganya"
+description: "Anak ke-3, Seorang Putri, Semoga Allah Menjaganya"
 date: 2022-01-27T05:00:00Z
 image: "/images/blog/baby-girl.png"
 categories: ["Life"]
