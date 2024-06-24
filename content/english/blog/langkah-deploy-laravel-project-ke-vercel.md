@@ -10,7 +10,7 @@ tags: ["framework", "laravel", "deploy", "vercel", "github"]
 draft: false
 ---
 
-Untuk kamu yang mau buat aplikasi berbasis web menggunakan laravel dan ingin di-online-kan, salah satu alternatif yang bisa dilakukan adalah men-deploy-nya ke platform **Vercel** (https://vercel.com/). Berikut ini adalah langkah-langkah yang pernah saya lakukan, check it out!
+Untuk kamu yang mau buat aplikasi berbasis web menggunakan laravel dan ingin di-online-kan, salah satu alternatif yang bisa dilakukan adalah men-deploy-nya ke platform **Vercel** https://vercel.com. Berikut ini adalah langkah-langkah yang pernah saya lakukan, check it out!
 
 ### 1. Setup dan Konfigurasi Project Laravel
 
