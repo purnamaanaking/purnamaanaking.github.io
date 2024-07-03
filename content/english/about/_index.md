@@ -6,7 +6,7 @@ image: "/images/avatar.png"
 draft: false
 ---
 
-I am a muslim, husband, daddy and software developer currently living in Indonesia.
+I am a software developer currently living in Indonesia.
 
 ##### Experiences:
 
@@ -22,8 +22,7 @@ I am a muslim, husband, daddy and software developer currently living in Indones
 
 ##### Education:
 
-- **Institut Teknologi Sepuluh Nopember**, Sistem Informasi — _S2_
-- **Institut Teknologi Sepuluh Nopember**, Sistem Informasi — _S1_
+- **Sepuluh Nopember Institute of Technology**, Information System — _Bachelor & Master Degree_
 
 ##### My Recent Projects:
 
