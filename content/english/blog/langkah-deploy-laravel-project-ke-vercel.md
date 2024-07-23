@@ -268,6 +268,8 @@ git push -u origin main
 
 - Dengan itu repository **laravel-on** pada Github dengan tersambung dengan Vercel, sehingga ketika kita melakukan perubahan kode program pada local computer kemudian melakukan **push** atau **merge** ke branch main pada repo Github, maka vercel akan melakukan re-deployment di sisi server secara otomatis. Kita dapat melihat hasil perubahan dari aplikasi web yang kita deploy di vercel secara langsung.
 
+  {{< image src="images/blog/laravel-vercel-deploy.png" caption="" alt="Laravel Vercel Deploy" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title="Laravel Vercel Deploy"  webp="true" >}}
+
 ---
 
 Kita sudah berhasil menyambungkan Github repository yang berisi project laravel dengan Vercel. Selanjutnya, untuk urusan database bagaimana? Untuk database bisa kita sambungkan dengan pilihan cloud database yang ada. Kita lanjutkan tulis pada artikel yang berbeda in syaa Allah..
