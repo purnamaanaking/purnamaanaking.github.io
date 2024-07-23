@@ -48,7 +48,7 @@ nano .env
 
 - Jika berhasil pada file **.env** maka akan tergenerate string key pada **APP_KEY**. Contohnya seperti gambar di bawah ini.
 
-{{< image src="images/blog/laravel-vercel-env.png" caption="" alt="File .env" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title="File .env"  webp="true" >}}
+  {{< image src="images/blog/laravel-vercel-env.png" caption="" alt="File .env" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title="File .env"  webp="true" >}}
 
 #### 1.3. Buat entry point untuk vercel
 
@@ -117,7 +117,7 @@ nano vercel.json
 
 - Hati-hati pada pemilihan versi **vercel-php** pada bagian **functions runtime**. Pemilihan versi **vercel-php** saya merujuk pada stackoverflow berikut: https://stackoverflow.com/questions/78242231/error-while-deploying-laravel-app-on-vercel-project. Saya menggunakan vercel-php versi 0.3.5 karna php yang saya pakai versi 7.4.x.
 
-{{< image src="images/blog/laravel-vercel-php.png" caption="" alt="vercel-php version" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title="vercel-php version"  webp="true" >}}
+  {{< image src="images/blog/laravel-vercel-php.png" caption="" alt="vercel-php version" height="" width="600" position="left" command="fit" option="q100" class="img-fluid" title="vercel-php version"  webp="true" >}}
 
 ```bash
 {
@@ -205,4 +205,69 @@ vercel --prod
 
 ---
 
-Kita sudah berhasil deploy project laravel ke vercel sehingga project laravel kita bisa diakses secara online. Selanjutnya kita bisa koneksikan project laravel kita di vercel ke Github repository untuk memudahkan kita melakukan re-deployment setelah proses development atau setelah melakukan perubahan kode program di local computer. Langkah-langkahnya akan dicatatkan pada artikel berikutnya secara terpisah. Database nya gimana? juga akan dibahas di artikel terpisah. in syaa Allah..
+Kita sudah berhasil deploy project laravel ke vercel sehingga project laravel kita bisa diakses secara online. Selanjutnya kita bisa koneksikan project laravel kita di vercel ke Github repository untuk memudahkan kita melakukan re-deployment setelah proses development atau setelah melakukan perubahan kode program di local computer.
+
+### 3. Konek ke Github
+
+#### 3.1 Buat Repository Baru Github
+
+- Masuk ke akun Github yang dimiliki. https://github.com/
+- Klik menu **New Repository** untuk membuat repository baru pada akun Github.
+
+  {{< image src="images/blog/laravel-vercel-new-repo.png" caption="" alt="Create New Repository" height="" width="200" position="left" command="fit" option="q100" class="img-fluid" title="Create New Repository"  webp="true" >}}
+
+- Masukkan nama repository yang akan dibuat. Saya buat dengan nama **laravel-on**. Silakan sesuaikan sendiri ya..
+
+  {{< image src="images/blog/laravel-vercel-create-repo.png" caption="" alt="Set Repository Name" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title="Set Repository Name"  webp="true" >}}
+
+#### 3.2 Inisiasi Git pada project Laravel
+
+- Buka terminal dan masuk ke root direktori project laravel yang sudah kita setup di atas.
+- Kemudian inisiasi, commit, buat branch **main** sebagai branch utama, setup remote ke repository yang barusan dibuat, dan push project laravel ke repository, dengan menjalankan command di bawah ini pada terminal:
+
+```
+git init
+```
+
+```
+git add .
+```
+
+```
+git commit -m "first commit"
+```
+
+```
+git branch -M main
+```
+
+```
+git remote add origin https://github.com/purnamaanaking/laravel-on.git
+```
+
+```
+git push -u origin main
+```
+
+#### 3.1 Konek Github Repository ke Vercel
+
+- Masuk ke akun vercel yang kita miliki. https://vercel.com/
+- Saya pilih project **laravel-on** yang telah dibuat sebelumnya dan klik **Connect Git Repository**
+
+  {{< image src="images/blog/laravel-vercel-connect-git.png" caption="" alt="Connect Git Repository" height="" width="400" position="left" command="fit" option="q100" class="img-fluid" title="Connect Git Repository"  webp="true" >}}
+
+- Pilih button **Github**.
+
+  {{< image src="images/blog/laravel-vercel-connect-github.png" caption="" alt="Select Github" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title="Select Github"  webp="true" >}}
+
+- Saya cari & pilih repository **larave-on**. Klik **Connect**.
+
+  {{< image src="images/blog/laravel-vercel-set-repo.png" caption="" alt="Select Github Repository" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title="Select Github Repository"  webp="true" >}}
+
+  {{< image src="images/blog/laravel-vercel-connected-git.png" caption="" alt="Connected Git" height="" width="700" position="left" command="fit" option="q100" class="img-fluid" title="Connected Git"  webp="true" >}}
+
+- Dengan itu repository **laravel-on** pada Github dengan tersambung dengan Vercel, sehingga ketika kita melakukan perubahan kode program pada local computer kemudian melakukan **push** atau **merge** ke branch main pada repo Github, maka vercel akan melakukan re-deployment di sisi server secara otomatis. Kita dapat melihat hasil perubahan dari aplikasi web yang kita deploy di vercel secara langsung.
+
+---
+
+Kita sudah berhasil menyambungkan Github repository yang berisi project laravel dengan Vercel. Selanjutnya, untuk urusan database bagaimana? Untuk database bisa kita sambungkan dengan pilihan cloud database yang ada. Kita lanjutkan tulis pada artikel yang berbeda in syaa Allah..
