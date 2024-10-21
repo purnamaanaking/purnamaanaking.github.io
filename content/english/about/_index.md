@@ -6,7 +6,7 @@ image: "/images/avatar.png"
 draft: false
 ---
 
-I am a software developer currently living in Indonesia.
+I am a Software Developer currently living in Indonesia.
 
 ##### Experiences:
 
