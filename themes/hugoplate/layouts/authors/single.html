@@ -5,8 +5,8 @@
         class="row border-border dark:border-darkmode-border justify-center border-b pb-14">
         <div class="lg:col-4 text-center">
           {{ $image:= .Params.image }}
-          <!-- {{ if $image }}
-            {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mx-auto" "size" "200x200") }}
+          {{ if $image }}
+            {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mx-auto" "Size" "200x200") }}
           {{ else if .Params.Email }}
             <img
               class="mx-auto"
@@ -14,12 +14,12 @@
               height="200"
               width="200"
               src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
-          {{ end }} -->
-          <h1 class="h3 mt-0">{{ .Title }}</h1>
+          {{ end }}
+          <h1 class="h3 mt-10">{{ .Title }}</h1>
           <div class="content mt-6">
             {{ .Content }}
           </div>
-          <ul class="social-icons mt-10 text-center">
+          <ul class="social-icons ml-4 mt-10 text-center">
             {{ range .Params.social }}
               <li>
                 <a
