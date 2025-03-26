@@ -1,9 +1,9 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: "Technology with Purpose, Sharing with Heart: Creating Solutions, Reflecting on Life."
+  content: "More than just code, it's about impact! I create meaningful digital solutions while sharing reflections on faith, life, and growth. A space where technology meets purpose and heart. Hi, I am a Software Developer currently living in Indonesia. If you’d like to get in touch, feel free to say hello through any of the social links below."
+  image: "/images/main-pp.png"
   button:
     enable: true
     label: "Get Started For Free"
