@@ -1,9 +1,24 @@
 {
   "main": [
     {
+      "name": "tiktok",
+      "icon": "fab fa-tiktok",
+      "link": "https://www.tiktok.com/@purnama.anaking"
+    },
+    {
       "name": "instagram",
       "icon": "fab fa-instagram",
-      "link": "https://www.instagram.com/purnamaanaking/"
+      "link": "https://www.instagram.com/purnamaanaking"
+    },
+    {
+      "name": "youtube",
+      "icon": "fab fa-youtube",
+      "link": "https://youtube.com/purnamaanaking"
+    },
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/purnamaanaking"
     },
     {
       "name": "linkedin",
@@ -14,11 +29,6 @@
       "name": "github",
       "icon": "fab fa-github",
       "link": "https://github.com/purnamaanaking"
-    },
-    {
-      "name": "youtube",
-      "icon": "fab fa-youtube",
-      "link": "https://youtube.com/purnamaanaking"
     }
   ]
 }
