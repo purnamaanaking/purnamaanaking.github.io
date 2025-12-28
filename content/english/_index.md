@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Technology with Purpose, Sharing with Heart: Creating Solutions, Reflecting on Life."
-  content: "More than just code, it's about impact! I create meaningful digital solutions while sharing reflections on faith, life, and growth. A space where technology meets purpose and heart. Hi, I am a Software Developer currently living in Indonesia. If you’d like to get in touch, feel free to say hello through any of the social links below."
+  content: "More than just code, it's about impact! I create meaningful digital solutions while sharing reflections on faith, life, and growth. A space where technology meets purpose and heart. Hi, I am a Software Engineer currently living in Indonesia. If you’d like to get in touch, feel free to say hello through any of the social links below."
   image: "/images/main-pp.png"
   button:
     enable: true

@@ -6,7 +6,7 @@ image: "/images/main-pp.png"
 draft: false
 ---
 
-Hi, I’m Purnama Anaking, a Software Developer with over 10 years of experience in the tech industry. Based in Indonesia, I have a strong passion for building innovative digital solutions and mentoring the next generation of technology professionals.
+Hi, I’m Purnama Anaking, a Software Engineer with over 10 years of experience in the tech industry. Based in Indonesia, I have a strong passion for building innovative digital solutions and mentoring the next generation of technology professionals.
 
 I hold both a Bachelor's and Master's degree from one of the top universities in Indonesia. Currently, I serve as a Lecturer at one of the leading private universities in Indonesia, where I specialize in Software Engineering, Mobile App Development, Agile Project Management, and Human-Computer Interaction. My academic and professional journey has allowed me to bridge the gap between industry and education, empowering students and professionals alike with the knowledge and skills needed to thrive in the ever-evolving tech landscape.
 
