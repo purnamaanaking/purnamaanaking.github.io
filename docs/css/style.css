@@ -965,11 +965,6 @@
       order: 1;
     }
   }
-  .lg\:col-3 {
-    @media (width >= 64rem) {
-      grid-column: 3;
-    }
-  }
   .lg\:col-4 {
     @media (width >= 64rem) {
       grid-column: 4;
@@ -1033,12 +1028,6 @@
   .lg\:hidden {
     @media (width >= 64rem) {
       display: none;
-    }
-  }
-  .lg\:col-3 {
-    @media (width >= 64rem) {
-      flex: 0 0 auto;
-      width: 25%;
     }
   }
   .lg\:col-4 {
