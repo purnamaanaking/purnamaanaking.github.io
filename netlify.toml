@@ -1,8 +1,8 @@
 [build]
 publish = "public"
-command = "npm run project-setup && npm run build"
+command = "npm run project-setup && npm run build && ls -la public"
 
 [build.environment]
-HUGO_VERSION = "0.144.2"
+HUGO_VERSION = "0.145.0"
 GO_VERSION = "1.24.0"
 NODE_VERSION = "24"
