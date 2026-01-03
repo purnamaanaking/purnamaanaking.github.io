@@ -320,14 +320,32 @@
       margin-top: var(--bs-gutter-y);
     }
   }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
+  }
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
   }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
+  .mt-9 {
+    margin-top: calc(var(--spacing) * 9);
+  }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-11 {
+    margin-top: calc(var(--spacing) * 11);
+  }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
@@ -1111,9 +1129,9 @@
       text-align: right;
     }
   }
-  .lg\:text-h1 {
+  .lg\:text-h3 {
     @media (width >= 64rem) {
-      font-size: var(--text-h1);
+      font-size: var(--text-h3);
     }
   }
   .lg\:group-hover\:visible {

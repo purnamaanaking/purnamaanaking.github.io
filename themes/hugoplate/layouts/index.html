@@ -8,8 +8,10 @@
             {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto w-[200px]" "DisplayXL" "800x" ) }}
           </div>
           <div class="lg:col-9 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1">
-              {{ .title | markdownify }}
+            <h1 class="mb-4 text-h3 lg:text-h3">
+              {{/*  {{ .title | markdownify }}  */}}
+              <div>Technology with Purpose, Sharing with Heart:</div>
+              <div>Creating Solutions, Reflecting on Life.</div>
             </h1>
             <p class="mb-8 mx-9">
               {{ .content | markdownify }}
@@ -28,6 +30,11 @@
                   </li>
                 {{ end }}
               </ul>
+            </div>
+            <div class="mt-12">
+              <a class="btn btn-outline-primary" href="/blog">
+                My Blog Posts <i class="fa fa-arrow-right pl-2"></i>
+              </a>
             </div>
           </div>
         </div>

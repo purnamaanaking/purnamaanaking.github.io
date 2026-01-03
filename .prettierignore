@@ -1,0 +1,16 @@
+# Hugo template files
+themes/**/*.html
+layouts/**/*.html
+**/*.html
+
+# Hugo content files
+content/**/*.md
+
+# Hugo config files
+config/**/*
+
+# Hugo static files
+static/**/*
+
+# Hugo public directory
+public/**/*
