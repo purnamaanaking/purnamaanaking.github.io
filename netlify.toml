@@ -1,6 +1,6 @@
 [build]
-publish = "public"
-command = "npm run project-setup && npm run build && ls -la public"
+publish = "docs"
+command = "npm run project-setup && npm run build"
 
 [build.environment]
 HUGO_VERSION = "0.145.0"
