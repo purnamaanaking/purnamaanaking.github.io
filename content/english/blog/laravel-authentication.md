@@ -7,7 +7,7 @@ image: "/images/blog/laravel-authentication.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "pemrograman", "framework", "laravel", "authentication"]
-draft: false
+draft: true
 ---
 
 {{< notice "note" >}}

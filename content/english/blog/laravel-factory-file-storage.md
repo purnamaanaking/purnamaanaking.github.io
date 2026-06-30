@@ -8,7 +8,7 @@ categories: ["Technology"]
 author: "Purnama Anaking"
 tags:
   ["modul", "pemrograman", "framework", "laravel", "factory", "file", "storage"]
-draft: false
+draft: true
 ---
 
 {{< notice "note" >}}

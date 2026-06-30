@@ -7,7 +7,7 @@ image: "/images/blog/what-is-framework.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["framework", "mvc", "model", "view", "controller"]
-draft: false
+draft: true
 ---
 
 Framework is a collection of ready-to-use program code with certain writing rules that aim to facilitate and speed up application development. Frameworks are created to simplify the performance of programmers. Thus, a programmer does not need to write code repeatedly. Because in it only needs to compile programming components. The main purpose of using a framework is to speed up the creation of applications, because there are various ready-made features in the framework. We just need to use these features without having to create everything from scratch. In addition, the writing rules in the framework will force us to use a good way of writing (following best practice standards).

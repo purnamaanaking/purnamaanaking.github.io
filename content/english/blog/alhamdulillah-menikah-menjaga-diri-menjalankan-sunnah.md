@@ -34,13 +34,13 @@ Ting! pagi itu tiba-tiba bunyi pesan WA masuk, ternyata dari ustadz. Beliau mena
 
 #### Deg-degan gak? Lumayan. _Senyum_
 
-Singkat cerita ana dan ustadz berangkat ke rumah sang muslimah. Di sana kami bertemu dengan Ibu, saudari dan saudara sang muslimah. Saya perkenalkan diri dan mencoba untuk mengobrol satu sama lain. Oh ya, di sana juga sudah ada sang muslimah yang bersangkutan. Yang agak bikin kaget, tiba-tiba ustadz pinjem kunci motor saya dan izin mau keluar sebentar. Mencoba untuk tetap tenang (padahal udah grogi banget) dan saya baru ngeh mengenai apa yang dilakukan ustadz. Jadi kebutuhan untuk nazhor kan kebutuhan saya sebagai pihak yang mau menikah, bukan kebutuhan beliau. Jadi beliau tidak mau melihat yang memang tidak butuh beliau lihat. Baarokallohu fiih.
+Singkat cerita saya dan ustadz berangkat ke rumah sang muslimah. Di sana kami bertemu dengan Ibu, saudari dan saudara sang muslimah. Saya perkenalkan diri dan mencoba untuk mengobrol satu sama lain. Oh ya, di sana juga sudah ada sang muslimah yang bersangkutan. Yang agak bikin kaget, tiba-tiba ustadz pinjem kunci motor saya dan izin mau keluar sebentar. Mencoba untuk tetap tenang (padahal udah grogi banget) dan saya baru ngeh mengenai apa yang dilakukan ustadz. Jadi kebutuhan untuk nazhor kan kebutuhan saya sebagai pihak yang mau menikah, bukan kebutuhan beliau. Jadi beliau tidak mau melihat yang memang tidak butuh beliau lihat. Baarokallohu fiih.
 
 Akhirnya tinggal saya sendirian (tidak dengan ustadz). Agak krik-krik beberapa saat, tapi alhamdulillah akhirnya sudah terlaksana, yaitu saya nazhor (melihat) sang muslimah tersebut dan kami saling bertanya beberapa hal untuk menguatkan keputusan kami masing-masing setelah itu. Setengah jam sebelum waktu maghrib tiba, kami pamit untuk pulang. Lega.
 
 #### Selanjutnya Bagaimana Ustadz ?
 
-Di perjalanan pulang, saya bertanya kepada ustadz. _“Bagaimana selanjutnya ustadz ?”_. Beliau menjawab, _“Ya nanti in syaa Alloh ana akan tanyakan ke pihak muslimahnya, apakah cocok dan mau lanjut. Kalau purnama gimana?”_ Maka saya jawab,
+Di perjalanan pulang, saya bertanya kepada ustadz. _“Bagaimana selanjutnya ustadz ?”_. Beliau menjawab, _“Ya nanti in syaa Alloh saya akan tanyakan ke pihak muslimahnya, apakah cocok dan mau lanjut. Kalau purnama gimana?”_ Maka saya jawab,
 
 > In syaa Alloh cocok dan bersedia lanjut ustadz.
 

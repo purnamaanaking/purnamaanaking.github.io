@@ -7,7 +7,7 @@ image: "/images/blog/hanif-mobile-app.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["hanif", "aplikasi", "mobile", "kajian"]
-draft: false
+draft: true
 ---
 
 Bismillah, perkenalkan ini **Hanif Mobile App: Temukan Kajian Islam di Sekitarmu**. Aplikasi mobile yang memudahkan kaum muslimin untuk menemukan kajian islam di sekitar lokasi mereka. Tersedia pada platform Android maupun iOS.

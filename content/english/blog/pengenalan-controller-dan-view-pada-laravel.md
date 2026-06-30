@@ -7,7 +7,7 @@ image: "/images/blog/controller-view-laravel.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "pemrograman", "framework", "laravel", "controller", "view"]
-draft: false
+draft: true
 ---
 
 {{< notice "note" >}}

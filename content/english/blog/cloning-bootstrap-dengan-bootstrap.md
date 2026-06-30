@@ -7,7 +7,7 @@ image: "/images/blog/cloning-bootstrap-dengan-bootstrap.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "pemrograman", "framework", "laravel", "bootstrap"]
-draft: false
+draft: true
 ---
 
 {{< notice "note" >}}

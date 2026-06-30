@@ -1,1 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Purnama Anaking</title><link>/tags/</link><description>Recent content in Tags on Purnama Anaking</description><generator>Hugo</generator><language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Purnama Anaking</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Purnama Anaking</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Oct 2024 05:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amal Shalih</title>
+      <link>//localhost:1313/tags/amal-shalih/</link>
+      <pubDate>Mon, 07 Oct 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/amal-shalih/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Baik</title>
+      <link>//localhost:1313/tags/baik/</link>
+      <pubDate>Mon, 07 Oct 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/baik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iman</title>
+      <link>//localhost:1313/tags/iman/</link>
+      <pubDate>Mon, 07 Oct 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/iman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kehidupan</title>
+      <link>//localhost:1313/tags/kehidupan/</link>
+      <pubDate>Mon, 07 Oct 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/kehidupan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anak</title>
+      <link>//localhost:1313/tags/anak/</link>
+      <pubDate>Tue, 18 Jun 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/anak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lahiran</title>
+      <link>//localhost:1313/tags/lahiran/</link>
+      <pubDate>Tue, 18 Jun 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/lahiran/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laki-Laki</title>
+      <link>//localhost:1313/tags/laki-laki/</link>
+      <pubDate>Tue, 18 Jun 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/laki-laki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Islam</title>
+      <link>//localhost:1313/tags/islam/</link>
+      <pubDate>Mon, 29 Apr 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/islam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Musik</title>
+      <link>//localhost:1313/tags/musik/</link>
+      <pubDate>Mon, 29 Apr 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/musik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quran</title>
+      <link>//localhost:1313/tags/quran/</link>
+      <pubDate>Mon, 29 Apr 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/quran/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sunnah</title>
+      <link>//localhost:1313/tags/sunnah/</link>
+      <pubDate>Mon, 29 Apr 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/sunnah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Syair</title>
+      <link>//localhost:1313/tags/syair/</link>
+      <pubDate>Mon, 29 Apr 2024 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/syair/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Perempuan</title>
+      <link>//localhost:1313/tags/perempuan/</link>
+      <pubDate>Thu, 27 Jan 2022 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/perempuan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Menikah</title>
+      <link>//localhost:1313/tags/menikah/</link>
+      <pubDate>Tue, 19 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/menikah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nazhor</title>
+      <link>//localhost:1313/tags/nazhor/</link>
+      <pubDate>Tue, 19 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/nazhor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ta&#39;aruf</title>
+      <link>//localhost:1313/tags/taaruf/</link>
+      <pubDate>Tue, 19 Nov 2019 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/taaruf/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

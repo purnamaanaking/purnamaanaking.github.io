@@ -7,7 +7,7 @@ image: "/images/blog/laravel-database-tahap-lanjut.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "pemrograman", "framework", "laravel", "orm", "eloquent"]
-draft: false
+draft: true
 ---
 
 {{< notice "note" >}}

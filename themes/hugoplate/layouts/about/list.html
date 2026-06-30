@@ -82,21 +82,36 @@
             <div class="space-y-6">
               {{ $categories := slice
                 (dict "name" "Languages" "techs" (slice
-                  (dict "name" "Go" "icon" "fab fa-golang")
-                  (dict "name" "Kotlin" "icon" "fab fa-android")
-                  (dict "name" "TypeScript" "icon" "fab fa-js")
                   (dict "name" "PHP" "icon" "fab fa-php")
+                  (dict "name" "JavaScript" "icon" "fab fa-js")
+                  (dict "name" "TypeScript" "icon" "fab fa-js")
+                  (dict "name" "Java" "icon" "fab fa-java")
+                  (dict "name" "Dart" "icon" "fa fa-code")
+                  (dict "name" "Python" "icon" "fab fa-python")
+                  (dict "name" "Go" "icon" "fab fa-golang")
                 ))
-                (dict "name" "Frameworks" "techs" (slice
-                  (dict "name" "React" "icon" "fab fa-react")
-                  (dict "name" "Next.js" "icon" "fab fa-node")
+                (dict "name" "Frameworks & Libraries" "techs" (slice
                   (dict "name" "Laravel" "icon" "fab fa-laravel")
+                  (dict "name" "React" "icon" "fab fa-react")
+                  (dict "name" "Next.js" "icon" "fab fa-node-js")
+                  (dict "name" "Flutter" "icon" "fa fa-mobile-screen")
+                  (dict "name" "Express.js" "icon" "fab fa-node-js")
+                  (dict "name" "React Native" "icon" "fab fa-react")
+                  (dict "name" "Gin" "icon" "fa fa-code")
                 ))
                 (dict "name" "Tools & Infra" "techs" (slice
-                  (dict "name" "Docker" "icon" "fab fa-docker")
                   (dict "name" "Git" "icon" "fab fa-git-alt")
+                  (dict "name" "Docker" "icon" "fab fa-docker")
                   (dict "name" "Linux" "icon" "fab fa-linux")
                   (dict "name" "AWS" "icon" "fab fa-aws")
+                  (dict "name" "Firebase" "icon" "fa fa-fire")
+                  (dict "name" "Google Cloud" "icon" "fab fa-google")
+                  (dict "name" "Azure" "icon" "fab fa-microsoft")
+                ))
+                (dict "name" "Databases" "techs" (slice
+                  (dict "name" "MySQL" "icon" "fa fa-database")
+                  (dict "name" "PostgreSQL" "icon" "fa fa-database")
+                  (dict "name" "MongoDB" "icon" "fa fa-leaf")
                 ))
               }}
               {{ range $categories }}

@@ -1,0 +1,1843 @@
+<!doctype html>
+<html
+  itemscope
+  class=""
+  lang="en-us"
+  itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8" />
+
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+<meta name="theme-name" content="hugoplate" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/images/favicon_hu_1204f621bad34c61.png" type="image/x-icon">
+<link rel="icon" href="/images/favicon_hu_1204f621bad34c61.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon_hu_11a17759c82f9dee.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon_hu_1204f621bad34c61.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon_hu_40a6f5cf4bb1c465.png">
+
+
+
+
+
+
+
+
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta
+  name="msapplication-TileColor"
+  content="#ddd" />
+<meta
+  name="theme-color"
+  content="#ffffff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <base href="//localhost:1313/blog/version-control-system-git-github/" />
+
+
+
+
+
+
+
+  
+  
+
+
+<title>Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta
+    name="keywords"
+    content="software engineer, lecturer, web development, laravel, technology, Indonesia, Telkom University" />
+
+
+
+
+<meta
+  name="description"
+  content="Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)" />
+
+
+
+  <meta name="author" content="Purnama Anaking" />
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="//localhost:1313/images/blog/version-control-system-git-github.png" />
+  <meta property="og:image" content="//localhost:1313/images/blog/version-control-system-git-github.png" />
+
+
+
+
+
+<meta property="og:title" content="Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)" />
+<meta property="og:description" content="Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="//localhost:1313/blog/version-control-system-git-github/" />
+
+
+<meta name="twitter:title" content="Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)" />
+<meta name="twitter:description" content="Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)" />
+
+
+
+  <meta name="twitter:creator" content="@Purnama Anaking" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  let indexURL = "//localhost:1313/searchindex.json";
+  let includeSectionsInSearch = ["blog"];
+  let search_no_results = "No results for";
+  let search_initial_message = "Type something to search..";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin />
+<link rel="preconnect" href="//cdnjs.cloudflare.com" />
+<link rel="preconnect" href="//www.googletagmanager.com" />
+<link rel="preconnect" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://use.fontawesome.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="dns-prefetch" href="//platform.linkedin.com" />
+<link rel="dns-prefetch" href="//platform.twitter.com" />
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script>
+  (function () {
+    const googleFont = document.createElement("link");
+    googleFont.href = "https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Signika:wght@500;700&display=swap";
+    googleFont.type = "text/css";
+    googleFont.rel = "stylesheet";
+    document.head.appendChild(googleFont);
+  })();
+</script>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" />
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link
+  href="/css/style.css"
+  integrity=""
+  rel="stylesheet" />
+
+
+<link
+  defer
+  async
+  rel="stylesheet"
+  href="/css/style-lazy.css"
+  integrity=""
+  media="print"
+  onload="this.media='all'; this.onload=null;" />
+
+
+  </head>
+
+  <body>
+    
+    
+      
+
+
+
+
+
+      
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
+
+    
+
+
+    
+    
+
+
+
+
+
+    
+    <header class="header sticky top-0 z-30 border-b border-border/60 dark:border-darkmode-border/60 backdrop-blur-md bg-body/90 dark:bg-darkmode-body/90">
+  <nav class="navbar container">
+    
+    <div class="order-0">
+      
+      <a class="navbar-brand block" href="/">
+        Purnama Anaking.
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Menu Open</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Menu Close</title>
+        <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)">
+        </polygon>
+      </svg>
+    </label>
+    
+
+    
+    <ul id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link "  href="/">Home</a>
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link active"  href="/blog">Blog</a>
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link "  href="/about">About</a>
+      </li>
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+      
+      
+      <button aria-label="search"  class="border-border text-text-dark hover:text-primary
+              dark:border-darkmode-border mr-5 inline-block border-r pr-5
+              text-xl dark:text-white dark:hover:text-darkmode-primary"  data-target="search-modal">
+        <i class="fa-solid fa-search"></i>
+      </button>
+      
+      
+
+      
+
+      
+
+
+  <div class="theme-switcher mr-5 hidden">
+    <input id="theme-switcher" data-theme-switcher type="checkbox" />
+    <label for="theme-switcher">
+      <span class="sr-only">theme switcher</span>
+      <span>
+        
+        <svg
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0"
+          viewBox="0 0 56 56"
+          fill="#fff"
+          height="16"
+          width="16">
+          <path
+            d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" />
+        </svg>
+        
+        <svg
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 dark:opacity-100"
+          viewBox="0 0 24 24"
+          fill="none"
+          height="16"
+          width="16">
+          <path
+            fill="#000"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" />
+        </svg>
+      </span>
+    </label>
+  </div>
+
+  
+  <script>
+    var darkMode = false;
+
+    
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches){darkMode = true}
+    
+
+    if (localStorage.getItem("theme") === "dark"){darkMode = true}
+    else if (localStorage.getItem("theme") === "light"){darkMode = false}
+
+    if (darkMode){document.documentElement.classList.add("dark")}
+    else {document.documentElement.classList.remove("dark")}
+
+    
+    document.addEventListener("DOMContentLoaded", () => {
+      var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
+      var themeSwitcherContainer = document.querySelector('.theme-switcher');
+
+      [].forEach.call(themeSwitch, function (ts) {
+        ts.checked = darkMode;
+        ts.addEventListener("click", () => {
+          document.documentElement.classList.toggle("dark");
+          localStorage.setItem(
+            "theme",
+            document.documentElement.classList.contains("dark") ? "dark" : "light"
+          );
+        });
+      });
+
+      
+      themeSwitcherContainer.classList.remove('hidden');
+    });
+  </script>
+
+
+    </div>
+  </nav>
+</header>
+
+    
+
+
+
+
+  
+    <div
+      class="search-modal "
+      aria-hidden="true"
+      style="--color-primary: #121212">
+      <div data-target="close-search-modal" class="search-modal-overlay"></div>
+      <div
+        class="search-wrapper"
+        data-image="false"
+        data-description="false"
+        data-tags="true"
+        data-categories="true">
+        <div class="search-wrapper-header">
+          <label for="search-modal-input" style="margin-top:-1px">
+            <span class="sr-only">search icon</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="18"
+              width="18"
+              class="search-icon"
+              data-type="search">
+              <path
+                fill="currentColor"
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="18"
+              width="18"
+              class="search-reset"
+              data-type="reset">
+              <path
+                fill="currentColor"
+                d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
+            </svg>
+          </label>
+          <input
+            id="search-modal-input"
+            type="text"
+            data-search-input
+            autocomplete="off"
+            aria-label="Search"
+            placeholder="Search Post..." />
+        </div>
+        <div class="search-wrapper-body">
+          <div class="search-result" data-search-result></div>
+          <span class="search-result-empty">
+            Type something to search..
+          </span>
+        </div>
+        <div class="search-wrapper-footer">
+          <span>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+              </svg>
+            </kbd>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                style="margin-top:1px;"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+              </svg>
+            </kbd>
+            to navigate
+          </span>
+          <span>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                style="display:inline-block;"
+                viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
+              </svg>
+            </kbd>
+            to select
+          </span>
+          <span class="search-result-info"></span>
+          <span data-target="close-search-modal">
+            <kbd>ESC</kbd> to close
+          </span>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+    <main>
+      
+  <section class="pt-14 pb-24">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10 md:col-12">
+
+          
+          <a href="/blog" class="inline-flex items-center gap-2 text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors mb-10">
+            <i class="fa fa-arrow-left text-xs"></i> Back to Blog
+          </a>
+
+          
+          <div class="mb-4 flex flex-wrap items-center gap-3">
+            
+              
+              <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">Technology</span>
+              
+            
+            <span class="text-xs text-text dark:text-darkmode-text opacity-60">
+              <i class="fa-regular fa-calendar mr-1"></i>December 17, 2023
+            </span>
+            <span class="text-xs text-text dark:text-darkmode-text opacity-60">
+              <i class="fa-regular fa-clock mr-1"></i>14 min read
+            </span>
+          </div>
+
+          
+          <h1 class="mb-8 text-h2 font-bold leading-tight text-text-dark dark:text-darkmode-text-dark">Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)</h1>
+
+          <hr class="border-border dark:border-darkmode-border mb-10">
+
+          
+          <div class="content mb-10">
+            
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="notice note">
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="22" height="22" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+      </svg><p>Note</p>
+  </div>
+  <div class="notice-body"><p><h5 id="artikel-ini-merupakan-bagian-dari">Artikel ini merupakan bagian dari:</h5>
+<p><a href="//localhost:1313/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" class="btn btn-outline-primary btn-sm w-full mb-3"  rel="" >Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel</a></p></p></div>
+</div>
+
+<p>Pada modul kali ini kita akan melanjutkan belajar tentang penggunaan GIT dan Github di dalam mengelola sebuah project pemrograman. Materi akan diilustrasikan dalam bentuk studi kasus. Kegiatan ini dilakukan agar kita dapat menerapkan dan mengelola kode program yang dibangun bersama tim menggunakan version control system GIT.</p>
+<h4 id="1-instalasi-dan-konfirgurasi-git">1. Instalasi dan Konfirgurasi GIT</h4>
+<ul>
+<li>
+<p>Download installer GIT dari <a href="https://git-scm.com/"
+
+
+
+
+ target="_blank"
+ 
+
+
+>https://git-scm.com/</a></p>
+</li>
+<li>
+<p>Jalankan installer dan ikuti langkah-langkah nya seperti di bawah ini.</p>
+<p><img src="/images/blog/git-setup-1.png" alt="Git Setup">
+<img src="/images/blog/git-setup-2.png" alt="Git Setup">
+<img src="/images/blog/git-setup-3.png" alt="Git Setup">
+<img src="/images/blog/git-setup-4.png" alt="Git Setup">
+<img src="/images/blog/git-setup-5.png" alt="Git Setup">
+<img src="/images/blog/git-setup-6.png" alt="Git Setup"></p>
+</li>
+<li>
+<p>Untuk memastikan GIT telah ter-install dengan baik, buka terminal dan jalankan perintah <strong>git –version</strong>, maka akan muncul seperti di bawah ini.
+<img src="/images/blog/git-version.png" alt="Git Version"></p>
+</li>
+<li>
+<p>Buka GIT Bash / cmd / terminal, konfigurasi name dan email pada GIT dengan command:</p>
+<pre tabindex="0"><code>git config --global user.name &#34;Nama Anda&#34;
+</code></pre><pre tabindex="0"><code>git config --global user.email email@anda.com
+</code></pre></li>
+<li>
+<p>Jalankan perintah di bawah ini untuk memeriksa hasil konfigurasi yang baru saja dilakukan.</p>
+<pre tabindex="0"><code>git config --list
+</code></pre></li>
+</ul>
+<h4 id="2-membuat-repository-baru-pada-github">2. Membuat Repository Baru pada Github</h4>
+<ul>
+<li>
+<p>Buka dan login pada platform <a href="https://github.com/"
+
+
+
+
+ target="_blank"
+ 
+
+
+>https://github.com/</a></p>
+</li>
+<li>
+<p>Pilih menu <strong>“New repository”</strong></p>
+<p><img src="/images/blog/github-new-repo.png" alt="Github New Repo"></p>
+</li>
+<li>
+<p>Isi <strong>“Repository Name”</strong> dengan <strong>“bootstrap-clone”</strong></p>
+</li>
+<li>
+<p>Klik <strong>“Create repository”</strong></p>
+<p><img src="/images/blog/github-create-repo.png" alt="Github Create Repo"></p>
+</li>
+<li>
+<p>Akan muncul halaman awal repository project <strong>“bootstrap-clone”</strong> yang baru saja di buat pada Github anda.</p>
+</li>
+</ul>
+<h4 id="3-inisiasi-awal-direktori-project-pada-local-computer">3. Inisiasi Awal Direktori Project pada Local Computer</h4>
+<ul>
+<li>
+<p>Buat folder di local computer anda dengan nama <strong>“bootstrap-clone”</strong></p>
+</li>
+<li>
+<p>Tambahkan sebuah file dengan nama <strong>index.html</strong> pada folder yang baru saja di buat. Isikan file <strong>index.html</strong> dengan kode program seperti di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!doctype html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">http-equiv</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;X-UA-Compatible&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;IE=edge&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt;Bootstrap Clone&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">h1</span>&gt;Bootstrap Clone&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div></li>
+<li>
+<p>Tambahkan sebuah file dengan nama <strong>README.md</strong> pada folder yang baru saja di buat. Isikan file <strong>README.md</strong> dengan kode program seperti di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Bootstrap Clone</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Clone Bootstrap Homepage with Bootstrap CSS Framework
+</span></span></code></pre></div></li>
+</ul>
+<h4 id="4-arahkan-direktori-project-pada-local-computer-ke-github-repository">4. Arahkan Direktori Project pada Local Computer ke Github Repository</h4>
+<ul>
+<li>
+<p>Buat <strong>GIT bash / cmd / terminal</strong>, arahkan pada direktori project <strong>“bootstrap-clone”</strong> yang telah dibuat sebelumnya. Atau bisa juga buka direktori project <strong>“bootstrap-clone”</strong> pada <strong>vsCode</strong>, kemudian buka terminal baru pada vsCode tersebut.</p>
+<p><img src="/images/blog/vscode-terminal-bs.png" alt="VsCode Terminal Bootstrap"></p>
+</li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk melakukan inisialisasi GIT pada project <strong>“bootstrat-clone”</strong> yang baru saja dibuat.</p>
+<pre tabindex="0"><code>git init
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk melihat status direktori project <strong>“bootstrap-clone”</strong> yang baru saja dibuat dan ditambahkan file <strong>index.html</strong> dan <strong>README.md</strong>.</p>
+<pre tabindex="0"><code>git status
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini agar GIT <strong>“men-track” semua perubahan</strong> yang terjadi pada direktori project.</p>
+<pre tabindex="0"><code>git add .
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini agar GIT <strong><em>“men-commit”</em> semua perubahan</strong> yang terjadi pada direktori project. Opsi <strong>-m</strong> kita gunakan untuk menuliskan pesan mengenai aksi apa yang telah dilakukan terkait perubahan kode program yang terjadi.</p>
+<pre tabindex="0"><code>git commit -m &#34;Inisialisasi awal&#34;
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk memeriksa Git anda memiliki branch apa saja dan sedang aktif pada branch apa. Pada tahapan ini akan terihat bahwa anda baru memiliki satu branch dengan nama master dan Git anda sedang aktif pada branch master tersebut.</p>
+<pre tabindex="0"><code>git branch
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk mengarahkan direktori project yang ada di local computer kita ke repository server Github yang telah dibuat sebelumnya. <strong>Sesuaikan URL Repository dengan milik anda sendiri</strong>.</p>
+<pre tabindex="0"><code>git remote add origin https://github.com/purnamaanaking/bootstrap-clone.git
+</code></pre></li>
+<li>
+<p>Setting Personal Access Token (PAT) pada Github. Klik menu <strong>Settings &gt; Developer Settings &gt; Personal Access Tokens &gt; Tokens (classic)</strong>.</p>
+<ul>
+<li>Klik menu <strong>“Generate new token (classic)”</strong></li>
+<li>Isi <strong>Notes</strong> dengan misal: <strong>“Personal Access”</strong>.</li>
+<li>Pilih <strong>Expiration</strong> dengan misal: <strong>“30 days”</strong>.</li>
+<li>Centang semua pada bagian <strong>Select Scopes</strong>.</li>
+<li>Klik <strong>“Generate Token”</strong>.</li>
+<li>Simpan <strong>Token</strong> yang sudah ter-generate yang nanti akan digunakan jika diminta ketika melakukan <strong>git push</strong>.</li>
+</ul>
+</li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk membawa semua perubahan yang terjadi pada direktori project pada local computer kita ke repository server pada Github dan kita bawa semua perubahan itu ke branch <strong>master</strong> yang ada di repository server Github.</p>
+<pre tabindex="0"><code>git push origin master
+</code></pre></li>
+<li>
+<p>Buka kembali halaman repository project <strong>“bootstrap-clone”</strong> pada Github anda. Maka pada tahapan ini repo Github anda telah berisi satu file <strong>index.html</strong> dan satu file <strong>README.md</strong> sesuai dengan perubahan yang anda lakukan pada direktori project di local computer anda.</p>
+<p><img src="/images/blog/github-bootstrap-clone.png" alt="Github Bootstrap Clone"></p>
+</li>
+</ul>
+<h4 id="5-menyalin-project-yang-sudah-ada-pada-repository-github">5. Menyalin Project yang Sudah Ada pada Repository Github</h4>
+<ul>
+<li>
+<p>Hapus direktori project <strong>“bootstrap-clone”</strong> yang ada di local computer anda.</p>
+</li>
+<li>
+<p>Kemudian <strong>“clone”</strong> kembali project tersebut ke local computer anda dari project yang sudah ada di Repository Github.</p>
+</li>
+<li>
+<p>Buka halaman repository <strong>“bootstrap-clone”</strong> pada Github. Masuk ke halaman <strong>Settings</strong>. Atur pada bagian <strong>Default Branch</strong>, arahkan ke branch <strong>master</strong>. Jika <strong>Default Branch</strong> kita arahkan ke branch <strong>master</strong>, maka ketika kita melakukan <strong>“clone”</strong> kode program, yang disalin dari remote repository Github nya adalah kode program yang ada pada branch <strong>master</strong>.</p>
+<p><img src="/images/blog/github-bootstrap-clone-setting.png" alt="Bootstrap Clone Setting"></p>
+</li>
+<li>
+<p>Buka halaman repository <strong>“bootstrap-clone”</strong> pada Github. Dapatkan URL Remote Repository anda dengan klik tombol <strong>“Code”</strong> lihat pada bagian <strong>“HTTPS”</strong>.</p>
+<p><img src="/images/blog/github-bootstrap-clone-code.png" alt="Bootstrap Clone Code"></p>
+</li>
+<li>
+<p>Buka <strong>Git Bash / cmd / terminal</strong>, arahkan pada folder tertentu yang anda inginkan, kemudian ketikkan perintah di bawah ini untuk melakukan <strong>“clone”</strong> ke local computer kita. <strong>Sesuaikan URL remote repository dengan milik anda sendiri</strong>.</p>
+<pre tabindex="0"><code>git clone https://github.com/purnamaanaking/bootstrap-clone.git
+</code></pre></li>
+<li>
+<p>Jika berhasil maka akan muncul kembali direktori <strong>“bootstrap-clone”</strong> pada local computer anda yang telah terhubung dengan remote repository pada Github.</p>
+</li>
+</ul>
+<h4 id="6-buat-percabangan-branch-baru-untuk-kegiatan-develop-kode-program">6. Buat Percabangan (Branch) Baru untuk Kegiatan Develop Kode Program</h4>
+<ul>
+<li>
+<p>Buka vsCode dan arahkan pada direktori <strong>“bootstrap-clone”</strong> yang ada di local computer anda dan buka <strong>terminal vsCode</strong> pada direktori tersebut.</p>
+</li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk membuat branch baru dengan nama <strong>“develop”</strong> yang nantinya akan digunakan sebagai branch aktif untuk men-develop kode program selanjutnya.</p>
+<pre tabindex="0"><code>git branch develop
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk memeriksa branch apa saja yang ada pada GIT di local computer kita. Pada tahapan ini akan tampak bahwa ada 2 branch yaitu branch <strong>master</strong> dan branch <strong>develop</strong>.</p>
+<pre tabindex="0"><code>git branch
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk memerintahkan GIT untuk aktif pada branch <strong>“develop”</strong> yang baru saja dibuat.</p>
+<pre tabindex="0"><code>git checkout develop
+</code></pre></li>
+<li>
+<p>Lakukan kegiatan develop / perubahan kode program sehingga menghasikan struktur direktori project <strong>“bootstrap-clone”</strong> seperti di bawah ini.</p>
+<p><img src="/images/blog/bootstrap-clone-dir.png" alt="Bootstrap Clone Directory"></p>
+</li>
+<li>
+<p>Tuliskan kode program di bawah ini pada file <strong>style.css</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">bg-purple</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#7533f9</span> <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>#main <span style="color:#f92672">a</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">gray</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>#main <span style="color:#f92672">a</span>:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: rgb(<span style="color:#ae81ff">73</span>, <span style="color:#ae81ff">73</span>, <span style="color:#ae81ff">73</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>#footer <span style="color:#f92672">a</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">black</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>#footer <span style="color:#f92672">a</span>:<span style="color:#a6e22e">hover</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">underline</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>bs<span style="color:#f92672">-</span>primary) <span style="color:#75715e">!important</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+<li>
+<p>Tuliskan kode program di bawah ini pada file <strong>index.html</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!doctype html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">http-equiv</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;X-UA-Compatible&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;IE=edge&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt;Bootstrap Clone&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css&#34;</span>
+</span></span><span style="display:flex;"><span>    /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css&#34;</span>
+</span></span><span style="display:flex;"><span>    /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;assets/css/style.css&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- Navbar --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">nav</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;navbar fixed-top navbar-expand-lg bg-purple&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">data-bs-theme</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dark&#34;</span>
+</span></span><span style="display:flex;"><span>    &gt;
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">&lt;!-- Container --&gt;</span>
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container py-2 px-4&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">&lt;!-- Navbar Brand --&gt;</span>
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;navbar-brand mb-0 h1&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">img</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;img-fluid&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;assets/images/logo-white.svg&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;logo&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width: 40px;&#34;</span>
+</span></span><span style="display:flex;"><span>          /&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">&lt;!-- Navbar Toggler --&gt;</span>
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">button</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;navbar-toggler&#34;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">data-bs-toggle</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;offcanvas&#34;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">data-bs-target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#offcanvasNavbar&#34;</span>
+</span></span><span style="display:flex;"><span>        &gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;navbar-toggler-icon&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">&lt;!-- Offcanvas --&gt;</span>
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;offcanvas offcanvas-end bg-purple&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;offcanvasNavbar&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>          <span style="color:#75715e">&lt;!-- Offcanvas Header --&gt;</span>
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;offcanvas-header pb-0 px-4&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">h5</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;offcanvas-title text-white&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;offcanvasNavbarLabel&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              Bootstrap
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">h5</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">button</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn-close&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">data-bs-dismiss</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;offcanvas&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">aria-label</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Close&#34;</span>
+</span></span><span style="display:flex;"><span>            &gt;&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          <span style="color:#75715e">&lt;!-- Offcanvas Body --&gt;</span>
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;offcanvas-body pt-0 px-4&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">hr</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;d-lg-none text-white-50&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">&lt;!-- Horizontal Line --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">&lt;!-- Top Menu --&gt;</span>
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;navbar-nav flex-row flex-wrap&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-6 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-link active&#34;</span>&gt;Docs&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-6 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-link&#34;</span>&gt;Examples&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-6 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-link&#34;</span>&gt;Icons&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-6 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-link&#34;</span>&gt;Themes&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-6 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-link&#34;</span>&gt;Blog&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">hr</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;d-lg-none text-white-50&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">&lt;!-- Horizontal Line --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">&lt;!-- Sosial Media  --&gt;</span>
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;navbar-nav flex-row flex-wrap ms-md-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-6 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-link active&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-github&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>
+</span></span><span style="display:flex;"><span>                  &gt;&lt;<span style="color:#f92672">small</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms-2 d-lg-none&#34;</span>&gt;Github&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-6 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-link active&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-twitter&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>
+</span></span><span style="display:flex;"><span>                  &gt;&lt;<span style="color:#f92672">small</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms-2 d-lg-none&#34;</span>&gt;Twitter&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-6 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-link active&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-slack&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>
+</span></span><span style="display:flex;"><span>                  &gt;&lt;<span style="color:#f92672">small</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ms-2 d-lg-none&#34;</span>&gt;Slack&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-12 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">div</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vr d-none d-lg-flex h-100 mx-lg-2 text-white&#34;</span>
+</span></span><span style="display:flex;"><span>                &gt;&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">hr</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;d-lg-none my-2 text-white-50&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">&lt;!-- Dropdown --&gt;</span>
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown&#34;</span> <span style="color:#a6e22e">data-bs-theme</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;light&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">button</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn nav-link text-white dropdown-toggle&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">data-bs-toggle</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">aria-expanded</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;false&#34;</span>
+</span></span><span style="display:flex;"><span>                  &gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;d-lg-none&#34;</span>&gt;Bootstrap&lt;/<span style="color:#f92672">span</span>&gt; v5.3
+</span></span><span style="display:flex;"><span>                  &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-menu dropdown-menu-end&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">h6</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-header&#34;</span>&gt;v5 releases&lt;/<span style="color:#f92672">h6</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item active bg-purple&#34;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>
+</span></span><span style="display:flex;"><span>                      &gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;Latest (5.3.x) &lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-check&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>&gt;&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;v5.2.3&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;v5.1.3&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;v5.0.2&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">hr</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-divider&#34;</span> /&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">h6</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-header&#34;</span>&gt;Previous releases&lt;/<span style="color:#f92672">h6</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;v4.6.x&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;v3.4.1&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;v2.3.2&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">hr</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-divider&#34;</span> /&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;All versions&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item col-12 col-lg-auto&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">div</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;vr d-none d-lg-flex h-100 mx-lg-2 text-white&#34;</span>
+</span></span><span style="display:flex;"><span>                &gt;&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">hr</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;d-lg-none my-2 text-white-50&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nav-item&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">&lt;!-- Dropdown --&gt;</span>
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown&#34;</span> <span style="color:#a6e22e">data-bs-theme</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;light&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">button</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn nav-link text-white dropdown-toggle&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">data-bs-toggle</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">aria-expanded</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;false&#34;</span>
+</span></span><span style="display:flex;"><span>                  &gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-brightness-high-fill&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>
+</span></span><span style="display:flex;"><span>                    &gt;&lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;d-lg-none&#34;</span>&gt;Toggle theme&lt;/<span style="color:#f92672">span</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-menu dropdown-menu-end&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item active bg-purple&#34;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>
+</span></span><span style="display:flex;"><span>                      &gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>
+</span></span><span style="display:flex;"><span>                          &gt;&lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-brightness-high-fill me-2&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>
+</span></span><span style="display:flex;"><span>                          &gt;Light&lt;/<span style="color:#f92672">small</span>
+</span></span><span style="display:flex;"><span>                        &gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>
+</span></span><span style="display:flex;"><span>                          &gt;&lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-moon-stars-fill me-2&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>&gt;Dark&lt;/<span style="color:#f92672">small</span>
+</span></span><span style="display:flex;"><span>                        &gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dropdown-item&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">small</span>&gt;&lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-circle-half me-2&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>&gt;Auto&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>                  &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">nav</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- Main --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bg-light mt-5&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">&lt;!-- Container --&gt;</span>
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container py-5 px-4&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-5 order-md-2&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">img</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;img-fluid&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;assets/images/main.svg&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main logo&#34;</span>
+</span></span><span style="display:flex;"><span>            /&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-7 order-md-1&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mt-4 display-3&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              Build fast, responsive sites with Bootstrap
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fs-5 mt-3&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              Quickly design and customize responsive mobile-first sites with
+</span></span><span style="display:flex;"><span>              Bootstrap, the world&#39;s most popular front-end open source
+</span></span><span style="display:flex;"><span>              toolkit, featuring Sass variables and mixins, responsive grid
+</span></span><span style="display:flex;"><span>              system, extensive prebuilt components, and powerful JavaScript
+</span></span><span style="display:flex;"><span>              plugins.
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;d-flex flex-column flex-md-row&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">button</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn bg-purple text-white btn-lg mb-3 me-md-3 px-4 py-3&#34;</span>
+</span></span><span style="display:flex;"><span>                &gt;
+</span></span><span style="display:flex;"><span>                  Get Started
+</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">button</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn btn-outline-dark btn-lg mb-3 px-4 py-3&#34;</span>
+</span></span><span style="display:flex;"><span>                &gt;
+</span></span><span style="display:flex;"><span>                  Download
+</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-muted&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              Currently &lt;<span style="color:#f92672">strong</span>&gt;v5.3.0-alpha2.&lt;/<span style="color:#f92672">strong</span>&gt; ·
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;v4.6.x docs&lt;/<span style="color:#f92672">a</span>&gt; · &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;All releases&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- Bootstrap Icons --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bs-icons&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">&lt;!-- Container --&gt;</span>
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container py-5 px-4&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-lg-6&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-3&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">i</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi bi-subtract fs-2 bg-warning py-2 px-3 rounded-3 text-white&#34;</span>
+</span></span><span style="display:flex;"><span>              &gt;&lt;/<span style="color:#f92672">i</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">h2</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display-5 mb-3&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              Personalize it with &lt;<span style="color:#f92672">br</span> /&gt;Bootstrap Icons
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">h2</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fs-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Bootstrap Icons&lt;/<span style="color:#f92672">a</span>&gt; is an open source SVG icon
+</span></span><span style="display:flex;"><span>              library featuring over 1,800 glyphs, with more added every
+</span></span><span style="display:flex;"><span>              release. They&#39;re designed to work in any project, whether you
+</span></span><span style="display:flex;"><span>              use Bootstrap itself or not. Use them as SVGs or icon
+</span></span><span style="display:flex;"><span>              fonts--both options give you vector scaling and easy
+</span></span><span style="display:flex;"><span>              customization via CSS.
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">a</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;icon-link icon-link-hover lead fw-semibold mb-5&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>
+</span></span><span style="display:flex;"><span>            &gt;
+</span></span><span style="display:flex;"><span>              Get Bootstrap Icons
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi bi-arrow-right mb-2&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-lg-6&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">img</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;img-fluid&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;assets/images/bs-icons.png&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Bootstrap Icons&#34;</span>
+</span></span><span style="display:flex;"><span>            /&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- Bootstrap Official Themes --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bs-themes&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">&lt;!-- Container --&gt;</span>
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container py-5 px-4&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-lg-6&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-3 mt-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">i</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi bi-droplet-fill fs-2 bg-info py-2 px-3 rounded-3 text-white&#34;</span>
+</span></span><span style="display:flex;"><span>              &gt;&lt;/<span style="color:#f92672">i</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">h2</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              Make it yours with official Bootstrap Themes
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">h2</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fs-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              Take Bootstrap to the next level with premium themes from the
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;official Bootstrap Themes marketplace&lt;/<span style="color:#f92672">a</span>&gt;. Themes
+</span></span><span style="display:flex;"><span>              are built on Bootstrap as their own extended frameworks, rich
+</span></span><span style="display:flex;"><span>              with new components and plugins, documentation, and powerful
+</span></span><span style="display:flex;"><span>              build tools.
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">a</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;icon-link icon-link-hover lead fw-semibold mb-5&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>
+</span></span><span style="display:flex;"><span>            &gt;
+</span></span><span style="display:flex;"><span>              Browse Bootstrap Themes
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi bi-arrow-right mb-2&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-lg-6&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">img</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;img-fluid&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;assets/images/bs-themes.png&#34;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Bootstrap Themes&#34;</span>
+</span></span><span style="display:flex;"><span>            /&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- Footer --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;footer&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bg-light py-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">&lt;!-- Container --&gt;</span>
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container py-5 px-4&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-lg-3 mb-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;logo text-decoration-none&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;d-flex&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">img</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;img-fluid&#34;</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;assets/images/logo-black.svg&#34;</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Bootstrap Logo&#34;</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width: 40px;&#34;</span>
+</span></span><span style="display:flex;"><span>                /&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fs-5 ms-2 text-black&#34;</span>&gt;Bootstrap&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mt-2 text-muted&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">small</span>
+</span></span><span style="display:flex;"><span>                &gt;Designed and built with all the love in the world by the
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-black&#34;</span>&gt;Bootstrap team&lt;/<span style="color:#f92672">a</span>&gt; with the
+</span></span><span style="display:flex;"><span>                help of
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-black&#34;</span>&gt;our contributors&lt;/<span style="color:#f92672">a</span>&gt;.&lt;/<span style="color:#f92672">small</span>
+</span></span><span style="display:flex;"><span>              &gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mt-2 text-muted&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">small</span>
+</span></span><span style="display:flex;"><span>                &gt;Code licensed &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-black&#34;</span>&gt;MIT&lt;/<span style="color:#f92672">a</span>&gt;, docs
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-black&#34;</span>&gt;CC BY 3.0&lt;/<span style="color:#f92672">a</span>&gt;.&lt;/<span style="color:#f92672">small</span>
+</span></span><span style="display:flex;"><span>              &gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mt-2 text-muted&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">small</span>&gt;Currently v5.3.0-alpha2.&lt;/<span style="color:#f92672">small</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-6 col-lg-2 offset-lg-1 mb-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">h5</span>&gt;Links&lt;/<span style="color:#f92672">h5</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;list-unstyled&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Home&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Docs&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Examples&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Icons&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Themes&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Blog&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Swag Store&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-6 col-lg-2 mb-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">h5</span>&gt;Guides&lt;/<span style="color:#f92672">h5</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;list-unstyled&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Getting started&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Starter template&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Webpack&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Parcel&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-6 col-lg-2 mb-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">h5</span>&gt;Projects&lt;/<span style="color:#f92672">h5</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;list-unstyled&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Bootstrap 5&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Bootstrap 4&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Icons&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;RFS&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;npm starter&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-6 col-lg-2 mb-5&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">h5</span>&gt;Community&lt;/<span style="color:#f92672">h5</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;list-unstyled&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Issues&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Discussions&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Corporate sponsors&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Open Collective&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Slack&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-2&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#&#34;</span>&gt;Stack overflow&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div></li>
+</ul>
+<h4 id="7-bawa-perubahan-kode-program-ke-remote-repository-github">7. Bawa Perubahan Kode Program ke Remote Repository Github</h4>
+<ul>
+<li>
+<p>Ketikkan perintah di bawah ini untuk melihat status direktori project <strong>“bootstrap-clone”</strong> anda dan perubahan apa saja yang terjadi pada direktori tersebut.</p>
+<pre tabindex="0"><code>git status
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini agar GIT <strong>“men-track” semua perubahan</strong> yang terjadi pada direktori project.</p>
+<pre tabindex="0"><code>git add .
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini agar GIT <strong>“men-commit” semua perubahan</strong> yang terjadi pada direktori project. Opsi <strong>-m</strong> kita gunakan untuk menuliskan pesan mengenai aksi apa yang telah dilakukan terkait perubahan kode program yang terjadi.</p>
+<pre tabindex="0"><code>git commit -m &#34;Finalisasi clone halaman utama website bootstrap&#34;
+</code></pre></li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk membawa semua perubahan yang terjadi pada direktori project pada local computer kita ke repository server pada Github dan kita bawa semua perubahan itu ke branch <strong>develop</strong> pada repository server Github.</p>
+<pre tabindex="0"><code>git push origin develop
+</code></pre></li>
+<li>
+<p>Pada tahapan ini, jika kita buka halaman respository project <strong>“bootstrap-clone”</strong> pada Github kita, akan terlihat ada 2 branch yaitu <strong>master</strong> dan <strong>develop</strong>. Dua branch tersebut memiliki 2 versi kode program yang berbeda.</p>
+<ul>
+<li>
+<p>Branch <strong>master</strong>: berisi file <strong>index.html</strong> dan <strong>README.md</strong> saja</p>
+</li>
+<li>
+<p>Branch <strong>develop</strong>: berisi direktori dan file-file terbaru yang telah ditambahkan pada branch develop di local computer kita.</p>
+<p><img src="/images/blog/github-bootstrap-clone-branch.png" alt="Bootstrap Clone Branch"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="8-buat-pull-request-untuk-kegiatan-code-review-dan-merge-ke-branch-utama">8. Buat Pull Request untuk Kegiatan Code Review dan Merge ke Branch Utama</h4>
+<ul>
+<li>
+<p>Pada tahapan ini kita ingin versi kode program yang ada pada percabangan (branch) <strong>develop</strong> digabungkan (merge) ke branch <strong>master</strong>, melalui kegiatan <strong>“code review”</strong> dengan membuat sebuah <strong>“pull request”</strong> pada github.</p>
+</li>
+<li>
+<p>Buka halaman repository <strong>“bootstrap-clone”</strong> pada Github anda. Masuk ke menu <strong>Pull Request &gt; New pull request</strong>. Arahkan bahwa kita ingin melakukan pull request dari branch <strong>develop</strong> ke branch <strong>master</strong> seperti di bawah ini.</p>
+<p><img src="/images/blog/github-pull-request.png" alt="Github Pull Request"></p>
+</li>
+<li>
+<p>Klik <strong>“Create pull request”</strong>, maka akan muncul form <strong>“Open a pull request”</strong> seperti di bawah ini. Anda bisa memberikan comment yang nanti dapat dibaca oleh code reviewer nantinya.</p>
+<p><img src="/images/blog/github-open-pull-request.png" alt="Github Open Pull Request"></p>
+</li>
+<li>
+<p>Klik <strong>“Create pull request”</strong> kembali untuk men-submit sebuah Pull Request.</p>
+</li>
+<li>
+<p>Code Reviewer dapat melakukan review dari Pull Request yang diajukan. Jika dianggap telah sesuai, Klik <strong>“Merge pull request”</strong> lalu <strong>“Merge”</strong> untuk menggabungkan atau mensinkronkan kode program dari branch <strong>develop</strong> ke branch <strong>master</strong>.</p>
+<p><img src="/images/blog/github-merge-pull-request.png" alt="Github Merge Pull Request"></p>
+<p><img src="/images/blog/github-pull-request-success.png" alt="Github Pull Request Success"></p>
+</li>
+<li>
+<p>Pada tahapan ini di remote repository Github, maka branch <strong>master</strong> telah memiliki kode program yang sama dengan branch <strong>develop</strong>.</p>
+</li>
+</ul>
+<h4 id="9-mengambil-kode-program-terbaru-dari-remote-repository-github">9. Mengambil Kode Program Terbaru dari Remote Repository Github</h4>
+<ul>
+<li>
+<p>Ketikkan perintah di bawah ini untuk memeriksa Git anda memiliki branch apa saja dan sedang aktif pada branch apa.</p>
+<pre tabindex="0"><code>git branch
+</code></pre></li>
+<li>
+<p>Pada tahapan ini di local computer kita ada 2 branch yaitu branch <strong>master</strong> dan <strong>develop</strong>. Dengan kondisi sebagai berikut:</p>
+<ul>
+<li>Branch <strong>master</strong>: berisi file <strong>index.html</strong> dan <strong>README.md</strong> saja</li>
+<li>Branch <strong>develop</strong>: berisi direktori dan file-file terbaru yang telah ditambahkan pada branch develop di local computer kita.</li>
+</ul>
+</li>
+<li>
+<p>Kita bisa memeriksanya dengan berpindah-pindah branch dengan perintah git checkout.</p>
+</li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk memindahkan GIT di local computer kita agar aktif pada branch <strong>master</strong>.</p>
+<pre tabindex="0"><code>git checkout master
+</code></pre></li>
+<li>
+<p>Kita akan temukan bahwa branch <strong>master</strong> di local computer kita belum berada pada kondisi update / terbaru / tidak sama / tidak sesuai dengan kondisi branch <strong>master</strong> yang ada pada remote repository Github.</p>
+</li>
+<li>
+<p>Ketikkan perintah di bawah ini untuk menarik kode program dari branch <strong>master</strong> pada remote repository Github ke branch <strong>master</strong> yang ada di local computer kita.</p>
+<pre tabindex="0"><code>git pull origin master
+</code></pre></li>
+<li>
+<p>Pada tahapan ini kondisi branch <strong>master</strong> dan branch <strong>develop</strong> pada local computer kita telah sama dengan branch <strong>master</strong> dan branch <strong>develop</strong> pada remote repository Github kita.</p>
+</li>
+<li>
+<p>Maka perintah <strong>git pull</strong> juga bisa kita gunakan untuk menarik kode program ketika ada anggota tim lain yang melakukan perubahan kode program dan telah membawa perubahan tersebut ke remote repository Github.</p>
+</li>
+</ul>
+<h4 id="10-latihan">10. Latihan</h4>
+<ul>
+<li>Bentuk kelompok yang terdiri dari 4 orang (kelompok yang sama untuk final project UAS nanti).</li>
+<li>Terapkan kolaborasi antar anggota tim menggunakan GIT dan Github untuk membuat project laravel yang kita kerjakan pada <strong>modul 06</strong> kemarin.</li>
+<li><strong>Orang A</strong> membuat repository baru pada github dan melakukan inisialisasi awal direktori project laravel pada local computer sampai mengarahkan direktori project ke github repository (seperti bab 2-4 pada modul ini).</li>
+<li><strong>Orang B, C,</strong> dan <strong>D</strong> menyalin project yang sudah dibuat <strong>Orang A</strong> pada Repository Github (seperti bab 5 pada modul ini).</li>
+<li><strong>Orang A, B, C,</strong> dan <strong>D</strong> membagi tugas masing-masing untuk membuat kode program pada project yang telah ter-setup dengan GIT dan Github tersebut (seperti bab 6 - 7 pada modul ini).
+<ul>
+<li><strong>Orang A</strong> bekerja pada branch <strong>“nama-orang-a”</strong>, men-develop kode program bagian tertentu.</li>
+<li><strong>Orang B</strong> bekerja pada branch <strong>“nama-orang-b”</strong>, men-develop kode program bagian tertentu lainnya.</li>
+<li><strong>Orang C</strong> bekerja pada branch <strong>“nama-orang-c”</strong>, men-develop kode program bagian tertentu lainnya.</li>
+<li><strong>Orang D</strong> bekerja pada branch <strong>“nama-orang-d”</strong>, men-develop kode program bagian tertentu lainnya.</li>
+</ul>
+</li>
+<li>Jika telah selesai men-develop kode program, setiap orang melakukan <strong>Pull Request</strong> dari masing-masing branch ke branch <strong>master</strong> via Github (bab 8 pada modul ini).</li>
+<li>Lakukan kegiatan code review lalu <strong>merge</strong> kode program jika telah sesuai.</li>
+<li>Setiap orang memindahkan branch aktif nya ke branch <strong>master</strong> pada <strong>local computer</strong> masing-masing, kemudian <strong>tarik (pull)</strong> kode program terbaru yang ada di branch <strong>master</strong> pada remote repository <strong>github</strong>.</li>
+<li>Setiap orang memiliki kode program versi terbaru yang dikerjakan bersama-sama dengan GIT dan dapat menjalankan project laravel tersebut pada local computer masing-masing.</li>
+</ul>
+<h4 id="11-tugas">11. Tugas</h4>
+<ul>
+<li><strong>Praktekkan</strong> seluruh <strong>poin (bab 1 - 9)</strong> yang ada di atas secara <strong>INDIVIDU</strong>.</li>
+<li><strong>Praktekkan</strong> poin latihan <strong>(bab 10)</strong> yang ada di atas secara <strong>BERKELOMPOK</strong>.</li>
+</ul>
+<hr>
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="notice note">
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="22" height="22" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+      </svg><p>Note</p>
+  </div>
+  <div class="notice-body"><p><h5 id="artikel-ini-merupakan-bagian-dari">Artikel ini merupakan bagian dari:</h5>
+<p><a href="//localhost:1313/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" class="btn btn-outline-primary btn-sm w-full mb-3"  rel="" >Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel</a></p></p></div>
+</div>
+
+
+          </div>
+
+          <hr class="border-border dark:border-darkmode-border mb-8">
+
+          
+          
+          <div class="flex flex-wrap items-center gap-2 mb-8">
+            <span class="text-sm font-medium text-text-dark dark:text-darkmode-text-dark mr-1">Tags:</span>
+            
+            <a href="/tags/modul/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Modul
+            </a>
+            
+            <a href="/tags/pemrograman/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Pemrograman
+            </a>
+            
+            <a href="/tags/framework/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Framework
+            </a>
+            
+            <a href="/tags/laravel/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Laravel
+            </a>
+            
+            <a href="/tags/git/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Git
+            </a>
+            
+            <a href="/tags/github/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Github
+            </a>
+            
+          </div>
+          
+
+          
+          <div class="flex flex-wrap items-center gap-3">
+            <span class="text-sm font-medium text-text-dark dark:text-darkmode-text-dark">Share:</span>
+            
+            <a href="https://twitter.com/intent/tweet?url=//localhost:1313/blog/version-control-system-git-github/&text=Modul%20#07%20Belajar%20Pemrograman%20Framework%20Laravel%20Tahap%20Dasar:%20Version%20Control%20System%20%28Git%20dan%20Github%29"
+              target="_blank" rel="noopener" aria-label="Share on X"
+              class="share-btn">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=//localhost:1313/blog/version-control-system-git-github/"
+              target="_blank" rel="noopener" aria-label="Share on LinkedIn"
+              class="share-btn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            
+            <a href="https://wa.me/?text=Modul%20#07%20Belajar%20Pemrograman%20Framework%20Laravel%20Tahap%20Dasar:%20Version%20Control%20System%20%28Git%20dan%20Github%29%20//localhost:1313/blog/version-control-system-git-github/"
+              target="_blank" rel="noopener" aria-label="Share on WhatsApp"
+              class="share-btn">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            
+            <a href="https://www.facebook.com/sharer/sharer.php?u=//localhost:1313/blog/version-control-system-git-github/"
+              target="_blank" rel="noopener" aria-label="Share on Facebook"
+              class="share-btn">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            
+            <button onclick="copyPostLink(this)" aria-label="Copy link" class="share-btn relative group" id="copy-link-btn">
+              <i class="fa-regular fa-copy" id="copy-icon"></i>
+              <span class="copy-tooltip">Copy link</span>
+            </button>
+          </div>
+
+          <script>
+            function copyPostLink(btn) {
+              navigator.clipboard.writeText(window.location.href).then(function() {
+                const icon = document.getElementById('copy-icon');
+                const tooltip = btn.querySelector('.copy-tooltip');
+                icon.className = 'fa-solid fa-check';
+                tooltip.textContent = 'Copied!';
+                btn.classList.add('copy-success');
+                setTimeout(function() {
+                  icon.className = 'fa-regular fa-copy';
+                  tooltip.textContent = 'Copy link';
+                  btn.classList.remove('copy-success');
+                }, 2000);
+              });
+            }
+          </script>
+
+        </article>
+      </div>
+
+      
+      
+      
+      
+      <div class="row justify-center mt-16">
+        <div class="lg:col-8 md:col-10">
+          <hr class="border-border dark:border-darkmode-border mb-10">
+          <p class="mb-1 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Continue Reading</p>
+          <h2 class="mb-8 text-h4 font-bold text-text-dark dark:text-darkmode-text-dark">Related Posts</h2>
+          <div class="row">
+            
+            <div class="md:col-4 mb-6">
+              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div class="mb-4 flex items-center justify-between">
+                  
+                  <div>
+                    
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">Technology</span>
+                    
+                  </div>
+                  
+                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">Aug 27, 2023</span>
+                </div>
+                <h3 class="mb-3 text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                  <a href="/blog/pengenalan-laravel-dan-konfigurasi-awal/" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">Modul #02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal</a>
+                </h3>
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1"> Note
+</p>
+                <a href="/blog/pengenalan-laravel-dan-konfigurasi-awal/" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                  Read More <i class="fa fa-arrow-right text-xs"></i>
+                </a>
+              </article>
+            </div>
+            
+            <div class="md:col-4 mb-6">
+              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div class="mb-4 flex items-center justify-between">
+                  
+                  <div>
+                    
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">Technology</span>
+                    
+                  </div>
+                  
+                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">Aug 28, 2023</span>
+                </div>
+                <h3 class="mb-3 text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                  <a href="/blog/routing-dan-bundling-asset-di-laravel/" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">Modul #03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel</a>
+                </h3>
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1"> Note
+</p>
+                <a href="/blog/routing-dan-bundling-asset-di-laravel/" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                  Read More <i class="fa fa-arrow-right text-xs"></i>
+                </a>
+              </article>
+            </div>
+            
+            <div class="md:col-4 mb-6">
+              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div class="mb-4 flex items-center justify-between">
+                  
+                  <div>
+                    
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">Technology</span>
+                    
+                  </div>
+                  
+                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">Aug 22, 2023</span>
+                </div>
+                <h3 class="mb-3 text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                  <a href="/blog/what-is-framework/" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">What Is Framework ?</a>
+                </h3>
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1">Framework is a collection of ready-to-use program code with certain writing rules that aim to facilitate and speed up application development. …</p>
+                <a href="/blog/what-is-framework/" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                  Read More <i class="fa fa-arrow-right text-xs"></i>
+                </a>
+              </article>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </section>
+
+    </main>
+
+    
+    <footer class="bg-light dark:bg-darkmode-light border-t border-border dark:border-darkmode-border">
+  <div class="container">
+    <div class="row items-center py-10">
+      
+      <div class="lg:col-4 mb-6 text-center lg:mb-0 lg:text-left">
+        <a class="navbar-brand inline-block mb-2" href="/">
+          Purnama Anaking.
+        </a>
+        <p class="text-sm text-text dark:text-darkmode-text">Software Engineer & Lecturer · Indonesia</p>
+      </div>
+      
+      <div class="lg:col-4 mb-6 text-center lg:mb-0">
+        <ul class="flex justify-center gap-6">
+          
+          <li>
+            <a class="text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors font-medium"
+              
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          <li>
+            <a class="text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors font-medium"
+              
+              href="/blog">
+              Blog
+            </a>
+          </li>
+          
+          <li>
+            <a class="text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors font-medium"
+              
+              href="/about">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="lg:col-4 mb-6 text-center lg:mb-0 lg:text-right">
+        <ul class="social-icons justify-center lg:justify-end">
+          
+          <li>
+            <a target="_blank" aria-label="tiktok" rel="nofollow noopener" href="https://www.tiktok.com/@purnamaanaking">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="instagram" rel="nofollow noopener" href="https://www.instagram.com/purnamaanaking">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="youtube" rel="nofollow noopener" href="https://youtube.com/purnamaanaking">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="facebook" rel="nofollow noopener" href="https://www.facebook.com/purnamaanaking">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="linkedin" rel="nofollow noopener" href="https://www.linkedin.com/in/purnamaanaking">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="github" rel="nofollow noopener" href="https://github.com/purnamaanaking">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="border-t border-border dark:border-darkmode-border py-5">
+    <div class="container text-center">
+      <p class="text-sm text-text-light dark:text-darkmode-text-light">
+        &copy; 2026 Purnama Anaking. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+    
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<script
+  crossorigin="anonymous"
+  integrity=""
+  src="/js/script.js"></script>
+
+
+<script
+  defer
+  async
+  crossorigin="anonymous"
+  integrity=""
+  src="/js/script-lazy.js"></script>
+
+
+
+<script>
+  if ('serviceWorker' in navigator){navigator.serviceWorker.register("/service-worker.js");}
+</script>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  </body>
+</html>

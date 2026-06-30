@@ -7,7 +7,7 @@ image: "/images/blog/pemrograman-framework.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "pemrograman", "framework", "laravel", "bootstrap"]
-draft: false
+draft: true
 ---
 
 Berikut ini adalah kumpulan modul belajar dasar pada topik pemrograman berbasis framework. Modul-modul ini memberikan materi bagaimana membuat sistem informasi menggunakan bahasa pemrograman **PHP** dengan framework **Laravel**. Pengetahuan tersebut selanjutnya dapat diterapkan dan dikembangkan untuk membangun atau menyediakan sebuah aplikasi sederhana berbasis web untuk menyelesaikan suatu permasalahan.

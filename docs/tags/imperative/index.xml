@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imperative on Purnama Anaking</title>
+    <link>//localhost:1313/tags/imperative/</link>
+    <description>Recent content in Imperative on Purnama Anaking</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jan 2022 05:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/imperative/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apa Itu React ?</title>
+      <link>//localhost:1313/blog/apa-itu-react/</link>
+      <pubDate>Mon, 10 Jan 2022 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/apa-itu-react/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;React&lt;/strong&gt; adalah library javascript untuk membangun sebuah user interface (antarmuka). That’s it. Ok. Got it. Tiga hal tentang react yang perlu diketahui di awal belajar, yaitu dia (React) itu &lt;em&gt;Declarative&lt;/em&gt;, &lt;em&gt;Component-Based&lt;/em&gt;, dan &lt;em&gt;Learn Once, Write Anywhere&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

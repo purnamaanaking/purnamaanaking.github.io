@@ -7,7 +7,7 @@ image: "/images/blog/what-is-react.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["javascript", "react", "declarative", "imperative"]
-draft: false
+draft: true
 ---
 
 **React** adalah library javascript untuk membangun sebuah user interface (antarmuka). That’s it. Ok. Got it. Tiga hal tentang react yang perlu diketahui di awal belajar, yaitu dia (React) itu _Declarative_, _Component-Based_, dan _Learn Once, Write Anywhere_.

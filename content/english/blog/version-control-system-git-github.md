@@ -7,7 +7,7 @@ image: "/images/blog/version-control-system-git-github.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "pemrograman", "framework", "laravel", "git", "github"]
-draft: false
+draft: true
 ---
 
 {{< notice "note" >}}

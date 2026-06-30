@@ -7,7 +7,7 @@ image: "/images/blog/konfigurasi-laravel.png"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["modul", "pemrograman", "framework", "laravel", "bootstrap"]
-draft: false
+draft: true
 ---
 
 {{< notice "note" >}}
