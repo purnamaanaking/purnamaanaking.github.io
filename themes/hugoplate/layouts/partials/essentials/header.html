@@ -1,10 +1,10 @@
-<header class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30">
+<header class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30 border-b border-border/60 dark:border-darkmode-border/60 backdrop-blur-md bg-body/90 dark:bg-darkmode-body/90">
   <nav class="navbar container">
     <!-- logo -->
     <div class="order-0">
       <!-- navbar brand/logo -->
       <a class="navbar-brand block" href="{{ site.Home.RelPermalink }}">
-        <b>&lt;PurnamaAnaking /&gt;</b>
+        Purnama Anaking.
       </a>
     </div>
     <!-- navbar toggler -->
@@ -30,7 +30,7 @@
       {{ range site.Menus.main }}
       {{ $menuURL := .URL | absLangURL }}
       {{ $pageURL:= $currentPage.Permalink | absLangURL }}
-      {{ $active := eq $menuURL $pageURL }}
+      {{ $active := or (eq $menuURL $pageURL) (and (ne .URL "/") (hasPrefix $pageURL $menuURL)) }}
       {{ if .HasChildren }}
       <li class="nav-item nav-dropdown group relative">
         <span class="nav-link {{ range .Children }}

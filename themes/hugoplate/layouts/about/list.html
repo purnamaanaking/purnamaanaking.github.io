@@ -1,13 +1,123 @@
 {{ define "main" }}
-  <section class="section-sm">
+
+  <section class="section">
     <div class="container">
       <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-start">
-          {{/*  {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mb-6 text-start" "Size" "200x200") }}  */}}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
-          <div class="content">{{ .Content }}</div>
+        <div class="lg:col-8 md:col-10 col-12">
+
+          <!-- Hero: Photo + Identity -->
+          <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 mb-12">
+            {{ with .Params.image }}
+            <div class="shrink-0">
+              {{ partial "image" (dict "Src" . "Alt" "Purnama Anaking" "Loading" "eager" "Class" "w-28 h-28 rounded-full object-cover" "DisplayXL" "400x") }}
+            </div>
+            {{ end }}
+            <div class="text-center sm:text-left">
+              <h1 class="mb-1 text-h3 font-bold text-text-dark dark:text-darkmode-text-dark">{{ .Title }}</h1>
+              <p class="mb-1 text-base font-medium text-primary dark:text-darkmode-primary">Software Engineer & Lecturer</p>
+              <p class="mb-4 text-sm text-text dark:text-darkmode-text">Telkom University Surabaya · Indonesia</p>
+              <ul class="social-icons justify-center sm:justify-start">
+                {{ range site.Data.social.main }}
+                <li>
+                  <a target="_blank" aria-label="{{ .name }}" rel="nofollow noopener" href="{{ .link | safeURL }}">
+                    <i class="{{ .icon }}"></i>
+                  </a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <hr class="border-border dark:border-darkmode-border mb-12">
+
+          <!-- Bio -->
+          <div class="content mb-12">{{ .Content }}</div>
+
+          <!-- Divider -->
+          <hr class="border-border dark:border-darkmode-border mb-12">
+
+          <!-- What I Do -->
+          <div class="mb-12">
+            <p class="mb-1 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Focus</p>
+            <h2 class="mb-8 text-h4 font-bold text-text-dark dark:text-darkmode-text-dark">What I Do</h2>
+            <div class="row">
+              <div class="md:col-4 mb-4">
+                <div class="rounded-xl border border-border dark:border-darkmode-border p-6 h-full">
+                  <div class="mb-4 w-10 h-10 rounded-lg bg-primary/10 dark:bg-darkmode-primary/10 flex items-center justify-center">
+                    <i class="fa fa-code text-primary dark:text-darkmode-primary"></i>
+                  </div>
+                  <h3 class="mb-2 font-bold text-text-dark dark:text-darkmode-text-dark">Engineering</h3>
+                  <p class="text-sm text-text dark:text-darkmode-text leading-relaxed">Building scalable digital solutions — from enterprise applications to mobile apps, with a focus on clean and purposeful software.</p>
+                </div>
+              </div>
+              <div class="md:col-4 mb-4">
+                <div class="rounded-xl border border-border dark:border-darkmode-border p-6 h-full">
+                  <div class="mb-4 w-10 h-10 rounded-lg bg-primary/10 dark:bg-darkmode-primary/10 flex items-center justify-center">
+                    <i class="fa fa-chalkboard-teacher text-primary dark:text-darkmode-primary"></i>
+                  </div>
+                  <h3 class="mb-2 font-bold text-text-dark dark:text-darkmode-text-dark">Teaching</h3>
+                  <p class="text-sm text-text dark:text-darkmode-text leading-relaxed">Lecturing at Telkom University Surabaya — covering Software Engineering, Mobile App Development, Agile, and HCI.</p>
+                </div>
+              </div>
+              <div class="md:col-4 mb-4">
+                <div class="rounded-xl border border-border dark:border-darkmode-border p-6 h-full">
+                  <div class="mb-4 w-10 h-10 rounded-lg bg-primary/10 dark:bg-darkmode-primary/10 flex items-center justify-center">
+                    <i class="fa fa-pen-nib text-primary dark:text-darkmode-primary"></i>
+                  </div>
+                  <h3 class="mb-2 font-bold text-text-dark dark:text-darkmode-text-dark">Writing</h3>
+                  <p class="text-sm text-text dark:text-darkmode-text leading-relaxed">Sharing thoughts on technology, faith, and life — because great work is rooted in purpose, not just output.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <hr class="border-border dark:border-darkmode-border mb-12">
+
+          <!-- Tech Stack -->
+          <div>
+            <p class="mb-1 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Tools</p>
+            <h2 class="mb-8 text-h4 font-bold text-text-dark dark:text-darkmode-text-dark">Tech Stack</h2>
+            <div class="space-y-6">
+              {{ $categories := slice
+                (dict "name" "Languages" "techs" (slice
+                  (dict "name" "Go" "icon" "fab fa-golang")
+                  (dict "name" "Kotlin" "icon" "fab fa-android")
+                  (dict "name" "TypeScript" "icon" "fab fa-js")
+                  (dict "name" "PHP" "icon" "fab fa-php")
+                ))
+                (dict "name" "Frameworks" "techs" (slice
+                  (dict "name" "React" "icon" "fab fa-react")
+                  (dict "name" "Next.js" "icon" "fab fa-node")
+                  (dict "name" "Laravel" "icon" "fab fa-laravel")
+                ))
+                (dict "name" "Tools & Infra" "techs" (slice
+                  (dict "name" "Docker" "icon" "fab fa-docker")
+                  (dict "name" "Git" "icon" "fab fa-git-alt")
+                  (dict "name" "Linux" "icon" "fab fa-linux")
+                  (dict "name" "AWS" "icon" "fab fa-aws")
+                ))
+              }}
+              {{ range $categories }}
+              <div>
+                <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-text dark:text-darkmode-text">{{ .name }}</p>
+                <div class="flex flex-wrap gap-3">
+                  {{ range .techs }}
+                  <div class="flex items-center gap-2 rounded-lg border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body px-4 py-2 hover:border-primary dark:hover:border-darkmode-primary transition-colors duration-200">
+                    <i class="{{ .icon }} text-primary dark:text-darkmode-primary"></i>
+                    <span class="text-sm font-medium text-text-dark dark:text-darkmode-text-dark">{{ .name }}</span>
+                  </div>
+                  {{ end }}
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
+
 {{ end }}

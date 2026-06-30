@@ -37,9 +37,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
-label = "get a quote"
-link = "contact"
+enable = false
+label = ""
+link = ""
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
@@ -47,8 +47,8 @@ link = "contact"
 enable = true
 primary_color = "#121212"
 include_sections = ["blog"]
-show_image = true
-show_description = true
+show_image = false
+show_description = false
 show_tags = true
 show_categories = true
 
@@ -62,11 +62,11 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-twitter = "zeon_studio"
-image = "images/og-image.png"
+keywords = ["software engineer", "lecturer", "web development", "laravel", "technology", "Indonesia", "Telkom University"]
+description = "Personal site of Purnama Anaking — Software Engineer & Lecturer at Telkom University Surabaya. Writing about technology, faith, and life."
+author = "Purnama Anaking"
+twitter = ""
+image = "images/main-pp.png"
 
 
 # site verifications

@@ -2,22 +2,19 @@
 {{ if isset site.Taxonomies "categories" }}
   {{ if not (eq (len site.Taxonomies.categories) 0) }}
     <div class="mb-8">
-      <h5 class="mb-6">{{ T "categories" }}</h5>
-      <div class="bg-light dark:bg-darkmode-light rounded p-8">
-        <ul class="space-y-4">
-          {{ range $name, $items := site.Taxonomies.categories }}
-            <li>
-              <a
-                class="hover:text-primary dark:hover:text-darkmode-primary {{ if (and (eq $.Page.Kind `term`) (eq $.Page.Type `categories`) (eq $.Page.Title .Page.Title)) }}
-                  active
-                {{ end }} flex justify-between"
-                href="{{ .Page.RelPermalink }}">
-                {{ .Page.Title }} <span>( {{ len $items }} )</span>
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
+      <p class="mb-1 text-xs font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Browse</p>
+      <h5 class="mb-5 font-bold text-text-dark dark:text-darkmode-text-dark">{{ T "categories" }}</h5>
+      <ul class="space-y-2">
+        {{ range $name, $items := site.Taxonomies.categories }}
+        <li>
+            <a class="flex items-center justify-between rounded-xl border border-border dark:border-darkmode-border px-4 py-2.5 text-sm font-medium text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-all duration-200"
+            href="{{ .Page.RelPermalink }}">
+            <span>{{ .Page.Title }}</span>
+            <span class="rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-2 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">{{ len $items }}</span>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
     </div>
   {{ end }}
 {{ end }}

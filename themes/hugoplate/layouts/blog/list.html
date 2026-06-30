@@ -1,29 +1,68 @@
 {{ define "main" }}
-  {{ partial "page-header" . }}
 
-
-  <section class="section">
+  <!-- Page Header -->
+  <section class="pt-14 pb-14">
     <div class="container">
-      <div class="row gx-5">
-        <!-- blog posts -->
-        <div class="lg:col-8">
-          <div class="row">
-            {{ $paginator:= .Paginate .RegularPages }}
-            {{ range $paginator.Pages }}
-              <div class="md:col-6 mb-14">
-                {{ partial "components/blog-card" . }}
-              </div>
-            {{ end }}
-          </div>
-          {{ partial "components/pagination.html" . }}
-        </div>
-        <!-- sidebar -->
-        <div class="lg:col-4">
-          <!-- widget -->
-          {{ $widget:= site.Params.widgets.sidebar }}
-          {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+      <div class="row justify-center">
+        <div class="lg:col-8 text-center">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Blog</p>
+          <h1 class="mb-4 text-h2 font-bold text-text-dark dark:text-darkmode-text-dark">All Posts</h1>
+          <p class="text-text dark:text-darkmode-text">Notes on code, life, and everything in between.</p>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="pb-16">
+    <div class="container">
+      <hr class="border-border dark:border-darkmode-border mb-10">
+      <div class="row gx-5">
+        <!-- Posts -->
+        <div class="lg:col-8">
+          <div class="row">
+            {{ $paginator := .Paginate .RegularPages }}
+            {{ range $paginator.Pages }}
+            <div class="md:col-6 mb-6">
+              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                <!-- Meta top -->
+                <div class="mb-4 flex items-center justify-between">
+                  {{ with .Params.categories }}
+                  <div>
+                    {{ range . }}
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">{{ . }}</span>
+                    {{ end }}
+                  </div>
+                  {{ else }}
+                  <div></div>
+                  {{ end }}
+                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">{{ .Date.Format "Jan 2, 2006" }}</span>
+                </div>
+                <!-- Title -->
+                <h3 class="mb-3 text-lg font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                  <a href="{{ .RelPermalink }}" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">{{ .Title }}</a>
+                </h3>
+                <!-- Summary -->
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1">{{ .Summary | plainify | truncate 150 }}</p>
+                <!-- Read More -->
+                <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                  Read More <i class="fa fa-arrow-right text-xs"></i>
+                </a>
+              </article>
+            </div>
+            {{ end }}
+          </div>
+          <!-- Pagination -->
+          <div class="mt-10">
+            {{ partial "components/pagination.html" . }}
+          </div>
+        </div>
+        <!-- Sidebar -->
+        <div class="lg:col-4">
+          {{ $widget := site.Params.widgets.sidebar }}
+          {{ partialCached "widgets/widget-wrapper" (dict "Widgets" $widget "Scope" .) }}
+        </div>
+      </div>
+    </div>
+  </section>
+
 {{ end }}

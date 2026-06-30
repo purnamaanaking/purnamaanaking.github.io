@@ -1,77 +1,105 @@
 {{ define "main" }}
-  <section class="section pt-7">
+  <section class="pt-14 pb-24">
     <div class="container">
       <div class="row justify-center">
-        <article class="lg:col-10">
-          {{ $image:= .Params.image }}
-          {{ if $image }}
-            <div class="mb-10">
-              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
-            </div>
-          {{ end }}
-          <h1 class="h2 mb-4">
-            {{ .Title }}
-          </h1>
-          <ul class="mb-4">
-            <li class="mr-4 inline-block">
-              <a
-                href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-                <i class="fa-regular fa-circle-user mr-2"></i
-                >{{ .Params.author }}
-              </a>
-            </li>
-            {{ $categories:= .Params.categories }}
-            {{ if $categories }}
-              <li class="mr-4 inline-block">
-                <i class="fa-regular fa-folder mr-2"></i>
-                {{ range $i,$p:= $categories }}
-                  <a
-                    href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
-                    class=""
-                    >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
-                      {{ "," }}
-                    {{ end }}
-                  </a>
-                {{ end }}
-              </li>
+        <article class="lg:col-10 md:col-12">
+
+          <!-- Back link -->
+          <a href="/blog" class="inline-flex items-center gap-2 text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors mb-10">
+            <i class="fa fa-arrow-left text-xs"></i> Back to Blog
+          </a>
+
+          <!-- Meta -->
+          <div class="mb-4 flex flex-wrap items-center gap-3">
+            {{ with .Params.categories }}
+              {{ range . }}
+              <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">{{ . }}</span>
+              {{ end }}
             {{ end }}
-            <li class="mr-4 inline-block">
-              <i class="fa-regular fa-clock mr-2"></i>
-              {{ time.Format ":date_long" .PublishDate }}
-            </li>
-          </ul>
+            <span class="text-xs text-text dark:text-darkmode-text opacity-60">
+              <i class="fa-regular fa-calendar mr-1"></i>{{ time.Format ":date_long" .PublishDate }}
+            </span>
+            <span class="text-xs text-text dark:text-darkmode-text opacity-60">
+              <i class="fa-regular fa-clock mr-1"></i>{{ .ReadingTime }} min read
+            </span>
+          </div>
+
+          <!-- Title -->
+          <h1 class="mb-8 text-h2 font-bold leading-tight text-text-dark dark:text-darkmode-text-dark">{{ .Title }}</h1>
+
+          <hr class="border-border dark:border-darkmode-border mb-10">
+
+          <!-- Content -->
           <div class="content mb-10">
-            {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
             {{ .Content }}
           </div>
-          <div class="row items-start justify-between">
-            {{ $tags:= .Params.tags }}
-            {{ if $tags }}
-              <div class="lg:col-6 mb-10 flex items-center lg:mb-0">
-                <h5 class="mr-3">{{ T "tags" }} :</h5>
-                <ul>
-                  {{ range $i,$p:= $tags }}
-                    <li class="inline-block">
-                      <a
-                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
-                        href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
-                        {{ . | humanize }}
-                      </a>
-                    </li>
-                  {{ end }}
-                </ul>
-              </div>
+
+          <hr class="border-border dark:border-darkmode-border mb-8">
+
+          <!-- Tags -->
+          {{ with .Params.tags }}
+          <div class="flex flex-wrap items-center gap-2 mb-8">
+            <span class="text-sm font-medium text-text-dark dark:text-darkmode-text-dark mr-1">Tags:</span>
+            {{ range . }}
+            <a href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              {{ . | humanize }}
+            </a>
             {{ end }}
-            <div class="lg:col-6 flex items-center">
-              {{ partial "social-share" (dict "Context" . "Class" "share-icons lg:ml-auto" "Title" (T "share") "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false) }}
-            </div>
           </div>
-          <!-- comments -->
-          {{ if site.Config.Services.Disqus.Shortname }}
-            <div class="mt-20">
-              {{ template "_internal/disqus.html" . }}
-            </div>
           {{ end }}
+
+          <!-- Share -->
+          <div class="flex flex-wrap items-center gap-3">
+            <span class="text-sm font-medium text-text-dark dark:text-darkmode-text-dark">Share:</span>
+            <!-- Twitter/X -->
+            <a href="https://twitter.com/intent/tweet?url={{ .Permalink | safeURL }}&text={{ .Title | safeURL }}"
+              target="_blank" rel="noopener" aria-label="Share on X"
+              class="share-btn">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | safeURL }}"
+              target="_blank" rel="noopener" aria-label="Share on LinkedIn"
+              class="share-btn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/?text={{ .Title | safeURL }}%20{{ .Permalink | safeURL }}"
+              target="_blank" rel="noopener" aria-label="Share on WhatsApp"
+              class="share-btn">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | safeURL }}"
+              target="_blank" rel="noopener" aria-label="Share on Facebook"
+              class="share-btn">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <!-- Copy Link -->
+            <button onclick="copyPostLink(this)" aria-label="Copy link" class="share-btn relative group" id="copy-link-btn">
+              <i class="fa-regular fa-copy" id="copy-icon"></i>
+              <span class="copy-tooltip">Copy link</span>
+            </button>
+          </div>
+
+          <script>
+            function copyPostLink(btn) {
+              navigator.clipboard.writeText(window.location.href).then(function() {
+                const icon = document.getElementById('copy-icon');
+                const tooltip = btn.querySelector('.copy-tooltip');
+                icon.className = 'fa-solid fa-check';
+                tooltip.textContent = 'Copied!';
+                btn.classList.add('copy-success');
+                setTimeout(function() {
+                  icon.className = 'fa-regular fa-copy';
+                  tooltip.textContent = 'Copy link';
+                  btn.classList.remove('copy-success');
+                }, 2000);
+              });
+            }
+          </script>
+
         </article>
       </div>
 
@@ -79,17 +107,42 @@
       {{ $related := .Site.RegularPages.Related . | first 10 }}
       {{ $related = $related | shuffle | first 3 }}
       {{ with $related }}
-        <div class="section pb-0">
-          <h2 class="h3 mb-12">{{ T "related_posts" }}</h2>
+      <div class="row justify-center mt-16">
+        <div class="lg:col-8 md:col-10">
+          <hr class="border-border dark:border-darkmode-border mb-10">
+          <p class="mb-1 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Continue Reading</p>
+          <h2 class="mb-8 text-h4 font-bold text-text-dark dark:text-darkmode-text-dark">Related Posts</h2>
           <div class="row">
             {{ range . }}
-              <div class="lg:col-4 md:col-6 mb-14">
-                {{ partial "components/blog-card" . }}
-              </div>
+            <div class="md:col-4 mb-6">
+              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div class="mb-4 flex items-center justify-between">
+                  {{ with .Params.categories }}
+                  <div>
+                    {{ range . }}
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">{{ . }}</span>
+                    {{ end }}
+                  </div>
+                  {{ else }}
+                  <div></div>
+                  {{ end }}
+                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">{{ .Date.Format "Jan 2, 2006" }}</span>
+                </div>
+                <h3 class="mb-3 text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                  <a href="{{ .RelPermalink }}" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">{{ .Title }}</a>
+                </h3>
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1">{{ .Summary | plainify | truncate 150 }}</p>
+                <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                  Read More <i class="fa fa-arrow-right text-xs"></i>
+                </a>
+              </article>
+            </div>
             {{ end }}
           </div>
         </div>
+      </div>
       {{ end }}
+
     </div>
   </section>
 {{ end }}

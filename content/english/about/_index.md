@@ -6,12 +6,12 @@ image: "/images/main-pp.png"
 draft: false
 ---
 
-Hi, I’m Purnama Anaking, a Software Engineer with over 10 years of experience in the tech industry. Based in Indonesia, I have a strong passion for building innovative digital solutions and mentoring the next generation of technology professionals.
+Hi, I’m Purnama Anaking — a Software Engineer and Lecturer based in Indonesia, with over 10 years of experience building digital solutions and educating the next generation of tech professionals.
 
-I hold both a Bachelor's and Master's degree from one of the top universities in Indonesia. Currently, I serve as a Lecturer at one of the leading private universities in Indonesia, where I specialize in Software Engineering, Mobile App Development, Agile Project Management, and Human-Computer Interaction. My academic and professional journey has allowed me to bridge the gap between industry and education, empowering students and professionals alike with the knowledge and skills needed to thrive in the ever-evolving tech landscape.
+I hold a Bachelor’s and Master’s degree in Information Systems. Currently, I serve as a Lecturer at Telkom University Surabaya, where I teach Software Engineering, Mobile App Development, Agile Project Management, and Human-Computer Interaction.
 
-Throughout my career, I have worked on various projects, from enterprise applications to mobile solutions, always focusing on creating scalable, efficient, and user-centric software. I am also passionate about sharing insights through research, mentoring, and content creation.
+Throughout my career, I’ve worked on a range of projects — from enterprise applications to mobile solutions — always with a focus on building software that is scalable, efficient, and meaningful to the people who use it.
 
-This website serves as a space where I share my experiences, thoughts, and projects in the world of technology and education. Feel free to explore, connect, and collaborate. Let’s innovate and shape the future together!
+Beyond the code, I write about technology, faith, and life. I believe great work is rooted in purpose, and this website is where I share that journey.
 
 
