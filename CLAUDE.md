@@ -68,6 +68,21 @@ config/_default/
   - `assets/images/blog/` — for Hugo image processing (shortcodes)
   - `static/images/blog/` — for markdown image syntax `![alt](/images/blog/...)`
 
+### Blog Posts
+
+7 posts published (all in `Life` category), 15 posts draft:
+
+**Published:**
+- `alhamdulillah-menikah-menjaga-diri-menjalankan-sunnah.md`
+- `alhamdulillah-anak-ke-1-semoga-allah-menjaganya.md`
+- `alhamdulillah-anak-ke-2-semoga-allah-menjaganya.md`
+- `seorang-putri-semoga-allah-menjaganya.md`
+- `alhamdulillah-anak-ke-4-semoga-allah-menjaganya.md`
+- `di-saat-ingin-meninggalkan-musik.md`
+- `kehidupan-yang-baik-dari-allah-untuk-orang-beriman-dan-beramal-shalih.md`
+
+**Draft (hidden):** All Laravel/tech tutorial posts — set `draft: false` to publish.
+
 ## UI Conventions
 
 - Layout changes go in `themes/hugoplate/layouts/` — never edit theme CSS directly, use `assets/css/custom.css`
@@ -139,6 +154,16 @@ These are loaded from Hugo module cache — templates can be overridden by placi
 - **Tagline:** "Technology with Purpose, Sharing with Heart."
 - **Description:** "Software Engineer with 10+ years of experience, based in Indonesia. I build meaningful digital solutions and share thoughts on technology, faith, and life — because great work goes beyond the code."
 
+## About Page — Tech Stack
+
+Tech stack is hardcoded in `themes/hugoplate/layouts/about/list.html` (not from markdown). To update, edit the `$categories` slice directly in that file.
+
+Current stack:
+- **Languages:** PHP, JavaScript, TypeScript, Java, Dart, Python, Go
+- **Frameworks & Libraries:** Laravel, React, Next.js, Flutter, Express.js, React Native, Gin, CodeIgniter, Node.js
+- **Tools & Infra:** Git, Docker, Linux, AWS, Firebase, Google Cloud, Azure
+- **Databases:** MySQL, PostgreSQL, MongoDB
+
 ## Notes
 
 - `docs/` folder is build output — never edit manually, always regenerate via `yarn build`
@@ -148,4 +173,5 @@ These are loaded from Hugo module cache — templates can be overridden by placi
 - Arabic font (Amiri) loaded via `themes/hugoplate/layouts/partials/essentials/style.html`
 - Hugo syntax highlighting uses inline styles (monokai theme) — override wrapper only in CSS
 - Search `show_description = false` to avoid duplicate title in results
-- Blog post images: old posts used `{{< image >}}` shortcode — converted to markdown `![alt](/images/blog/...)` syntax
+- Blog post images: converted from `{{< image >}}` shortcode to markdown `![alt](/images/blog/...)` syntax
+- Related posts section width matches article width (`lg:col-10 md:col-12`) in single post
