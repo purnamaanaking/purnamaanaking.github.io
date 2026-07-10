@@ -18,4 +18,4 @@ Bismillah, semoga Alloh kuatkan kami dalam mendidik, menjaga, dan membesarkan me
 
 Maa syaa Allah..
 
-> Semoga menjadi anak yang sholihah, mentauhidkan Alloh dan menjauhi syirik, menjadi anak yang bertaqwa dan senantiasa berjalan di atas sunnah nabi shollallohu ‘alaihi wa sallam. Aamiin.
+> Semoga menjadi anak yang sholih, mentauhidkan Alloh dan menjauhi syirik, menjadi anak yang bertaqwa dan senantiasa berjalan di atas sunnah nabi shollallohu ‘alaihi wa sallam. Aamiin.
