@@ -54,9 +54,9 @@
           <div class="flex flex-wrap gap-3">
             {{ range site.Taxonomies.tags.ByCount }}
             <a href="{{ .Page.RelPermalink }}"
-              class="inline-flex items-center gap-2 rounded-full border border-border dark:border-darkmode-border px-4 py-2 text-sm font-medium text-text-dark dark:text-darkmode-text-dark hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary hover:bg-primary/5 dark:hover:bg-darkmode-primary/5 transition-all duration-200">
+              class="inline-flex items-center gap-2 rounded-full border border-border dark:border-darkmode-border px-6 py-3 text-2xl md:text-sm font-medium text-text-dark dark:text-darkmode-text-dark hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary hover:bg-primary/5 dark:hover:bg-darkmode-primary/5 transition-all duration-200">
               {{ .Page.Title }}
-              <span class="text-xs font-bold text-primary dark:text-darkmode-primary opacity-70">{{ .Count }}</span>
+              <span class="text-xl md:text-xs font-bold text-primary dark:text-darkmode-primary opacity-70">{{ .Count }}</span>
             </a>
             {{ end }}
           </div>

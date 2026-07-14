@@ -9,7 +9,7 @@
 }
 
 .btn-sm {
-  @apply rounded-md px-4 py-1.5 text-xs;
+  @apply rounded-md px-4 py-1.5 text-sm md:text-xs;
 }
 
 .btn-primary {
@@ -30,7 +30,7 @@
 
 /* Share buttons */
 .share-btn {
-  @apply flex h-9 w-9 items-center justify-center rounded-full border border-border dark:border-darkmode-border text-text-dark dark:text-darkmode-text-dark hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-all duration-200 text-sm bg-transparent cursor-pointer;
+  @apply flex h-11 w-11 md:h-9 md:w-9 items-center justify-center rounded-full border border-border dark:border-darkmode-border text-text-dark dark:text-darkmode-text-dark hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-all duration-200 text-base md:text-sm bg-transparent cursor-pointer;
 }
 
 .copy-tooltip {
@@ -557,4 +557,12 @@ nav[aria-label="Pagination"] span[aria-current="page"] {
   line-height: 2.2;
   letter-spacing: 0.02em;
   @apply text-text-dark dark:text-darkmode-text-dark my-6 px-5 py-4 rounded-xl bg-primary/5 dark:bg-darkmode-primary/5;
+}
+
+/* =====================
+   Navbar Brand
+   ===================== */
+
+.navbar-brand {
+  @apply text-2xl lg:text-xl;
 }

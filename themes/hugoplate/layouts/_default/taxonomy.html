@@ -35,10 +35,10 @@
                   {{ end }}
                   <span class="text-xs text-text dark:text-darkmode-text opacity-60">{{ .Date.Format "Jan 2, 2006" }}</span>
                 </div>
-                <h3 class="mb-3 text-lg font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                <h3 class="mb-3 text-2xl md:text-lg font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
                   <a href="{{ .RelPermalink }}" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">{{ .Title }}</a>
                 </h3>
-                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1">{{ .Summary | plainify | truncate 150 }}</p>
+                <p class="mb-6 text-lg md:text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1">{{ .Summary | plainify | truncate 150 }}</p>
                 <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
                   Read More <i class="fa fa-arrow-right text-xs"></i>
                 </a>

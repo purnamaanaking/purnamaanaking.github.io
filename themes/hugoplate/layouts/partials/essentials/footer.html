@@ -6,14 +6,14 @@
         <a class="navbar-brand inline-block mb-2" href="{{ site.Home.RelPermalink }}">
           Purnama Anaking.
         </a>
-        <p class="text-sm text-text dark:text-darkmode-text">Software Engineer & Lecturer · Indonesia</p>
+        <p class="text-base lg:text-sm text-text dark:text-darkmode-text">Software Engineer & Lecturer · Indonesia</p>
       </div>
       <!-- Nav Links -->
       <div class="lg:col-4 mb-6 text-center lg:mb-0">
         <ul class="flex justify-center gap-6">
           {{ range site.Menus.footer }}
           <li>
-            <a class="text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors font-medium"
+            <a class="text-base lg:text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors font-medium"
               {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}
               href="{{ if findRE `^#` .URL }}{{ if not $.IsHome }}{{ site.Home.RelPermalink }}{{ end }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}">
               {{ .Name }}
@@ -39,7 +39,7 @@
   <!-- Copyright -->
   <div class="border-t border-border dark:border-darkmode-border py-5">
     <div class="container text-center">
-      <p class="text-sm text-text-light dark:text-darkmode-text-light">
+      <p class="text-base lg:text-sm text-text-light dark:text-darkmode-text-light">
         &copy; {{ now.Year }} Purnama Anaking. All rights reserved.
       </p>
     </div>
