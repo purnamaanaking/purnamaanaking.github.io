@@ -1,6 +1,6 @@
 ---
-title: "Mengenal Google AI Studio: Cara Tercepat Coba dan Bangun dengan Gemini"
-meta_title: "Mengenal Google AI Studio: Cara Tercepat Coba dan Bangun dengan Gemini"
+title: "Mengenal Google AI Studio: Workspace Gratis untuk Eksperimen dengan Gemini"
+meta_title: "Mengenal Google AI Studio: Workspace Gratis untuk Eksperimen dengan Gemini"
 description: "Mengenal Google AI Studio, workspace berbasis browser dari Google untuk mencoba model Gemini, membangun prompt, hingga mendapatkan API key gratis untuk aplikasi sendiri."
 date: 2026-07-22T01:00:00Z
 image: "/images/blog/google-ai-studio.png"
