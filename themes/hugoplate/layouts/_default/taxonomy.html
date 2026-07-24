@@ -21,8 +21,15 @@
         <div class="lg:col-8">
           <div class="row">
             {{ range .Data.Pages }}
+            {{ $page := . }}
             <div class="md:col-6 mb-6">
-              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+              <article class="group h-full overflow-hidden rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                {{ with .Params.image }}
+                <a href="{{ $page.RelPermalink }}" class="block overflow-hidden">
+                  <img src="{{ . | absURL }}" alt="{{ $page.Title }}" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
+                </a>
+                {{ end }}
+                <div class="p-6 flex flex-col flex-1">
                 <div class="mb-4 flex items-center justify-between">
                   {{ with .Params.categories }}
                   <div>
@@ -42,6 +49,7 @@
                 <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
                   Read More <i class="fa fa-arrow-right text-xs"></i>
                 </a>
+                </div>
               </article>
             </div>
             {{ end }}

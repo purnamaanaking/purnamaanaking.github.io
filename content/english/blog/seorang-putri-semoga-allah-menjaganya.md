@@ -3,7 +3,7 @@ title: "Alhamdulilah Anak ke-3, Seorang Putri, Semoga Allah Menjaganya"
 meta_title: "Alhamdulilah Anak ke-3, Seorang Putri, Semoga Allah Menjaganya"
 description: "Alhamdulilah Anak ke-3, Seorang Putri, Semoga Allah Menjaganya"
 date: 2022-01-27T05:00:00Z
-image: "/images/blog/baby-girl.png"
+image: "/images/blog/anak-3.png"
 categories: ["Life"]
 author: "Purnama Anaking"
 tags: ["lahiran", "anak", "perempuan"]

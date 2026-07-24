@@ -3,7 +3,7 @@ title: "Kehidupan yang Baik dari Allah untuk Orang Beriman dan Beramal Shalih"
 meta_title: "Kehidupan yang Baik dari Allah untuk Orang Beriman dan Beramal Shalih"
 description: "Kehidupan yang Baik dari Allah untuk Orang Beriman dan Beramal Shalih"
 date: 2024-10-07T05:00:00Z
-image: "/images/blog/kehidupan-yang-baik.png"
+image: "/images/blog/hidup-baik.png"
 categories: ["Life"]
 author: "Purnama Anaking"
 tags: ["kehidupan", "baik", "iman", "amal shalih"]

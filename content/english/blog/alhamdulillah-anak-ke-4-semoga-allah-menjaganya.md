@@ -3,7 +3,7 @@ title: "Alhamdulillah Anak ke-4, Semoga Allah Menjaganya"
 meta_title: "Alhamdulillah Anak ke-4, Semoga Allah Menjaganya"
 description: "Alhamdulillah Anak ke-4, Semoga Allah Menjaganya"
 date: 2024-06-18T05:00:00Z
-image: "/images/blog/baby-boy-3.png"
+image: "/images/blog/anak-4.png"
 categories: ["Life"]
 author: "Purnama Anaking"
 tags: ["lahiran", "anak", "laki-laki"]

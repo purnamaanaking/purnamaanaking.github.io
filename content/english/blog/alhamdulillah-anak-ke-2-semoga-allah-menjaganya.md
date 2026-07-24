@@ -3,7 +3,7 @@ title: "Alhamdulillah Anak ke-2, Semoga Allah Menjaganya"
 meta_title: "Alhamdulillah Anak ke-2, Semoga Allah Menjaganya"
 description: "Alhamdulillah Anak ke-2, Semoga Allah Menjaganya"
 date: 2020-01-08T05:00:00Z
-image: "/images/blog/baby-boy-2.png"
+image: "/images/blog/anak-2.png"
 categories: ["Life"]
 author: "Purnama Anaking"
 tags: ["lahiran", "anak", "laki-laki"]

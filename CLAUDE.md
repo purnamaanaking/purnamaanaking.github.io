@@ -61,7 +61,7 @@ config/_default/
 
 ## Content
 
-- Blog posts: `content/english/blog/*.md` — text-only cards, no featured images in card
+- Blog posts: `content/english/blog/*.md` — cards show featured image (from `image` front matter) on top, title/summary below
 - About page: `content/english/about/_index.md`
 - Home page content: `content/english/_index.md`
 - Blog images: stored in both `assets/images/blog/` and `static/images/blog/`
@@ -167,7 +167,7 @@ Current stack:
 ## Notes
 
 - `docs/` folder is build output — never edit manually, always regenerate via `yarn build`
-- Blog post cards are intentionally text-only (no featured image in card)
+- Blog post cards (list + related posts) and single post header show the `image` front matter as a featured image; posts without `image` set render without one (no error)
 - Social icons defined in `data/social.json` under key `main`
 - Footer and navbar menus sourced from `config/_default/menus.en.toml`
 - Arabic font (Amiri) loaded via `themes/hugoplate/layouts/partials/essentials/style.html`

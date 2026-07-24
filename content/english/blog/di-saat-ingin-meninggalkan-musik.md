@@ -3,7 +3,7 @@ title: "Di Saat Ingin Meninggalkan Musik"
 meta_title: "Di Saat Ingin Meninggalkan Musik"
 description: "Di Saat Ingin Meninggalkan Musik"
 date: 2024-04-29T05:00:00Z
-image: "/images/blog/meninggalkan-musik.png"
+image: "/images/blog/tinggalkan-musik.png"
 categories: ["Life"]
 author: "Purnama Anaking"
 tags: ["syair", "musik", "islam", "sunnah", "quran"]

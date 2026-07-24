@@ -3,7 +3,7 @@ title: "Alhamdulillah Menikah, Menjaga Diri, Menjalankan Sunnah"
 meta_title: "Alhamdulillah Menikah, Menjaga Diri, Menjalankan Sunnah"
 description: "Alhamdulillah Menikah, Menjaga Diri, Menjalankan Sunnah"
 date: 2019-11-19T05:00:00Z
-image: "/images/blog/wedding-day.png"
+image: "/images/blog/menikah.png"
 categories: ["Life"]
 author: "Purnama Anaking"
 tags: ["menikah", "sunnah", "nazhor", "ta'aruf"]
