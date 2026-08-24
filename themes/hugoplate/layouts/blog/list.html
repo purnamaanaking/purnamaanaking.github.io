@@ -28,7 +28,7 @@
                 <!-- Featured image -->
                 {{ with .Params.image }}
                 <a href="{{ $page.RelPermalink }}" class="block overflow-hidden">
-                  <img src="{{ . | absURL }}" alt="{{ $page.Title }}" class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105">
+                  {{ partial "blog-image.html" (dict "Src" . "Alt" $page.Title "Class" "h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105" "Width" 500) }}
                 </a>
                 {{ end }}
                 <div class="p-6 flex flex-col flex-1">

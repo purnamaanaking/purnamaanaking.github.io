@@ -1,0 +1,18 @@
+{{/*
+  Renders an optimized featured-image <img>.
+  Params: .Src (front matter image path, e.g. "/images/blog/foo.png")
+          .Alt, .Class, .Width (resize target width, px)
+*/}}
+{{ $src := .Src }}
+{{ $alt := .Alt }}
+{{ $class := .Class }}
+{{ $width := .Width | default 800 }}
+{{ $assetPath := "images/blog/" }}
+{{ $filename := path.Base $src }}
+{{ $img := resources.Get (printf "%s%s" $assetPath $filename) }}
+{{ if $img }}
+  {{ $resized := $img.Resize (printf "%dx webp q75" $width) }}
+  <img src="{{ $resized.RelPermalink }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy" decoding="async">
+{{ else }}
+  <img src="{{ $src | absURL }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy" decoding="async">
+{{ end }}
