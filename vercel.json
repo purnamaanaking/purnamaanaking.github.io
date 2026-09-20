@@ -1,21 +1,10 @@
 {
-  "builds": [
+  "buildCommand": "bash vercel-build.sh",
+  "outputDirectory": "public",
+  "rewrites": [
     {
-      "src": "vercel-build.sh",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "public"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "status": 404,
-      "dest": "/404.html"
+      "source": "/(.*)",
+      "destination": "/404.html"
     }
   ]
 }
