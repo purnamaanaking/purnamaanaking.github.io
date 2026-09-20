@@ -1,10 +1,4 @@
 {
   "buildCommand": "bash vercel-build.sh",
-  "outputDirectory": "docs",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/404.html"
-    }
-  ]
+  "outputDirectory": "docs"
 }
