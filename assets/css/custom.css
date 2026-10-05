@@ -629,3 +629,15 @@ nav[aria-label="Pagination"] span[aria-current="page"] {
   height: 100%;
   width: auto;
 }
+
+/* Center the main nav links against the full navbar width, independent of
+   how wide the logo or the right-side actions are. */
+@media (min-width: 1024px) {
+  #nav-menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+  }
+}
