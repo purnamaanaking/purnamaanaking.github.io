@@ -5,15 +5,15 @@
    ===================== */
 
 .btn {
-  @apply inline-flex items-center justify-center rounded-lg border border-transparent px-5 py-2.5 text-sm font-semibold transition-all duration-200;
+  @apply inline-flex items-center justify-center rounded-full border border-transparent px-5 py-2.5 text-sm font-semibold transition-all duration-200;
 }
 
 .btn-sm {
-  @apply rounded-md px-4 py-1.5 text-sm md:text-xs;
+  @apply rounded-full px-4 py-1.5 text-sm md:text-xs;
 }
 
 .btn-primary {
-  @apply border-primary bg-primary text-white hover:opacity-90 dark:border-darkmode-primary dark:bg-darkmode-primary dark:text-text-dark;
+  @apply border-primary bg-primary text-white hover:opacity-90 dark:border-darkmode-primary dark:bg-darkmode-primary dark:text-dark;
 }
 
 .btn-outline-primary {
@@ -619,15 +619,6 @@ nav[aria-label="Pagination"] span[aria-current="page"] {
   line-height: 2.2;
   letter-spacing: 0.02em;
   @apply text-text-dark dark:text-darkmode-text-dark my-6 px-5 py-4 rounded-xl bg-primary/5 dark:bg-darkmode-primary/5;
-}
-
-/* =====================
-   Navbar Brand
-   ===================== */
-
-.navbar-brand svg {
-  height: 100%;
-  width: auto;
 }
 
 /* Center the main nav links against the full navbar width, independent of

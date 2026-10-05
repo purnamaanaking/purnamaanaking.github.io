@@ -1,8 +1,8 @@
-{{/* Lockup logo (</> mark + wordmark) from the Purnama Anaking design system. Swaps on-light/on-dark per theme. */}}
-{{ $class := .Class | default "h-8 w-auto" }}
-{{ with resources.Get "images/logo/purnama-anaking-lockup-on-light.svg" }}
-<span class="{{ $class }} inline-block dark:hidden">{{ .Content | safeHTML }}</span>
-{{ end }}
-{{ with resources.Get "images/logo/purnama-anaking-lockup-on-dark.svg" }}
-<span class="{{ $class }} hidden dark:inline-block">{{ .Content | safeHTML }}</span>
-{{ end }}
+{{/* Brand mark from the Purnama Anaking design system: avatar + "purnama.anaking" wordmark (no drawn logo). */}}
+<span class="inline-flex items-center gap-2.5">
+  {{ with resources.Get "images/main-pp.png" }}
+  {{ $avatar := .Fill "64x64 webp q85" }}
+  <img src="{{ $avatar.RelPermalink }}" width="32" height="32" alt="" class="h-8 w-8 rounded-full object-cover shrink-0" />
+  {{ end }}
+  <span class="text-[17px] font-extrabold tracking-tight text-text-dark dark:text-darkmode-text-dark">purnama<span class="font-medium text-text-light dark:text-darkmode-text-light">.anaking</span></span>
+</span>
