@@ -19,16 +19,11 @@
 }
 
 .nav-link {
-  @apply text-text dark:text-darkmode-text hover:text-text-dark dark:hover:text-darkmode-text-dark block p-3 cursor-pointer font-medium transition-colors lg:px-3 lg:py-2 relative;
+  @apply text-text-light dark:text-darkmode-text-light hover:text-text-dark dark:hover:text-darkmode-text-dark block p-3 cursor-pointer font-medium text-sm transition-colors lg:rounded-full lg:px-3.5 lg:py-2 relative;
 }
 
 .nav-link.active {
-  @apply text-text-dark dark:text-darkmode-text-dark font-semibold;
-}
-
-.nav-link.active::after {
-  content: '';
-  @apply absolute bottom-0 left-3 right-3 h-0.5 bg-primary dark:bg-darkmode-primary rounded-full hidden lg:block;
+  @apply text-text-dark dark:text-darkmode-text-dark lg:bg-border/60 lg:dark:bg-darkmode-border/60;
 }
 
 .nav-dropdown {
