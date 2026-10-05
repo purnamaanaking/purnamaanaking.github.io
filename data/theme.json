@@ -3,8 +3,8 @@
     "default": {
       "theme_color": {
         "primary": "#8b5a33",
-        "body": "#f5f3f0",
-        "border": "#ddd8d2",
+        "body": "#ffffff",
+        "border": "#e6e5e3",
         "light": "#ffffff",
         "dark": "#1f1f1f"
       },
@@ -31,7 +31,7 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Space+Grotesk:wght@400;500;600;700",
+      "primary": "Inter:wght@400;500;600;700",
       "primary_type": "sans-serif",
       "secondary": "JetBrains+Mono:wght@400;500",
       "secondary_type": "monospace"
