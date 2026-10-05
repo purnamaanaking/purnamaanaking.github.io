@@ -56,7 +56,7 @@
         {{ range $posts }}
         {{ $page := . }}
         <div class="md:col-4 mb-6">
-          <article class="group h-full overflow-hidden rounded-3xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+          <article class="group h-full overflow-hidden rounded-3xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col">
             <!-- Featured image -->
             {{ with .Params.image }}
             <a href="{{ $page.Permalink }}" class="block overflow-hidden">

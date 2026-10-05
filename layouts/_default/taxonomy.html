@@ -25,7 +25,7 @@
             {{ range .Data.Pages }}
             {{ $page := . }}
             <div class="md:col-6 mb-6">
-              <article class="group h-full overflow-hidden rounded-3xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+              <article class="group h-full overflow-hidden rounded-3xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col">
                 {{ with .Params.image }}
                 <a href="{{ $page.RelPermalink }}" class="block overflow-hidden">
                   {{ partial "blog-image.html" (dict "Src" . "Alt" $page.Title "Class" "h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105" "Width" 500) }}
@@ -36,19 +36,19 @@
                   {{ with .Params.categories }}
                   <div>
                     {{ range . }}
-                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">{{ . }}</span>
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-medium text-primary dark:text-darkmode-primary">{{ . }}</span>
                     {{ end }}
                   </div>
                   {{ else }}
                   <div></div>
                   {{ end }}
-                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">{{ .Date.Format "Jan 2, 2006" }}</span>
+                  <span class="font-secondary text-xs text-text-light dark:text-darkmode-text-light">{{ .Date.Format "Jan 2, 2006" }}</span>
                 </div>
                 <h3 class="mb-3 text-2xl md:text-lg font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
                   <a href="{{ .RelPermalink }}" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">{{ .Title }}</a>
                 </h3>
                 <p class="mb-6 text-lg md:text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1">{{ .Summary | plainify | truncate 150 }}</p>
-                <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-1.5 text-sm font-medium text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary transition-colors duration-200 mt-auto">
                   Read More <i class="fa fa-arrow-right text-xs"></i>
                 </a>
                 </div>

@@ -1,0 +1,20 @@
+<!-- categories -->
+{{ if isset site.Taxonomies "categories" }}
+  {{ if not (eq (len site.Taxonomies.categories) 0) }}
+    <div class="mb-8 rounded-2xl border border-border dark:border-darkmode-border p-5">
+      <p class="mb-3 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-text-light dark:text-darkmode-text-light">Browse</p>
+      <h5 class="mb-3 font-bold text-text-dark dark:text-darkmode-text-dark">{{ T "categories" }}</h5>
+      <ul>
+        {{ range $name, $items := site.Taxonomies.categories }}
+        <li class="border-t border-border dark:border-darkmode-border first:border-t-0">
+          <a class="flex items-center justify-between py-2 text-sm font-medium text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary transition-colors duration-200"
+            href="{{ .Page.RelPermalink }}">
+            <span>{{ .Page.Title }}</span>
+            <span class="font-secondary text-xs font-normal text-text-light dark:text-darkmode-text-light">{{ len $items }}</span>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+{{ end }}
