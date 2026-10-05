@@ -1,54 +1,44 @@
 {{ define "main" }}
 
   <!-- Page Header -->
-  <section class="pt-14 pb-14">
+  <section class="relative overflow-hidden pt-16 pb-8">
     <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-8 text-center">
-          <p class="mb-2 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-primary dark:text-darkmode-primary">
-            <span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Blog
-          </p>
-          <h1 class="mb-4 text-h2 font-bold text-text-dark dark:text-darkmode-text-dark">All Posts</h1>
-          <p class="text-text dark:text-darkmode-text">Notes on code, life, and everything in between.</p>
-        </div>
+      <div class="relative">
+        {{ partial "header-motif.html" . }}
+      <p class="mb-2 font-secondary text-xs font-medium uppercase tracking-[0.16em] text-primary dark:text-darkmode-primary"><span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Blog</p>
+      <h1 class="mb-2 text-h2 md:text-h1 font-bold tracking-[-0.025em] text-text-dark dark:text-darkmode-text-dark">Blog Posts</h1>
+      <p class="max-w-[560px] text-text dark:text-darkmode-text">Thoughts on technology, faith, and life.</p>
       </div>
     </div>
   </section>
 
-  <section class="pb-16">
+  <section class="pt-8 pb-16">
     <div class="container">
-      <hr class="border-border dark:border-darkmode-border mb-10">
-      <div class="row gx-5">
+      <div class="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_280px]">
         <!-- Posts -->
-        <div class="lg:col-8">
-          <div class="row">
+        <div>
+          <div class="grid gap-5 grid-cols-[repeat(auto-fill,minmax(min(280px,100%),1fr))]">
             {{ $paginator := .Paginate .RegularPages }}
             {{ range $paginator.Pages }}
             {{ $page := . }}
-            <div class="md:col-6 mb-6">
+            <div>
               <article class="group h-full overflow-hidden rounded-3xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col">
                 <!-- Featured image -->
                 {{ with .Params.image }}
                 <a href="{{ $page.RelPermalink }}" class="block overflow-hidden">
-                  {{ partial "blog-image.html" (dict "Src" . "Alt" $page.Title "Class" "h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105" "Width" 500) }}
+                  {{ partial "blog-image.html" (dict "Src" . "Alt" $page.Title "Class" "aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105" "Width" 500) }}
                 </a>
                 {{ end }}
                 <div class="p-6 flex flex-col flex-1">
                 <!-- Meta top -->
-                <div class="mb-4 flex items-center justify-between">
-                  {{ with .Params.categories }}
-                  <div>
-                    {{ range . }}
-                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-medium text-primary dark:text-darkmode-primary">{{ . }}</span>
-                    {{ end }}
-                  </div>
-                  {{ else }}
-                  <div></div>
+                <div class="mb-3 flex items-center gap-2.5">
+                  {{ range .Params.categories }}
+                  <span class="inline-flex h-[22px] items-center rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-2.5 font-secondary text-[11px] font-medium text-primary dark:text-darkmode-primary">{{ . }}</span>
                   {{ end }}
                   <span class="font-secondary text-xs text-text-light dark:text-darkmode-text-light">{{ .Date.Format "Jan 2, 2006" }}</span>
                 </div>
                 <!-- Title -->
-                <h3 class="mb-3 text-2xl md:text-lg font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                <h3 class="mb-2 text-xl md:text-[19px] font-semibold tracking-[-0.01em] text-text-dark dark:text-darkmode-text-dark leading-snug">
                   <a href="{{ .RelPermalink }}" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">{{ .Title }}</a>
                 </h3>
                 <!-- Summary -->
@@ -68,9 +58,11 @@
           </div>
         </div>
         <!-- Sidebar -->
-        <div class="lg:col-4">
+        <div>
+         <div class="lg:sticky lg:top-[88px]">
           {{ $widget := site.Params.widgets.sidebar }}
           {{ partialCached "widgets/widget-wrapper" (dict "Widgets" $widget "Scope" .) }}
+         </div>
         </div>
       </div>
     </div>

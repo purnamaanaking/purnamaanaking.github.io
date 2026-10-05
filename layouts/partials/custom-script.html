@@ -1,0 +1,23 @@
+{{ with site.Params.custom_script }}
+  {{ . | safeHTML }}
+{{ end }}
+
+{{ if site.Params.theme_switcher }}
+  <script>
+    (function () {
+      var darkMode = {{ if eq site.Params.theme_default "dark" }}true{{ else }}false{{ end }};
+
+      {{ if eq site.Params.theme_default "system" }}
+        darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      {{ end }}
+
+      if (localStorage.getItem("theme") === "dark") {
+        darkMode = true;
+      } else if (localStorage.getItem("theme") === "light") {
+        darkMode = false;
+      }
+
+      document.documentElement.classList.toggle("dark", darkMode);
+    })();
+  </script>
+{{ end }}

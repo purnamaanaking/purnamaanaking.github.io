@@ -84,14 +84,7 @@ footer .social-icons li a {
    Pagination
    ===================== */
 
-nav[aria-label="Pagination"] a,
-nav[aria-label="Pagination"] span {
-  @apply rounded-lg;
-}
-
-nav[aria-label="Pagination"] span[aria-current="page"] {
-  @apply rounded-lg;
-}
+/* radius pagination: pill (rounded-full) dari markup, sesuai kit */
 
 /* =====================
    Notice
@@ -241,15 +234,15 @@ nav[aria-label="Pagination"] span[aria-current="page"] {
    ===================== */
 
 .content p {
-  @apply text-base leading-[1.85] mb-5 text-text dark:text-darkmode-text;
+  @apply text-[17px] leading-[1.8] mb-[22px] text-text dark:text-darkmode-text;
 }
 
 .content h2 {
-  @apply text-2xl font-bold mt-12 mb-4 text-text-dark dark:text-darkmode-text-dark;
+  @apply text-[26px] tracking-[-0.02em] font-bold mt-10 mb-3.5 text-text-dark dark:text-darkmode-text-dark;
 }
 
 .content h3 {
-  @apply text-xl font-bold mt-10 mb-3 text-text-dark dark:text-darkmode-text-dark;
+  @apply text-[19px] font-bold mt-6 mb-2 text-text-dark dark:text-darkmode-text-dark;
 }
 
 .content h4 {
@@ -258,21 +251,18 @@ nav[aria-label="Pagination"] span[aria-current="page"] {
 
 /* Blockquote */
 .content blockquote {
-  @apply relative my-10 px-8 py-6 not-italic;
+  @apply my-3 mb-8 p-0 not-italic flex flex-col gap-3;
   border: none;
   background: none;
 }
 
 .content blockquote::before {
-  content: '\201C';
-  font-family: Georgia, serif;
-  font-size: 6rem;
-  line-height: 1;
-  @apply absolute -top-4 left-0 text-primary dark:text-darkmode-primary opacity-20;
+  content: '</>';
+  @apply font-secondary text-[22px] font-semibold tracking-[0.16em] text-primary dark:text-darkmode-primary;
 }
 
 .content blockquote p {
-  @apply relative text-xl font-semibold leading-relaxed text-text-dark dark:text-darkmode-text-dark mb-0;
+  @apply text-[28px] font-semibold leading-[1.35] tracking-[-0.015em] text-text-dark dark:text-darkmode-text-dark mb-0 text-balance;
 }
 
 /* Code inline */
@@ -621,3 +611,17 @@ nav[aria-label="Pagination"] span[aria-current="page"] {
   @apply text-text-dark dark:text-darkmode-text-dark my-6 px-5 py-4 rounded-xl bg-primary/5 dark:bg-darkmode-primary/5;
 }
 
+
+/* =====================
+   CodeLines motif (hero)
+   ===================== */
+:root { --motif-line: #eceae6; --motif-chevron: #dcd9d4; }
+.dark { --motif-line: #3d3d3d; --motif-chevron: #484848; }
+.motif-bar { background: var(--motif-line); }
+.motif-chevron {
+  width: 28px; height: 28px; border-radius: 2.8px;
+  border-left: 8.4px solid var(--motif-chevron);
+  border-bottom: 8.4px solid var(--motif-chevron);
+}
+.hero-lead { color: #555453; }
+.dark .hero-lead { color: #bebab4; }

@@ -1,8 +1,8 @@
 {{ define "main" }}
-  <section class="pt-10 pb-24">
+  <section class="pt-12 pb-24">
     <div class="container">
       <div class="row justify-center">
-        <article class="lg:col-8 md:col-12">
+        <article class="lg:col-8 md:col-10 col-12">
 
           <!-- Breadcrumb -->
           <nav aria-label="Breadcrumb" class="mb-6 flex items-center gap-2 font-secondary text-xs text-text-light dark:text-darkmode-text-light">
@@ -15,28 +15,31 @@
             {{ end }}
           </nav>
 
-          <!-- Meta -->
-          <div class="mb-4 flex flex-wrap items-center gap-3">
-            {{ with .Params.categories }}
-              {{ range . }}
-              <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-sm md:text-xs font-medium text-primary dark:text-darkmode-primary">{{ . }}</span>
-              {{ end }}
-            {{ end }}
-            <span class="font-secondary text-sm md:text-xs text-text-light dark:text-darkmode-text-light">{{ time.Format ":date_long" .PublishDate }}</span>
-            <span class="font-secondary text-sm md:text-xs text-text-light dark:text-darkmode-text-light">{{ .ReadingTime }} min read</span>
-          </div>
-
           <!-- Title -->
-          <h1 class="mb-5 text-h2 font-bold leading-tight tracking-tight text-text-dark dark:text-darkmode-text-dark text-balance">{{ .Title }}</h1>
+          <h1 class="mb-6 text-[30px] md:text-[42px] font-bold leading-[1.12] tracking-[-0.025em] text-text-dark dark:text-darkmode-text-dark text-balance">{{ .Title }}</h1>
 
           <!-- Author -->
-          <div class="mb-8 flex items-center gap-2.5">
+          <div class="mb-6 flex flex-wrap items-center gap-x-3 gap-y-2">
+            <div class="flex items-center gap-2.5">
             {{ with resources.Get "images/main-pp.png" }}
             {{ $avatar := .Fill "72x72 webp q85" }}
             <img src="{{ $avatar.RelPermalink }}" width="36" height="36" alt="" class="h-9 w-9 rounded-full object-cover shrink-0" />
             {{ end }}
             <span class="text-sm font-medium text-text-dark dark:text-darkmode-text-dark">Purnama Anaking</span>
+            </div>
+            <span class="hidden sm:inline text-border dark:text-darkmode-border" aria-hidden="true">|</span>
+            <div class="flex flex-wrap items-center gap-3">
+              {{ with .Params.categories }}
+                {{ range . }}
+                <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-sm md:text-xs font-medium text-primary dark:text-darkmode-primary">{{ . }}</span>
+                {{ end }}
+              {{ end }}
+              <span class="font-secondary text-sm md:text-xs text-text-light dark:text-darkmode-text-light">{{ time.Format ":date_long" .PublishDate }}</span>
+              <span class="font-secondary text-sm md:text-xs text-text-light dark:text-darkmode-text-light">{{ .ReadingTime }} min read</span>
+            </div>
           </div>
+
+          <hr class="mb-8 border-border dark:border-darkmode-border">
 
           <!-- Featured image -->
           {{ with .Params.image }}
@@ -115,18 +118,18 @@
 
       <!-- Related posts -->
       {{ $related := .Site.RegularPages.Related . | first 10 }}
-      {{ $related = $related | shuffle | first 3 }}
+      {{ $related = $related | shuffle | first 2 }}
       {{ with $related }}
       <div class="row justify-center mt-16">
-        <div class="lg:col-8 md:col-12">
+        <div class="lg:col-8 md:col-10 col-12">
           <hr class="border-border dark:border-darkmode-border mb-10">
           <p class="mb-1 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-primary dark:text-darkmode-primary">
             <span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Related Posts
           </p>
-          <div class="row mt-6">
+          <div class="mt-6 grid gap-6 grid-cols-[repeat(auto-fill,minmax(280px,1fr))]">
             {{ range . }}
             {{ $post := . }}
-            <div class="md:col-4 mb-6">
+            <div>
               <article class="group h-full overflow-hidden rounded-3xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col">
                 {{ with .Params.image }}
                 <a href="{{ $post.RelPermalink }}" class="block overflow-hidden">
@@ -146,10 +149,10 @@
                   {{ end }}
                   <span class="font-secondary text-xs text-text-light dark:text-darkmode-text-light">{{ .Date.Format "Jan 2, 2006" }}</span>
                 </div>
-                <h3 class="mb-3 text-xl md:text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                <h3 class="mb-3 text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
                   <a href="{{ .RelPermalink }}" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">{{ .Title }}</a>
                 </h3>
-                <p class="mb-6 text-lg md:text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1">{{ .Summary | plainify | truncate 150 }}</p>
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1">{{ .Summary | plainify | truncate 150 }}</p>
                 <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-1.5 text-sm font-medium text-text-dark dark:text-darkmode-text-dark hover:text-primary dark:hover:text-darkmode-primary transition-colors duration-200 mt-auto">
                   Read More <i class="fa fa-arrow-right text-xs"></i>
                 </a>

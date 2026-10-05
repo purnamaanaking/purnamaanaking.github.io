@@ -1,39 +1,33 @@
 {{ define "main" }}
 
   <!-- Page Header -->
-  <section class="pt-14 pb-10">
+  <section class="relative overflow-hidden pt-16 pb-8">
     <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-8 text-center">
-          {{ if eq .Permalink (`categories/` | absLangURL) }}
-          <p class="mb-2 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-primary dark:text-darkmode-primary">
-            <span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Browse
-          </p>
-          <h1 class="mb-4 text-h2 font-bold text-text-dark dark:text-darkmode-text-dark">Categories</h1>
-          <p class="text-text dark:text-darkmode-text">Explore posts by topic.</p>
-          {{ else }}
-          <p class="mb-2 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-primary dark:text-darkmode-primary">
-            <span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Filter
-          </p>
-          <h1 class="mb-4 text-h2 font-bold text-text-dark dark:text-darkmode-text-dark">Tags</h1>
-          <p class="text-text dark:text-darkmode-text">Find posts by tag.</p>
-          {{ end }}
-        </div>
+      <div class="relative">
+        {{ partial "header-motif.html" . }}
+      {{ if eq .Permalink (`categories/` | absLangURL) }}
+      <p class="mb-2 font-secondary text-xs font-medium uppercase tracking-[0.16em] text-primary dark:text-darkmode-primary"><span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Browse</p>
+      <h1 class="mb-2 text-h2 md:text-h1 font-bold tracking-[-0.025em] text-text-dark dark:text-darkmode-text-dark">Categories</h1>
+      <p class="max-w-[560px] text-text dark:text-darkmode-text">Explore posts by topic.</p>
+      {{ else }}
+      <p class="mb-2 font-secondary text-xs font-medium uppercase tracking-[0.16em] text-primary dark:text-darkmode-primary"><span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Filter</p>
+      <h1 class="mb-2 text-h2 md:text-h1 font-bold tracking-[-0.025em] text-text-dark dark:text-darkmode-text-dark">Tags</h1>
+      <p class="max-w-[560px] text-text dark:text-darkmode-text">Find posts by tag.</p>
+      {{ end }}
       </div>
     </div>
   </section>
 
-  <section class="pb-16">
+  <section class="pt-8 pb-16">
     <div class="container">
-      <hr class="border-border dark:border-darkmode-border mb-10">
 
       {{/* categories */}}
       {{ if eq .Permalink (`categories/` | absLangURL) }}
-      <div class="row justify-center">
-        <div class="lg:col-10">
-          <div class="row">
+      <div>
+        <div>
+          <div class="grid gap-5 grid-cols-[repeat(auto-fill,minmax(min(260px,100%),1fr))]">
             {{ range site.Taxonomies.categories.ByCount }}
-            <div class="md:col-4 sm:col-6 mb-6">
+            <div>
               <a href="{{ .Page.RelPermalink }}"
                 class="group flex items-center justify-between rounded-3xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body px-5 py-4 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-md transition-all duration-300">
                 <div>
@@ -53,12 +47,12 @@
 
       {{/* tags */}}
       {{ if eq .Permalink (`tags/` | absLangURL) }}
-      <div class="row justify-center">
-        <div class="lg:col-10">
+      <div>
+        <div>
           <div class="flex flex-wrap gap-3">
             {{ range site.Taxonomies.tags.ByCount }}
             <a href="{{ .Page.RelPermalink }}"
-              class="inline-flex items-center gap-1.5 rounded-lg border border-border dark:border-darkmode-border px-3 py-1.5 font-secondary text-sm md:text-xs text-text-light dark:text-darkmode-text-light hover:border-primary hover:text-primary dark:hover:border-darkmode-primary dark:hover:text-darkmode-primary transition-colors duration-200">
+              class="inline-flex items-center gap-1.5 rounded-full border border-border dark:border-darkmode-border px-3 py-1.5 font-secondary text-sm md:text-xs text-text-light dark:text-darkmode-text-light hover:border-primary hover:text-primary dark:hover:border-darkmode-primary dark:hover:text-darkmode-primary transition-colors duration-200">
               #{{ .Page.Title | urlize | lower }}
               <span class="text-text-light/70 dark:text-darkmode-text-light/70">{{ .Count }}</span>
             </a>

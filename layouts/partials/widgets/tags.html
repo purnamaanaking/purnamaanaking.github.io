@@ -1,11 +1,10 @@
 <!-- tags -->
 {{ if isset site.Taxonomies "tags" }}
   {{ if not (eq (len site.Taxonomies.tags) 0) }}
-    <div class="mb-8 rounded-2xl border border-border dark:border-darkmode-border p-5">
-      <p class="mb-3 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-text-light dark:text-darkmode-text-light">Filter</p>
-      <h5 class="mb-3 font-bold text-text-dark dark:text-darkmode-text-dark">{{ T "tags" }}</h5>
+    <div class="mb-4 rounded-2xl border border-border dark:border-darkmode-border p-5">
+      <p class="mb-3 font-secondary text-[11px] uppercase tracking-[0.08em] text-text-light dark:text-darkmode-text-light">tags</p>
       <div class="flex flex-wrap gap-1.5">
-        {{ range $name, $items := site.Taxonomies.tags }}
+        {{ range (first 16 site.Taxonomies.tags.ByCount) }}
           <a class="inline-flex items-center rounded-lg border border-border dark:border-darkmode-border px-2.5 py-1 font-secondary text-xs text-text-light dark:text-darkmode-text-light hover:border-primary hover:text-primary dark:hover:border-darkmode-primary dark:hover:text-darkmode-primary transition-colors duration-200"
           href="{{ .Page.RelPermalink }}">
           #{{ .Page.Title | urlize | lower }}

@@ -1,7 +1,7 @@
 <!-- theme switcher -->
 {{ $class := .Class }}
 {{ if site.Params.theme_switcher }}
-  <div class="theme-switcher {{ $class }} invisible">
+  <div class="theme-switcher {{ $class }}">
     <input id="theme-switcher" data-theme-switcher type="checkbox" />
     <label for="theme-switcher">
       <span class="sr-only">theme switcher</span>
@@ -31,41 +31,18 @@
         </svg>
       </span>
     </label>
+    <script>document.getElementById("theme-switcher").checked = document.documentElement.classList.contains("dark");</script>
   </div>
 
-  <!-- theme switcher -->
   <script>
-    var darkMode = {{if eq site.Params.theme_default "dark"}}true{{else}}false{{end}};
-
-    {{ if eq site.Params.theme_default "system" }}
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches){darkMode = true}
-    {{ end }}
-
-    if (localStorage.getItem("theme") === "dark"){darkMode = true}
-    else if (localStorage.getItem("theme") === "light"){darkMode = false}
-
-    if (darkMode){document.documentElement.classList.add("dark")}
-    else {document.documentElement.classList.remove("dark")}
-
-    // Show theme switcher after applying theme
-    document.addEventListener("DOMContentLoaded", () => {
-      var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
-      var themeSwitcherContainer = document.querySelector('.theme-switcher');
-
-      [].forEach.call(themeSwitch, function (ts) {
-        ts.checked = darkMode;
-        ts.addEventListener("click", () => {
-          document.documentElement.classList.toggle("dark");
-          localStorage.setItem(
-            "theme",
-            document.documentElement.classList.contains("dark") ? "dark" : "light"
-          );
-        });
+    document.querySelectorAll("[data-theme-switcher]").forEach((ts) => {
+      ts.addEventListener("click", () => {
+        document.documentElement.classList.toggle("dark");
+        localStorage.setItem(
+          "theme",
+          document.documentElement.classList.contains("dark") ? "dark" : "light"
+        );
       });
-
-      // Now make the switcher visible (invisible keeps its layout space reserved,
-      // so it doesn't reflow sibling nav items when it appears)
-      themeSwitcherContainer.classList.remove('invisible');
     });
   </script>
 {{ end }}
