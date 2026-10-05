@@ -1,9 +1,7 @@
-<section>
-  <div class="container text-center">
-    <div
-      class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-3xl bg-gradient-to-b px-8 py-14">
-      <h1>{{ T (printf "%s" (lower .Title)) | default .Title | title }}</h1>
-      {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
-    </div>
+<section class="pt-16 pb-8">
+  <div class="container">
+    <p class="mb-2 font-secondary text-xs font-medium uppercase tracking-[0.16em] text-primary dark:text-darkmode-primary"><span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Page</p>
+    <h1 class="mb-2 text-h2 md:text-h1 font-bold tracking-[-0.025em] text-text-dark dark:text-darkmode-text-dark">{{ T (printf "%s" (lower .Title)) | default .Title | title }}</h1>
+    {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-2 text-sm") }}
   </div>
 </section>
