@@ -8,14 +8,14 @@
           <!-- Hero: Photo + Identity -->
           <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 mb-12">
             {{ with .Params.image }}
-            <div class="shrink-0">
+            <div class="shrink-0 rounded-full ring-4 ring-body dark:ring-darkmode-body outline outline-2 outline-primary dark:outline-darkmode-primary">
               {{ partial "image" (dict "Src" . "Alt" "Purnama Anaking" "Loading" "eager" "Class" "w-28 h-28 rounded-full object-cover" "DisplayXL" "400x") }}
             </div>
             {{ end }}
             <div class="text-center sm:text-left">
               <h1 class="mb-1 text-h3 font-bold text-text-dark dark:text-darkmode-text-dark">{{ .Title }}</h1>
               <p class="mb-1 text-base font-medium text-primary dark:text-darkmode-primary">Software Engineer & Lecturer</p>
-              <p class="mb-4 text-sm text-text dark:text-darkmode-text">Telkom University Surabaya · Indonesia</p>
+              <p class="mb-4 font-secondary text-xs text-text-light dark:text-darkmode-text-light">Telkom University Surabaya · Indonesia</p>
               <ul class="social-icons justify-center sm:justify-start">
                 {{ range site.Data.social.main }}
                 <li>
@@ -39,7 +39,9 @@
 
           <!-- What I Do -->
           <div class="mb-12">
-            <p class="mb-1 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Focus</p>
+            <p class="mb-1 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-primary dark:text-darkmode-primary">
+              <span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Focus
+            </p>
             <h2 class="mb-8 text-h4 font-bold text-text-dark dark:text-darkmode-text-dark">What I Do</h2>
             <div class="row">
               <div class="md:col-4 mb-4">
@@ -77,7 +79,9 @@
 
           <!-- Tech Stack -->
           <div>
-            <p class="mb-1 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Tools</p>
+            <p class="mb-1 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-primary dark:text-darkmode-primary">
+              <span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> Tools
+            </p>
             <h2 class="mb-8 text-h4 font-bold text-text-dark dark:text-darkmode-text-dark">Tech Stack</h2>
             <div class="space-y-6">
               {{ $categories := slice

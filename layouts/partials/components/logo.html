@@ -1,8 +1,10 @@
-{{/* Brand mark from the Purnama Anaking design system: avatar + "purnama.anaking" wordmark (no drawn logo). */}}
+{{/* </> mark + "Purnama Anaking" wordmark, from the "Purnama" design system's Logo component. Fixed at size 28 (gap 10px, text 17px), matching Logo({size:28, wordmark:true}). */}}
+{{ $size := .Size | default 28 }}
 <span class="inline-flex items-center gap-2.5">
-  {{ with resources.Get "images/main-pp.png" }}
-  {{ $avatar := .Fill "64x64 webp q85" }}
-  <img src="{{ $avatar.RelPermalink }}" width="32" height="32" alt="" class="h-8 w-8 rounded-full object-cover shrink-0" />
-  {{ end }}
-  <span class="text-[17px] font-extrabold tracking-tight text-text-dark dark:text-darkmode-text-dark">purnama<span class="font-medium text-text-light dark:text-darkmode-text-light">.anaking</span></span>
+  <svg viewBox="0 0 64 64" width="{{ $size }}" height="{{ $size }}" role="img" aria-label="Purnama Anaking" class="block shrink-0 text-primary dark:text-darkmode-primary">
+    <path d="M17 20 5 32l12 12M34.5 15l-5 34M47 20l12 12-12 12" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+  <span class="font-primary whitespace-nowrap leading-none tracking-tight text-text-dark dark:text-darkmode-text-dark text-[17px]">
+    <span class="font-bold">Purnama</span><span class="font-medium text-text-light dark:text-darkmode-text-light"> Anaking</span>
+  </span>
 </span>

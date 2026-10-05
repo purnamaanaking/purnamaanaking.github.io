@@ -5,7 +5,7 @@
    ===================== */
 
 .btn {
-  @apply inline-flex items-center justify-center rounded-full border border-transparent px-5 py-2.5 text-sm font-semibold transition-all duration-200;
+  @apply inline-flex items-center justify-center rounded-full border border-transparent px-5 py-2.5 text-sm font-medium transition-all duration-200;
 }
 
 .btn-sm {
@@ -13,11 +13,11 @@
 }
 
 .btn-primary {
-  @apply border-primary bg-primary text-white hover:opacity-90 dark:border-darkmode-primary dark:bg-darkmode-primary dark:text-dark;
+  @apply border-action bg-action text-white hover:bg-dark dark:border-darkmode-action dark:bg-darkmode-action dark:text-dark dark:hover:bg-darkmode-primary;
 }
 
 .btn-outline-primary {
-  @apply border-border text-text-dark hover:border-primary hover:text-primary dark:border-darkmode-border dark:text-darkmode-text-dark dark:hover:border-darkmode-primary dark:hover:text-darkmode-primary bg-transparent;
+  @apply border-border text-text-dark hover:border-action hover:text-action dark:border-darkmode-border dark:text-darkmode-text-dark dark:hover:border-darkmode-primary dark:hover:text-darkmode-primary bg-transparent;
 }
 
 /* =====================

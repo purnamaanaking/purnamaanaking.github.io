@@ -5,7 +5,9 @@
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-8 text-center">
-          <p class="mb-2 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">{{ .Type | title }}</p>
+          <p class="mb-2 font-secondary text-xs font-medium uppercase tracking-[0.08em] text-primary dark:text-darkmode-primary">
+            <span class="tracking-[0.16em] -mr-[0.16em]">&lt;/&gt;</span> {{ .Type | title }}
+          </p>
           <h1 class="mb-4 text-h2 font-bold text-text-dark dark:text-darkmode-text-dark">{{ .Title | title }}</h1>
           <p class="text-text dark:text-darkmode-text">{{ len .Data.Pages }} posts in this {{ .Type | singularize }}</p>
         </div>
