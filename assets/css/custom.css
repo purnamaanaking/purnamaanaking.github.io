@@ -625,6 +625,7 @@ nav[aria-label="Pagination"] span[aria-current="page"] {
    Navbar Brand
    ===================== */
 
-.navbar-brand {
-  @apply text-2xl lg:text-xl;
+.navbar-brand svg {
+  height: 100%;
+  width: auto;
 }
