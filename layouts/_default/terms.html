@@ -37,10 +37,10 @@
               <a href="{{ .Page.RelPermalink }}"
                 class="group flex items-center justify-between rounded-3xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body px-5 py-4 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-md transition-all duration-300">
                 <div>
-                  <p class="text-xs font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary mb-1 opacity-70">Category</p>
+                  <p class="font-secondary text-[10px] font-medium uppercase tracking-[0.08em] text-text-light dark:text-darkmode-text-light mb-1">Category</p>
                   <h3 class="text-base font-bold text-text-dark dark:text-darkmode-text-dark group-hover:text-primary dark:group-hover:text-darkmode-primary transition-colors">{{ .Page.Title }}</h3>
                 </div>
-                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 dark:bg-darkmode-primary/10 text-sm font-bold text-primary dark:text-darkmode-primary">
+                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 dark:bg-darkmode-primary/10 font-secondary text-sm font-medium text-primary dark:text-darkmode-primary">
                   {{ .Count }}
                 </span>
               </a>
@@ -58,9 +58,9 @@
           <div class="flex flex-wrap gap-3">
             {{ range site.Taxonomies.tags.ByCount }}
             <a href="{{ .Page.RelPermalink }}"
-              class="inline-flex items-center gap-2 rounded-full border border-border dark:border-darkmode-border px-6 py-3 text-2xl md:text-sm font-medium text-text-dark dark:text-darkmode-text-dark hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary hover:bg-primary/5 dark:hover:bg-darkmode-primary/5 transition-all duration-200">
-              {{ .Page.Title }}
-              <span class="text-xl md:text-xs font-bold text-primary dark:text-darkmode-primary opacity-70">{{ .Count }}</span>
+              class="inline-flex items-center gap-1.5 rounded-lg border border-border dark:border-darkmode-border px-3 py-1.5 font-secondary text-sm md:text-xs text-text-light dark:text-darkmode-text-light hover:border-primary hover:text-primary dark:hover:border-darkmode-primary dark:hover:text-darkmode-primary transition-colors duration-200">
+              #{{ .Page.Title | urlize | lower }}
+              <span class="text-text-light/70 dark:text-darkmode-text-light/70">{{ .Count }}</span>
             </a>
             {{ end }}
           </div>
