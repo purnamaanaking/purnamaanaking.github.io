@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model on Purnama Anaking</title>
+    <link>//localhost:1313/tags/model/</link>
+    <description>Recent content in Model on Purnama Anaking</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Aug 2023 05:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is Framework ?</title>
+      <link>//localhost:1313/blog/what-is-framework/</link>
+      <pubDate>Tue, 22 Aug 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/what-is-framework/</guid>
+      <description>&lt;p&gt;Framework is a collection of ready-to-use program code with certain writing rules that aim to facilitate and speed up application development. Frameworks are created to simplify the performance of programmers. Thus, a programmer does not need to write code repeatedly. Because in it only needs to compile programming components. The main purpose of using a framework is to speed up the creation of applications, because there are various ready-made features in the framework. We just need to use these features without having to create everything from scratch. In addition, the writing rules in the framework will force us to use a good way of writing (following best practice standards).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1509 @@
+<!doctype html>
+<html
+  itemscope
+  class=""
+  lang="en-us"
+  itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8" />
+
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+<meta name="theme-name" content="hugoplate" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/images/favicon_hu_1204f621bad34c61.png" type="image/x-icon">
+<link rel="icon" href="/images/favicon_hu_1204f621bad34c61.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon_hu_11a17759c82f9dee.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon_hu_1204f621bad34c61.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon_hu_40a6f5cf4bb1c465.png">
+
+
+
+
+
+
+
+
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta
+  name="msapplication-TileColor"
+  content="#ddd" />
+<meta
+  name="theme-color"
+  content="#ffffff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <base href="//localhost:1313/blog/laravel-factory-file-storage/" />
+
+
+
+
+
+
+
+  
+  
+
+
+<title>Modul #09 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Factory &amp; File Storage</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta
+    name="keywords"
+    content="software engineer, lecturer, web development, laravel, technology, Indonesia, Telkom University" />
+
+
+
+
+<meta
+  name="description"
+  content="Modul #09 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Factory &amp; File Storage" />
+
+
+
+  <meta name="author" content="Purnama Anaking" />
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="//localhost:1313/images/blog/laravel-factory-file-storage.png" />
+  <meta property="og:image" content="//localhost:1313/images/blog/laravel-factory-file-storage.png" />
+
+
+
+
+
+<meta property="og:title" content="Modul #09 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Factory &amp; File Storage" />
+<meta property="og:description" content="Modul #09 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Factory &amp; File Storage" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="//localhost:1313/blog/laravel-factory-file-storage/" />
+
+
+<meta name="twitter:title" content="Modul #09 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Factory &amp; File Storage" />
+<meta name="twitter:description" content="Modul #09 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Factory &amp; File Storage" />
+
+
+
+  <meta name="twitter:creator" content="@Purnama Anaking" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  let indexURL = "//localhost:1313/searchindex.json";
+  let includeSectionsInSearch = ["blog"];
+  let search_no_results = "No results for";
+  let search_initial_message = "Type something to search..";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin />
+<link rel="preconnect" href="//cdnjs.cloudflare.com" />
+<link rel="preconnect" href="//www.googletagmanager.com" />
+<link rel="preconnect" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://use.fontawesome.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="dns-prefetch" href="//platform.linkedin.com" />
+<link rel="dns-prefetch" href="//platform.twitter.com" />
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script>
+  (function () {
+    const googleFont = document.createElement("link");
+    googleFont.href = "https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Signika:wght@500;700&display=swap";
+    googleFont.type = "text/css";
+    googleFont.rel = "stylesheet";
+    document.head.appendChild(googleFont);
+  })();
+</script>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" />
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link
+  href="/css/style.css"
+  integrity=""
+  rel="stylesheet" />
+
+
+<link
+  defer
+  async
+  rel="stylesheet"
+  href="/css/style-lazy.css"
+  integrity=""
+  media="print"
+  onload="this.media='all'; this.onload=null;" />
+
+
+  </head>
+
+  <body>
+    
+    
+      
+
+
+
+
+
+      
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
+
+    
+
+
+    
+    
+
+
+
+
+
+    
+    <header class="header sticky top-0 z-30 border-b border-border/60 dark:border-darkmode-border/60 backdrop-blur-md bg-body/90 dark:bg-darkmode-body/90">
+  <nav class="navbar container">
+    
+    <div class="order-0">
+      
+      <a class="navbar-brand block" href="/">
+        Purnama Anaking.
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Menu Open</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Menu Close</title>
+        <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)">
+        </polygon>
+      </svg>
+    </label>
+    
+
+    
+    <ul id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link "  href="/">Home</a>
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link active"  href="/blog">Blog</a>
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link "  href="/about">About</a>
+      </li>
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+      
+      
+      <button aria-label="search"  class="border-border text-text-dark hover:text-primary
+              dark:border-darkmode-border mr-5 inline-block border-r pr-5
+              text-xl dark:text-white dark:hover:text-darkmode-primary"  data-target="search-modal">
+        <i class="fa-solid fa-search"></i>
+      </button>
+      
+      
+
+      
+
+      
+
+
+  <div class="theme-switcher mr-5 hidden">
+    <input id="theme-switcher" data-theme-switcher type="checkbox" />
+    <label for="theme-switcher">
+      <span class="sr-only">theme switcher</span>
+      <span>
+        
+        <svg
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0"
+          viewBox="0 0 56 56"
+          fill="#fff"
+          height="16"
+          width="16">
+          <path
+            d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" />
+        </svg>
+        
+        <svg
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 dark:opacity-100"
+          viewBox="0 0 24 24"
+          fill="none"
+          height="16"
+          width="16">
+          <path
+            fill="#000"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" />
+        </svg>
+      </span>
+    </label>
+  </div>
+
+  
+  <script>
+    var darkMode = false;
+
+    
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches){darkMode = true}
+    
+
+    if (localStorage.getItem("theme") === "dark"){darkMode = true}
+    else if (localStorage.getItem("theme") === "light"){darkMode = false}
+
+    if (darkMode){document.documentElement.classList.add("dark")}
+    else {document.documentElement.classList.remove("dark")}
+
+    
+    document.addEventListener("DOMContentLoaded", () => {
+      var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
+      var themeSwitcherContainer = document.querySelector('.theme-switcher');
+
+      [].forEach.call(themeSwitch, function (ts) {
+        ts.checked = darkMode;
+        ts.addEventListener("click", () => {
+          document.documentElement.classList.toggle("dark");
+          localStorage.setItem(
+            "theme",
+            document.documentElement.classList.contains("dark") ? "dark" : "light"
+          );
+        });
+      });
+
+      
+      themeSwitcherContainer.classList.remove('hidden');
+    });
+  </script>
+
+
+    </div>
+  </nav>
+</header>
+
+    
+
+
+
+
+  
+    <div
+      class="search-modal "
+      aria-hidden="true"
+      style="--color-primary: #121212">
+      <div data-target="close-search-modal" class="search-modal-overlay"></div>
+      <div
+        class="search-wrapper"
+        data-image="false"
+        data-description="false"
+        data-tags="true"
+        data-categories="true">
+        <div class="search-wrapper-header">
+          <label for="search-modal-input" style="margin-top:-1px">
+            <span class="sr-only">search icon</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="18"
+              width="18"
+              class="search-icon"
+              data-type="search">
+              <path
+                fill="currentColor"
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="18"
+              width="18"
+              class="search-reset"
+              data-type="reset">
+              <path
+                fill="currentColor"
+                d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
+            </svg>
+          </label>
+          <input
+            id="search-modal-input"
+            type="text"
+            data-search-input
+            autocomplete="off"
+            aria-label="Search"
+            placeholder="Search Post..." />
+        </div>
+        <div class="search-wrapper-body">
+          <div class="search-result" data-search-result></div>
+          <span class="search-result-empty">
+            Type something to search..
+          </span>
+        </div>
+        <div class="search-wrapper-footer">
+          <span>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+              </svg>
+            </kbd>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                style="margin-top:1px;"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+              </svg>
+            </kbd>
+            to navigate
+          </span>
+          <span>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                style="display:inline-block;"
+                viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
+              </svg>
+            </kbd>
+            to select
+          </span>
+          <span class="search-result-info"></span>
+          <span data-target="close-search-modal">
+            <kbd>ESC</kbd> to close
+          </span>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+    <main>
+      
+  <section class="pt-14 pb-24">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10 md:col-12">
+
+          
+          <a href="/blog" class="inline-flex items-center gap-2 text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors mb-10">
+            <i class="fa fa-arrow-left text-xs"></i> Back to Blog
+          </a>
+
+          
+          <div class="mb-4 flex flex-wrap items-center gap-3">
+            
+              
+              <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">Technology</span>
+              
+            
+            <span class="text-xs text-text dark:text-darkmode-text opacity-60">
+              <i class="fa-regular fa-calendar mr-1"></i>December 21, 2023
+            </span>
+            <span class="text-xs text-text dark:text-darkmode-text opacity-60">
+              <i class="fa-regular fa-clock mr-1"></i>7 min read
+            </span>
+          </div>
+
+          
+          <h1 class="mb-8 text-h2 font-bold leading-tight text-text-dark dark:text-darkmode-text-dark">Modul #09 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Factory &amp; File Storage</h1>
+
+          <hr class="border-border dark:border-darkmode-border mb-10">
+
+          
+          <div class="content mb-10">
+            
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="notice note">
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="22" height="22" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+      </svg><p>Note</p>
+  </div>
+  <div class="notice-body"><p><h5 id="artikel-ini-merupakan-bagian-dari">Artikel ini merupakan bagian dari:</h5>
+<p><a href="//localhost:1313/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" class="btn btn-outline-primary btn-sm w-full mb-3"  rel="" >Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel</a></p></p></div>
+</div>
+
+<p>Pada modul kali ini kita akan melanjutkan belajar tentang <strong>Laravel Factory</strong> dan <strong>File Storage</strong>. kita akan mencoba menerapkan fitur Laravel Factory untuk men-generate data dummy ke database dan menerapkan Laravel File Storage untuk mengelola asset file pada project laravel yang dimiliki.</p>
+<h4 id="1-membuat-dan-mendefinisikan-factory">1. Membuat dan Mendefinisikan Factory</h4>
+<ul>
+<li>
+<p>Buat file Factory untuk tabel <strong>positions</strong> dengan command artisan sebagai berikut:</p>
+<pre tabindex="0"><code>php artisan make:factory PositionFactory
+</code></pre></li>
+<li>
+<p>Definisikan value setiap kolom yang dimiliki tabel <strong>positions</strong> dengan bantuan faker untuk men-generate data dummy. Sesuaikan isi function <strong>definition()</strong> seperti kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">definition</span>()<span style="color:#f92672">:</span> <span style="color:#66d9ef">array</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;code&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">fake</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">stateAbbr</span>(),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;name&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">fake</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">jobTitle</span>(),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;description&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">fake</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">sentence</span>(),
+</span></span><span style="display:flex;"><span>    ];
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+<li>
+<p>Buat file Factory untuk tabel <strong>employees</strong> dengan command artisan sebagai berikut:</p>
+<pre tabindex="0"><code>php artisan make:factory EmployeeFactory
+</code></pre></li>
+<li>
+<p>Definisikan value setiap kolom yang dimiliki tabel <strong>employees</strong> dengan bantuan faker untuk men-generate data dummy. Sesuaikan isi function <strong>definition()</strong> seperti kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">definition</span>()<span style="color:#f92672">:</span> <span style="color:#66d9ef">array</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;firstname&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">fake</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">firstName</span>(),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;lastname&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">fake</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">lastName</span>(),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;email&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">fake</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">email</span>(),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;age&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">fake</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">numberBetween</span>(<span style="color:#ae81ff">25</span>, <span style="color:#ae81ff">50</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;position_id&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">Position</span><span style="color:#f92672">::</span><span style="color:#a6e22e">factory</span>()
+</span></span><span style="display:flex;"><span>    ];
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+</ul>
+<h4 id="2-menjalankan-factory-via-seeder">2. Menjalankan Factory via Seeder</h4>
+<ul>
+<li>
+<p>Buat file <strong>PositionSeeder.php</strong> kemudian generate 5 data dummy untuk tabel <strong>positions</strong> dengan menuliskan kode program seperti di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Position</span><span style="color:#f92672">::</span><span style="color:#a6e22e">factory</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">count</span>(<span style="color:#ae81ff">5</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">create</span>();
+</span></span></code></pre></div></li>
+<li>
+<p>Buat file <strong>EmployeeSeeder.php</strong> kemudian generate 10 data dummy untuk tabel <strong>employees</strong> dengan menuliskan kode program seperti di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Employee</span><span style="color:#f92672">::</span><span style="color:#a6e22e">factory</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">count</span>(<span style="color:#ae81ff">10</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">create</span>();
+</span></span></code></pre></div></li>
+<li>
+<p>Jalankan <strong>seeder</strong> yang telah disesuaikan dengan command di bawah ini.</p>
+<pre tabindex="0"><code>php artisan db:seed
+</code></pre></li>
+</ul>
+<h4 id="3-meletakkan-file-pada-local-disk">3. Meletakkan File pada Local Disk</h4>
+<ul>
+<li>
+<p>Buka file <strong>routes/web.php</strong> kemudian buat Route baru dengan kode program seperti di bawah ini. Kemudian akses Route tersebut via Browser.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/local-disk&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">disk</span>(<span style="color:#e6db74">&#39;local&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">put</span>(<span style="color:#e6db74">&#39;local-example.txt&#39;</span>, <span style="color:#e6db74">&#39;This is local example content&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">asset</span>(<span style="color:#e6db74">&#39;storage/local-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div></li>
+<li>
+<p>Jika berhasil akan terbuat file dengan nama <strong>local-example.txt</strong> di folder <strong>/storage/app</strong> pada project laravel anda.</p>
+</li>
+</ul>
+<h4 id="4-meletakkan-file-pada-public-disk">4. Meletakkan File pada Public Disk</h4>
+<ul>
+<li>
+<p>Buat <strong>Symbolic Link</strong> yang menghubungkan antara direktori <strong>/storage/app/public</strong> dengan direktori <strong>/public/storage</strong> via command di bawah ini:</p>
+<pre tabindex="0"><code>php artisan storage:link
+</code></pre></li>
+<li>
+<p>Buka file <strong>routes/web.php</strong> kemudian buat Route baru dengan kode program seperti di bawah ini. Kemudian akses Route tersebut via Browser.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/public-disk&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">disk</span>(<span style="color:#e6db74">&#39;public&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">put</span>(<span style="color:#e6db74">&#39;public-example.txt&#39;</span>, <span style="color:#e6db74">&#39;This is public example content&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">asset</span>(<span style="color:#e6db74">&#39;storage/public-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div></li>
+<li>
+<p>Jika berhasil akan terbuat file dengan nama <strong>public-example.txt</strong> di folder <strong>/storage/app/public</strong> pada project laravel anda.</p>
+</li>
+<li>
+<p>Anda dapat mengakses file yang sudah terbuat tersebut via brower dengan URL:</p>
+<pre tabindex="0"><code>http://localhost:8000/storage/public-example.txt
+</code></pre></li>
+<li>
+<p>URL di atas mengakses file melalui folder <strong>/public/storage</strong> yang memiliki <strong>“symbolic link”</strong> ke direktori <strong>/storage/app/public</strong>.</p>
+</li>
+</ul>
+<h4 id="5-menampilkan-isi-file">5. Menampilkan Isi File</h4>
+<ul>
+<li>
+<p>Menampilkan isi file local dengan cara buat Route baru dengan kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/retrieve-local-file&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">disk</span>(<span style="color:#e6db74">&#39;local&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">exists</span>(<span style="color:#e6db74">&#39;local-example.txt&#39;</span>)) {
+</span></span><span style="display:flex;"><span>        $contents <span style="color:#f92672">=</span> <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">disk</span>(<span style="color:#e6db74">&#39;local&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;local-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        $contents <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;File does not exist&#39;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> $contents;
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div></li>
+<li>
+<p>Menampilkan isi file public dengan cara buat Route baru dengan kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/retrieve-public-file&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">disk</span>(<span style="color:#e6db74">&#39;public&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">exists</span>(<span style="color:#e6db74">&#39;public-example.txt&#39;</span>)) {
+</span></span><span style="display:flex;"><span>        $contents <span style="color:#f92672">=</span> <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">disk</span>(<span style="color:#e6db74">&#39;public&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;public-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        $contents <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;File does not exist&#39;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> $contents;
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div></li>
+<li>
+<p>Akses route-route tersebut via browser lalu analisis apa yang ditampilkan pada browser.</p>
+</li>
+</ul>
+<h4 id="6-mendownload-file">6. Mendownload File</h4>
+<ul>
+<li>
+<p>Mendownload file <strong>local</strong> dengan cara buat Route baru dengan kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/download-local-file&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">download</span>(<span style="color:#e6db74">&#39;local-example.txt&#39;</span>, <span style="color:#e6db74">&#39;local file&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div></li>
+<li>
+<p>Mendownload file <strong>public</strong> dengan cara buat Route baru dengan kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/download-public-file&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">download</span>(<span style="color:#e6db74">&#39;public/public-example.txt&#39;</span>, <span style="color:#e6db74">&#39;public file&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div></li>
+<li>
+<p>Akses route-route tersebut via browser lalu analisis apa yang ditampilkan pada browser.</p>
+</li>
+</ul>
+<h4 id="7-menampilkan-url-path-dan-size-dari-file">7. Menampilkan URL, Path dan Size dari File</h4>
+<ul>
+<li>
+<p>Buat route baru dengan kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/file-url&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Just prepend &#34;/storage&#34; to the given path and return a relative URL
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $url <span style="color:#f92672">=</span> <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">url</span>(<span style="color:#e6db74">&#39;local-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> $url;
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/file-size&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    $size <span style="color:#f92672">=</span> <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">size</span>(<span style="color:#e6db74">&#39;local-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> $size;
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/file-path&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    $path <span style="color:#f92672">=</span> <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">path</span>(<span style="color:#e6db74">&#39;local-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> $path;
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div></li>
+<li>
+<p>Akses route-route tersebut via browser lalu analisis apa yang ditampilkan pada browser.</p>
+</li>
+</ul>
+<h4 id="8-menyimpan-file-via-form">8. Menyimpan File via Form</h4>
+<ul>
+<li>
+<p>Buat route baru dengan kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/upload-example&#39;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">view</span>(<span style="color:#e6db74">&#39;upload_example&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">post</span>(<span style="color:#e6db74">&#39;/upload-example&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">Request</span> $request) {
+</span></span><span style="display:flex;"><span>    $path <span style="color:#f92672">=</span> $request<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">file</span>(<span style="color:#e6db74">&#39;avatar&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">store</span>(<span style="color:#e6db74">&#39;public&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> $path;
+</span></span><span style="display:flex;"><span>})<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">name</span>(<span style="color:#e6db74">&#39;upload-example&#39;</span>);
+</span></span></code></pre></div></li>
+<li>
+<p>Buat file view dengan nama <strong>upload_example.blade.php</strong>. Tulis kode program seperti di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!doctype html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">http-equiv</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;X-UA-Compatible&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ie=edge&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt;Upload Example&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">form</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">action</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ route(&#39;upload-example&#39;) }}&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">method</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;POST&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">enctype</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;multipart/form-data&#34;</span>
+</span></span><span style="display:flex;"><span>    &gt;
+</span></span><span style="display:flex;"><span>      @csrf
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;file&#34;</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;avatar&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;submit&#34;</span>&gt;Upload&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">form</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div></li>
+<li>
+<p>Akses URL <strong>/upload-example</strong> via browser, pilih salah satu file, lalu klik button <strong>Upload</strong>.</p>
+<p><img src="/images/blog/file-upload.png" alt="File Upload"></p>
+</li>
+<li>
+<p>Jika berhasil maka file yang diupload akan tersimpan pada direktori <strong>/storage/app/public</strong>.</p>
+</li>
+</ul>
+<h4 id="9-menghapus-file-pada-storage">9. Menghapus File pada Storage</h4>
+<ul>
+<li>
+<p>Buat route baru dengan kode program di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/delete-local-file&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">Request</span> $request) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">disk</span>(<span style="color:#e6db74">&#39;local&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">delete</span>(<span style="color:#e6db74">&#39;local-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;Deleted&#39;</span>;
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/delete-public-file&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">Request</span> $request) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">disk</span>(<span style="color:#e6db74">&#39;public&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">delete</span>(<span style="color:#e6db74">&#39;public-example.txt&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;Deleted&#39;</span>;
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div></li>
+<li>
+<p>Akses route-route tersebut via browser lalu analisis apa yang terjadi.</p>
+</li>
+<li>
+<p>Jika berhasil maka file yang bersangkutan akan terhapus pada project laravel anda.</p>
+</li>
+</ul>
+<h4 id="10-menerapkan-fitur-upload-pada-web-data-master-employee">10. Menerapkan Fitur Upload pada Web Data Master Employee</h4>
+<ul>
+<li>
+<p>Buat file migration baru untuk menambahkan kolom yang digunakan menyimpan data nama file <strong>original</strong> dan yang <strong>terenkripsi</strong>. Tulis command di bawah ini:</p>
+<pre tabindex="0"><code>php artisan make:migration add_filename_column_into_employees_table
+</code></pre></li>
+<li>
+<p>Buka file migration yang baru saja ter-generate. Tulis kode program di bawah ini untuk menambahkan 2 kolom baru dengan nama <strong>“original_filename”</strong> dan <strong>“encrypted_filename”</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">* Run the migrations.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">up</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">void</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Schema</span><span style="color:#f92672">::</span><span style="color:#a6e22e">table</span>(<span style="color:#e6db74">&#39;employees&#39;</span>, <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">Blueprint</span> $table) {
+</span></span><span style="display:flex;"><span>        $table<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">string</span>(<span style="color:#e6db74">&#39;original_filename&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">after</span>(<span style="color:#e6db74">&#39;position_id&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">nullable</span>();
+</span></span><span style="display:flex;"><span>        $table<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">string</span>(<span style="color:#e6db74">&#39;encrypted_filename&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">after</span>(<span style="color:#e6db74">&#39;original_filename&#39;</span>)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">nullable</span>();
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">* Reverse the migrations.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">down</span>()<span style="color:#f92672">:</span> <span style="color:#a6e22e">void</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Schema</span><span style="color:#f92672">::</span><span style="color:#a6e22e">table</span>(<span style="color:#e6db74">&#39;employees&#39;</span>, <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">Blueprint</span> $table) {
+</span></span><span style="display:flex;"><span>        $table<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">dropColumn</span>(<span style="color:#e6db74">&#39;encrypted_filename&#39;</span>);
+</span></span><span style="display:flex;"><span>        $table<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">dropColumn</span>(<span style="color:#e6db74">&#39;original_filename&#39;</span>);
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+<li>
+<p>Jalankan <strong>“php artisan migrate”</strong> untuk meng-eksekusi file migration yang baru saja kita buat. Jika berhasil maka akan muncul 2 kolom baru pada tabel <strong>employees</strong> di database anda.</p>
+</li>
+<li>
+<p>Buka file <strong>/views/employee/create.blade.php</strong>, sesuaikan fitur <strong>Form Create Employee</strong> dengan atribut enctype pada tag <code>&lt;form&gt;</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">form</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">action</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ route(&#39;employees.store&#39;) }}&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">method</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;POST&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">enctype</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;multipart/form-data&#34;</span>
+</span></span><span style="display:flex;"><span>&gt;&lt;/<span style="color:#f92672">form</span>&gt;
+</span></span></code></pre></div></li>
+<li>
+<p>Tambahkan kode program di bawah ini setelah bagian yang menampilkan pilihan <strong>“Position”</strong> pada form.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-12 mb-3&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">label</span> <span style="color:#a6e22e">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cv&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-label&#34;</span>&gt;Curriculum Vitae (CV)&lt;/<span style="color:#f92672">label</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;file&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-control&#34;</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cv&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cv&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span></code></pre></div><p><img src="/images/blog/create-employee-form.png" alt="Create Employee Form"></p>
+</li>
+<li>
+<p>Buka file <strong>EmployeeController.php</strong> kemudian sesuaikan function <strong>store()</strong> seperti di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">store</span>(<span style="color:#a6e22e">Request</span> $request)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    $messages <span style="color:#f92672">=</span> [
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;required&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;:Attribute harus diisi.&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;email&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;Isi :attribute dengan format yang benar&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;numeric&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;Isi :attribute dengan angka&#39;</span>
+</span></span><span style="display:flex;"><span>    ];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    $validator <span style="color:#f92672">=</span> <span style="color:#a6e22e">Validator</span><span style="color:#f92672">::</span><span style="color:#a6e22e">make</span>($request<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">all</span>(), [
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;firstName&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;required&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;lastName&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;required&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;email&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;required|email&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;age&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;required|numeric&#39;</span>,
+</span></span><span style="display:flex;"><span>    ], $messages);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> ($validator<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">fails</span>()) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">redirect</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">back</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">withErrors</span>($validator)<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">withInput</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Get File
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $file <span style="color:#f92672">=</span> $request<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">file</span>(<span style="color:#e6db74">&#39;cv&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> ($file <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>        $originalFilename <span style="color:#f92672">=</span> $file<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">getClientOriginalName</span>();
+</span></span><span style="display:flex;"><span>        $encryptedFilename <span style="color:#f92672">=</span> $file<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">hashName</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Store File
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        $file<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">store</span>(<span style="color:#e6db74">&#39;public/files&#39;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ELOQUENT
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $employee <span style="color:#f92672">=</span> <span style="color:#66d9ef">New</span> <span style="color:#a6e22e">Employee</span>;
+</span></span><span style="display:flex;"><span>    $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">firstname</span> <span style="color:#f92672">=</span> $request<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">firstName</span>;
+</span></span><span style="display:flex;"><span>    $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">lastname</span> <span style="color:#f92672">=</span> $request<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">lastName</span>;
+</span></span><span style="display:flex;"><span>    $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">email</span> <span style="color:#f92672">=</span> $request<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">email</span>;
+</span></span><span style="display:flex;"><span>    $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> $request<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">age</span>;
+</span></span><span style="display:flex;"><span>    $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">position_id</span> <span style="color:#f92672">=</span> $request<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">position</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> ($file <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>        $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">original_filename</span> <span style="color:#f92672">=</span> $originalFilename;
+</span></span><span style="display:flex;"><span>        $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">encrypted_filename</span> <span style="color:#f92672">=</span> $encryptedFilename;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">save</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">redirect</span>()<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">route</span>(<span style="color:#e6db74">&#39;employees.index&#39;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+<li>
+<p>Jalankan fitur <strong>Form Create Employee</strong> via browser, jika berhasil maka data employee akan masuk ke database dan file CV akan tersimpan di direktori <strong>/storage/app/public/files</strong> pada project laravel anda.</p>
+</li>
+<li>
+<p>Buat route baru pada file <strong>/routes/web/php</strong> dengan menambahkan kode program seperti di bawah ini untuk operasi download file.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;download-file/{employeeId}&#39;</span>, [<span style="color:#a6e22e">EmployeeController</span><span style="color:#f92672">::</span><span style="color:#a6e22e">class</span>, <span style="color:#e6db74">&#39;downloadFile&#39;</span>])<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">name</span>(<span style="color:#e6db74">&#39;employees.downloadFile&#39;</span>);
+</span></span></code></pre></div></li>
+<li>
+<p>Buka file <strong>/views/employee/show.blade.php</strong>, sesuaikan kode program seperti di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">@</span><span style="color:#66d9ef">extends</span>(<span style="color:#e6db74">&#39;layouts.app&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">@</span><span style="color:#a6e22e">section</span>(<span style="color:#e6db74">&#39;content&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container-sm my-5&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row justify-content-center&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;p-5 bg-light rounded-3 col-xl-4 border&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-3 text-center&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-person-circle fs-1&#34;</span><span style="color:#f92672">&gt;&lt;/</span><span style="color:#a6e22e">i</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h4</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Detail</span> <span style="color:#a6e22e">Employee</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h4</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">hr</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-4 mb-3&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">label</span> <span style="color:#66d9ef">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;firstName&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-label&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">First</span> <span style="color:#a6e22e">Name</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">label</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>{{ $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">firstname</span> }}<span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-4 mb-3&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">label</span> <span style="color:#66d9ef">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;lastName&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-label&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Last</span> <span style="color:#a6e22e">Name</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">label</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>{{ $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">lastname</span> }}<span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-4 mb-3&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">label</span> <span style="color:#66d9ef">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;age&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-label&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Age</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">label</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>{{ $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">age</span> }}<span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-12 mb-3&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">label</span> <span style="color:#66d9ef">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;email&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-label&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Email</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">label</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>{{ $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">email</span> }}<span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-12 mb-3&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">label</span> <span style="color:#66d9ef">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;age&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-label&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Position</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">label</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>{{ $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">position</span><span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">name</span> }}<span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-12 mb-3&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">label</span> <span style="color:#66d9ef">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;age&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-label&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Curriculum</span> <span style="color:#a6e22e">Vitae</span> (<span style="color:#a6e22e">CV</span>)<span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">label</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">@</span><span style="color:#66d9ef">if</span> ($employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">original_filename</span>)
+</span></span><span style="display:flex;"><span>                            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>{{ $employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">original_filename</span> }}<span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ route(&#39;employees.downloadFile&#39;, [&#39;employeeId&#39; =&gt; </span><span style="color:#e6db74">$employee-&gt;id</span><span style="color:#e6db74">]) }}&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn btn-primary btn-sm mt-2&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi bi-download me-1&#34;</span><span style="color:#f92672">&gt;&lt;/</span><span style="color:#a6e22e">i</span><span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">Download</span> <span style="color:#a6e22e">CV</span>
+</span></span><span style="display:flex;"><span>                            <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">a</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">@</span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>                            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Tidak</span> <span style="color:#a6e22e">ada</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">h5</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">@</span><span style="color:#66d9ef">endif</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">hr</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;row&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col-md-12 d-grid&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ route(&#39;employees.index&#39;) }}&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn btn-outline-dark btn-lg mt-3&#34;</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#a6e22e">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bi-arrow-left-circle me-2&#34;</span><span style="color:#f92672">&gt;&lt;/</span><span style="color:#a6e22e">i</span><span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">Back</span><span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">a</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">@</span><span style="color:#a6e22e">endsection</span>
+</span></span></code></pre></div></li>
+<li>
+<p>Buka file <strong>EmployeeController.php</strong> lalu tambahkan function <strong>downloadFile()</strong> seperti di bawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">downloadFile</span>($employeeId)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    $employee <span style="color:#f92672">=</span> <span style="color:#a6e22e">Employee</span><span style="color:#f92672">::</span><span style="color:#a6e22e">find</span>($employeeId);
+</span></span><span style="display:flex;"><span>    $encryptedFilename <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;public/files/&#39;</span><span style="color:#f92672">.</span>$employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">encrypted_filename</span>;
+</span></span><span style="display:flex;"><span>    $downloadFilename <span style="color:#f92672">=</span> <span style="color:#a6e22e">Str</span><span style="color:#f92672">::</span><span style="color:#a6e22e">lower</span>($employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">firstname</span><span style="color:#f92672">.</span><span style="color:#e6db74">&#39;_&#39;</span><span style="color:#f92672">.</span>$employee<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">lastname</span><span style="color:#f92672">.</span><span style="color:#e6db74">&#39;_cv.pdf&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">exists</span>($encryptedFilename)) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">Storage</span><span style="color:#f92672">::</span><span style="color:#a6e22e">download</span>($encryptedFilename, $downloadFilename);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+<li>
+<p>Jika berhasil maka ketika anda mengakses halaman employee detail, maka akan tampilkan button <strong>“download”</strong> CV dari employee. Dan CV employee dapat di-download dengan melakukan klik pada button tersebut.</p>
+<p><img src="/images/blog/detail-employee.png" alt="Detail Employee"></p>
+</li>
+</ul>
+<h4 id="11-latihan">11. Latihan</h4>
+<ul>
+<li>
+<p>Lanjutkan <strong>Fitur Edit Employee</strong></p>
+<ul>
+<li>
+<p>Edit data employee di database</p>
+</li>
+<li>
+<p>Ubah file CV nya dengan cara: file CV yang sebelumnya, dihapus dari project laravel anda dan diganti dengan file CV yang baru.</p>
+<p><img src="/images/blog/edit-employee-form.png" alt="Edit Employee Form"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Lanjutkan <strong>Fitur Hapus Employee</strong></p>
+<ul>
+<li>Hapus data employee dari database</li>
+<li>Hapus file CV nya dari project laravel anda</li>
+</ul>
+</li>
+</ul>
+<h4 id="12-tugas">12. Tugas</h4>
+<ul>
+<li><strong>Praktekkan</strong> seluruh poin dan latihan yang ada di atas secara <strong>INDIVIDU</strong>.</li>
+</ul>
+<hr>
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="notice note">
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="22" height="22" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+      </svg><p>Note</p>
+  </div>
+  <div class="notice-body"><p><h5 id="artikel-ini-merupakan-bagian-dari">Artikel ini merupakan bagian dari:</h5>
+<p><a href="//localhost:1313/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/" class="btn btn-outline-primary btn-sm w-full mb-3"  rel="" >Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel</a></p></p></div>
+</div>
+
+
+          </div>
+
+          <hr class="border-border dark:border-darkmode-border mb-8">
+
+          
+          
+          <div class="flex flex-wrap items-center gap-2 mb-8">
+            <span class="text-sm font-medium text-text-dark dark:text-darkmode-text-dark mr-1">Tags:</span>
+            
+            <a href="/tags/modul/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Modul
+            </a>
+            
+            <a href="/tags/pemrograman/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Pemrograman
+            </a>
+            
+            <a href="/tags/framework/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Framework
+            </a>
+            
+            <a href="/tags/laravel/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Laravel
+            </a>
+            
+            <a href="/tags/factory/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Factory
+            </a>
+            
+            <a href="/tags/file/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              File
+            </a>
+            
+            <a href="/tags/storage/"
+              class="rounded-full border border-border dark:border-darkmode-border px-3 py-1 text-xs text-text dark:text-darkmode-text hover:border-primary dark:hover:border-darkmode-primary hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+              Storage
+            </a>
+            
+          </div>
+          
+
+          
+          <div class="flex flex-wrap items-center gap-3">
+            <span class="text-sm font-medium text-text-dark dark:text-darkmode-text-dark">Share:</span>
+            
+            <a href="https://twitter.com/intent/tweet?url=//localhost:1313/blog/laravel-factory-file-storage/&text=Modul%20#09%20Belajar%20Pemrograman%20Framework%20Laravel%20Tahap%20Dasar:%20Laravel%20Factory%20&amp;%20File%20Storage"
+              target="_blank" rel="noopener" aria-label="Share on X"
+              class="share-btn">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=//localhost:1313/blog/laravel-factory-file-storage/"
+              target="_blank" rel="noopener" aria-label="Share on LinkedIn"
+              class="share-btn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            
+            <a href="https://wa.me/?text=Modul%20#09%20Belajar%20Pemrograman%20Framework%20Laravel%20Tahap%20Dasar:%20Laravel%20Factory%20&amp;%20File%20Storage%20//localhost:1313/blog/laravel-factory-file-storage/"
+              target="_blank" rel="noopener" aria-label="Share on WhatsApp"
+              class="share-btn">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            
+            <a href="https://www.facebook.com/sharer/sharer.php?u=//localhost:1313/blog/laravel-factory-file-storage/"
+              target="_blank" rel="noopener" aria-label="Share on Facebook"
+              class="share-btn">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            
+            <button onclick="copyPostLink(this)" aria-label="Copy link" class="share-btn relative group" id="copy-link-btn">
+              <i class="fa-regular fa-copy" id="copy-icon"></i>
+              <span class="copy-tooltip">Copy link</span>
+            </button>
+          </div>
+
+          <script>
+            function copyPostLink(btn) {
+              navigator.clipboard.writeText(window.location.href).then(function() {
+                const icon = document.getElementById('copy-icon');
+                const tooltip = btn.querySelector('.copy-tooltip');
+                icon.className = 'fa-solid fa-check';
+                tooltip.textContent = 'Copied!';
+                btn.classList.add('copy-success');
+                setTimeout(function() {
+                  icon.className = 'fa-regular fa-copy';
+                  tooltip.textContent = 'Copy link';
+                  btn.classList.remove('copy-success');
+                }, 2000);
+              });
+            }
+          </script>
+
+        </article>
+      </div>
+
+      
+      
+      
+      
+      <div class="row justify-center mt-16">
+        <div class="lg:col-8 md:col-10">
+          <hr class="border-border dark:border-darkmode-border mb-10">
+          <p class="mb-1 text-sm font-semibold uppercase tracking-widest text-primary dark:text-darkmode-primary">Continue Reading</p>
+          <h2 class="mb-8 text-h4 font-bold text-text-dark dark:text-darkmode-text-dark">Related Posts</h2>
+          <div class="row">
+            
+            <div class="md:col-4 mb-6">
+              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div class="mb-4 flex items-center justify-between">
+                  
+                  <div>
+                    
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">Technology</span>
+                    
+                  </div>
+                  
+                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">Dec 14, 2023</span>
+                </div>
+                <h3 class="mb-3 text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                  <a href="/blog/laravel-database-tahap-lanjut/" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">Modul #06 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Lanjut</a>
+                </h3>
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1"> Note
+</p>
+                <a href="/blog/laravel-database-tahap-lanjut/" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                  Read More <i class="fa fa-arrow-right text-xs"></i>
+                </a>
+              </article>
+            </div>
+            
+            <div class="md:col-4 mb-6">
+              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div class="mb-4 flex items-center justify-between">
+                  
+                  <div>
+                    
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">Technology</span>
+                    
+                  </div>
+                  
+                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">Dec 19, 2023</span>
+                </div>
+                <h3 class="mb-3 text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                  <a href="/blog/laravel-authentication/" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">Modul #08 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Authentication</a>
+                </h3>
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1"> Note
+</p>
+                <a href="/blog/laravel-authentication/" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                  Read More <i class="fa fa-arrow-right text-xs"></i>
+                </a>
+              </article>
+            </div>
+            
+            <div class="md:col-4 mb-6">
+              <article class="group h-full rounded-2xl border border-border dark:border-darkmode-border bg-white dark:bg-darkmode-body p-6 hover:border-primary/40 dark:hover:border-darkmode-primary/40 hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div class="mb-4 flex items-center justify-between">
+                  
+                  <div>
+                    
+                    <span class="inline-block rounded-full bg-primary/10 dark:bg-darkmode-primary/10 px-3 py-0.5 text-xs font-semibold text-primary dark:text-darkmode-primary">Technology</span>
+                    
+                  </div>
+                  
+                  <span class="text-xs text-text dark:text-darkmode-text opacity-60">Aug 28, 2023</span>
+                </div>
+                <h3 class="mb-3 text-base font-bold text-text-dark dark:text-darkmode-text-dark leading-snug">
+                  <a href="/blog/routing-dan-bundling-asset-di-laravel/" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">Modul #03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel</a>
+                </h3>
+                <p class="mb-6 text-sm text-text dark:text-darkmode-text line-clamp-3 leading-relaxed flex-1"> Note
+</p>
+                <a href="/blog/routing-dan-bundling-asset-di-laravel/" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-darkmode-primary hover:gap-3 transition-all duration-200 mt-auto">
+                  Read More <i class="fa fa-arrow-right text-xs"></i>
+                </a>
+              </article>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </section>
+
+    </main>
+
+    
+    <footer class="bg-light dark:bg-darkmode-light border-t border-border dark:border-darkmode-border">
+  <div class="container">
+    <div class="row items-center py-10">
+      
+      <div class="lg:col-4 mb-6 text-center lg:mb-0 lg:text-left">
+        <a class="navbar-brand inline-block mb-2" href="/">
+          Purnama Anaking.
+        </a>
+        <p class="text-sm text-text dark:text-darkmode-text">Software Engineer & Lecturer · Indonesia</p>
+      </div>
+      
+      <div class="lg:col-4 mb-6 text-center lg:mb-0">
+        <ul class="flex justify-center gap-6">
+          
+          <li>
+            <a class="text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors font-medium"
+              
+              href="/">
+              Home
+            </a>
+          </li>
+          
+          <li>
+            <a class="text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors font-medium"
+              
+              href="/blog">
+              Blog
+            </a>
+          </li>
+          
+          <li>
+            <a class="text-sm text-text dark:text-darkmode-text hover:text-primary dark:hover:text-darkmode-primary transition-colors font-medium"
+              
+              href="/about">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="lg:col-4 mb-6 text-center lg:mb-0 lg:text-right">
+        <ul class="social-icons justify-center lg:justify-end">
+          
+          <li>
+            <a target="_blank" aria-label="tiktok" rel="nofollow noopener" href="https://www.tiktok.com/@purnamaanaking">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="instagram" rel="nofollow noopener" href="https://www.instagram.com/purnamaanaking">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="youtube" rel="nofollow noopener" href="https://youtube.com/purnamaanaking">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="facebook" rel="nofollow noopener" href="https://www.facebook.com/purnamaanaking">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="linkedin" rel="nofollow noopener" href="https://www.linkedin.com/in/purnamaanaking">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a target="_blank" aria-label="github" rel="nofollow noopener" href="https://github.com/purnamaanaking">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="border-t border-border dark:border-darkmode-border py-5">
+    <div class="container text-center">
+      <p class="text-sm text-text-light dark:text-darkmode-text-light">
+        &copy; 2026 Purnama Anaking. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+    
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<script
+  crossorigin="anonymous"
+  integrity=""
+  src="/js/script.js"></script>
+
+
+<script
+  defer
+  async
+  crossorigin="anonymous"
+  integrity=""
+  src="/js/script-lazy.js"></script>
+
+
+
+<script>
+  if ('serviceWorker' in navigator){navigator.serviceWorker.register("/service-worker.js");}
+</script>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  </body>
+</html>

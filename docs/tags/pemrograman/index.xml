@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pemrograman on Purnama Anaking</title>
+    <link>//localhost:1313/tags/pemrograman/</link>
+    <description>Recent content in Pemrograman on Purnama Anaking</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Dec 2023 05:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/pemrograman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kumpulan Modul Belajar Dasar Pemrograman Framework Laravel</title>
+      <link>//localhost:1313/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/</link>
+      <pubDate>Mon, 25 Dec 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/kumpulan-modul-pemrograman-framework-tahap-dasar/</guid>
+      <description>&lt;p&gt;Berikut ini adalah kumpulan modul belajar dasar pada topik pemrograman berbasis framework. Modul-modul ini memberikan materi bagaimana membuat sistem informasi menggunakan bahasa pemrograman &lt;strong&gt;PHP&lt;/strong&gt; dengan framework &lt;strong&gt;Laravel&lt;/strong&gt;. Pengetahuan tersebut selanjutnya dapat diterapkan dan dikembangkan untuk membangun atau menyediakan sebuah aplikasi sederhana berbasis web untuk menyelesaikan suatu permasalahan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #10 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Third Party Packages</title>
+      <link>//localhost:1313/blog/laravel-packages/</link>
+      <pubDate>Mon, 25 Dec 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/laravel-packages/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #09 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Factory &amp; File Storage</title>
+      <link>//localhost:1313/blog/laravel-factory-file-storage/</link>
+      <pubDate>Thu, 21 Dec 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/laravel-factory-file-storage/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #08 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Authentication</title>
+      <link>//localhost:1313/blog/laravel-authentication/</link>
+      <pubDate>Tue, 19 Dec 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/laravel-authentication/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #07 Belajar Pemrograman Framework Laravel Tahap Dasar: Version Control System (Git dan Github)</title>
+      <link>//localhost:1313/blog/version-control-system-git-github/</link>
+      <pubDate>Sun, 17 Dec 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/version-control-system-git-github/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #06 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Lanjut</title>
+      <link>//localhost:1313/blog/laravel-database-tahap-lanjut/</link>
+      <pubDate>Thu, 14 Dec 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/laravel-database-tahap-lanjut/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #05 Belajar Pemrograman Framework Laravel Tahap Dasar: Laravel Database Tahap Dasar</title>
+      <link>//localhost:1313/blog/laravel-database-tahap-dasar/</link>
+      <pubDate>Tue, 05 Dec 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/laravel-database-tahap-dasar/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #04 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Controller dan View pada Laravel</title>
+      <link>//localhost:1313/blog/pengenalan-controller-dan-view-pada-laravel/</link>
+      <pubDate>Sun, 10 Sep 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/pengenalan-controller-dan-view-pada-laravel/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #03 Belajar Pemrograman Framework Laravel Tahap Dasar: Routing dan Bundling Asset di Laravel</title>
+      <link>//localhost:1313/blog/routing-dan-bundling-asset-di-laravel/</link>
+      <pubDate>Mon, 28 Aug 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/routing-dan-bundling-asset-di-laravel/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #02 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Laravel dan Konfigurasi Awal</title>
+      <link>//localhost:1313/blog/pengenalan-laravel-dan-konfigurasi-awal/</link>
+      <pubDate>Sun, 27 Aug 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/pengenalan-laravel-dan-konfigurasi-awal/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modul #01 Belajar Pemrograman Framework Laravel Tahap Dasar: Pengenalan Framework CSS (Bootstrap)</title>
+      <link>//localhost:1313/blog/cloning-bootstrap-dengan-bootstrap/</link>
+      <pubDate>Wed, 23 Aug 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/cloning-bootstrap-dengan-bootstrap/</guid>
+      <description>&lt;div class=&#34;notice note&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125&#34; /&gt;&#xA;      &lt;/svg&gt;&lt;p&gt;Note&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
