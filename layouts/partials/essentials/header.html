@@ -85,19 +85,10 @@
       <button
         aria-label="Search (Ctrl K)"
         title="Search (Ctrl K)"
-        id="search-trigger"
         class="flex h-9 w-9 items-center justify-center rounded-full text-text-dark hover:bg-light dark:text-darkmode-text-dark dark:hover:bg-darkmode-light transition-colors"
         data-target="search-modal">
         <i class="fa-solid fa-search text-sm"></i>
       </button>
-      <script>
-        document.addEventListener("keydown", function (e) {
-          if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
-            e.preventDefault();
-            document.getElementById("search-trigger").click();
-          }
-        });
-      </script>
       {{ end }}
       {{ end }}
 
