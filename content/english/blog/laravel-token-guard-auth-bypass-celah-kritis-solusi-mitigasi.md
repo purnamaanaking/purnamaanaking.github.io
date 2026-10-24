@@ -3,7 +3,7 @@ title: "Celah Kritis Token Guard Laravel: Login Sebagai User Lain Tanpa API Toke
 meta_title: "Laravel TokenGuard Auth Bypass (CVE-2026-114509): Solusi dan Mitigasi"
 description: "Rangkuman celah authentication bypass di TokenGuard Laravel (GHSA-f9x3-7vq9-cph6 / CVE-2026-114509): siapa yang terdampak, cara kerjanya, versi patch, dan langkah mitigasi."
 date: 2026-10-24T00:00:00Z
-image: "/images/blog/laravel-token-guard-featured.png"
+image: "/images/blog/laravel-token-guard-featured.jpg"
 categories: ["Technology"]
 author: "Purnama Anaking"
 tags: ["laravel", "php", "security", "cve", "authentication", "web-security", "devops"]
